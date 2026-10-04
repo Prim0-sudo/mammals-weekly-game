@@ -1,0 +1,8 @@
+dist/
+test-results/
+*.log
+node_modules/
+.wrangler/
+.env
+.env.*
+docs/generated-originals/
