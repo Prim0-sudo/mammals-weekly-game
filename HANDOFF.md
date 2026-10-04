@@ -2,6 +2,18 @@
 
 ## Latest visual update — 4 October 2026
 
+### Publication verified — 4 October 2026, Asia/Bangkok
+
+- Public GitHub repository created and initial commit `9cd4570c203f4c9e5325bc384d50f80db3042f99` pushed to `main`. GitHub's visible latest commit matched the local commit.
+- Cloudflare Pages project `mammals-weekly-game` created in the user's existing account with the existing GitHub connection. Automatic production deployments are enabled for `main`; framework None, command `npm run build`, output `dist`, root `/`.
+- Cloudflare reported successful production deployment `b8364495-0adb-4b44-8984-d0001a60759c` of that commit. Public URL: https://mammals-weekly-game.pages.dev/. Immutable first-deployment URL: https://b8364495.mammals-weekly-game.pages.dev/.
+- Public landing background and launch-to-menu control visually inspected. All eight menu cards appeared with Sound Detective locked. Console inspection found no errors or warnings at that point.
+- All 15 served production files matched the local build: HTML/JS/CSS comparisons normalised Git CRLF/LF conversion; the background matched byte-for-byte. Evidence: `test-results/deployment-verification.json`. Repeat with `node scripts/verify-deployment.mjs` after building.
+- Current pre-publication checks: 8/8 Node logic checks, content/asset reconciliation and build passed; 16/16 production-engine browser fixture checks passed. Fixture-selected Wheel exhaustion and simulated reduced-motion/keyboard signals remain as described below.
+- Unused generated animal drafts were archived under ignored `docs/generated-originals/`; the only published image asset is the animal-free background. Local preview continues running at http://127.0.0.1:4186/.
+
+The documentation update recording these results is a later commit and triggers the same automatic Pages build; it does not change the verified game files.
+
 Landing panel and complete eight-card menu now centre vertically below the toolbar. Tall phone menus scroll naturally. The animal-free woodland/coast background is installed; its URL resolves against the page, correcting the stylesheet-relative loading failure. Menu icons and front-page controls currently use CSS. No static animals are displayed on the landing page.
 
 Use [IMAGE-REQUEST.md](docs/IMAGE-REQUEST.md) for the current complete art handoff: 132 vocabulary pictures, 16 reserved interface-art slots covered by CSS/text, and one installed background (149 mapped slots total). This supersedes the older all-149-missing count below. Vocabulary content remains the existing unapproved draft; the user is developing it separately. Regenerate the handoff with `node scripts/image-request.mjs` after approved vocabulary changes. The earlier verification results below predate this visual update.

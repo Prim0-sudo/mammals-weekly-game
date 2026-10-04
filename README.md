@@ -1,10 +1,10 @@
 # Mammal Discovery Club
 
-**Status — 4 October 2026: functional draft.** GitHub and Cloudflare Pages publication is authorised. Vocabulary artwork and teacher review remain outstanding.
+**Status — 4 October 2026: published functional draft.** GitHub push and Cloudflare Pages production deployment were verified separately. Vocabulary artwork and teacher review remain outstanding.
 
 Repository: https://github.com/Prim0-sudo/mammals-weekly-game
 
-Production Pages address: https://mammals-weekly-game.pages.dev/ (deployment verification recorded in HANDOFF.md).
+Production Pages address: https://mammals-weekly-game.pages.dev/ (deployment verification recorded in HANDOFF.md). Cloudflare automatically deploys `main` using framework preset None, build command `npm run build`, output directory `dist`, and repository root `/`.
 
 Start from this directory with `npm start`, then open [the local preview](http://127.0.0.1:4186/). The preview is currently running. No installation or account is required; Node.js serves the local files. `npm test`, `npm run check` and `npm run build` run the checks and create `dist` from current source. Use `node scripts/serve.mjs --dist` with a different `PORT` to inspect the build while the source preview runs.
 
