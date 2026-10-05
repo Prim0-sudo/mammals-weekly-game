@@ -792,7 +792,7 @@ export class GameEngine {
     const markers = s.wheelPool
       .map((item, i) => {
         const angle = ((i + 0.5) * slice * Math.PI) / 180;
-        return `<span class="wheel-marker" style="left:${50 + 35 * Math.cos(angle)}%;top:${50 + 35 * Math.sin(angle)}%;--counter:${-s.rotation}deg">${this.img(item, "marker-art", "")}</span>`;
+        return `<span class="wheel-marker" style="left:${50 + 40 * Math.cos(angle)}%;top:${50 + 40 * Math.sin(angle)}%;--counter:${-s.rotation}deg">${this.img(item, "marker-art", "")}</span>`;
       })
       .join("");
     this.shell(

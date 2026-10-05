@@ -132,3 +132,28 @@
 
 /* Keep the custom illustrations legible on future activity tiles. */
 .mode-card:disabled img.mode-art{opacity:1}
+
+/* Enlarge every wheel while keeping the picture markers close to its rim. */
+.wheel-stage{width:min(533px,88vw,calc(100% - 24px))}
+.wheel-marker{width:15%;height:15%}
+.wheel-hub{width:19%;height:19%;font-size:18px}
+@media(min-width:800px) and (max-height:750px){.wheel-stage{width:min(364px,calc(100% - 24px))}}
+
+/* Give activity artwork more of the available card space. */
+.category-card{padding:10px 12px 14px;gap:5px}
+.category-card img.category-art{width:100%;height:140px;object-fit:contain}
+.mode-card:has(img.mode-art){padding:6px 10px 12px}
+.mode-card img.mode-art{width:100%;height:136px}
+[data-game="learn"] img.feature-art{padding:0}
+img.clue-art{width:180px;height:160px;max-width:100%;object-fit:contain}
+.identify-target{height:160px}
+.identify-target img.clue-art{height:155px}
+img.answer-art,.many-answers img.answer-art{height:155px;object-fit:contain}
+.answer{padding:8px 10px}
+img.reading-art{height:320px;object-fit:contain}
+.spelling-layout{grid-template-columns:minmax(220px,1.3fr) minmax(0,2fr);gap:14px}
+img.spelling-clue{object-fit:contain;max-height:none}
+.tile-front{padding:0}
+img.tile-art{max-height:calc(var(--art) * 1.3)}
+.wheel-marker{width:18%;height:18%}
+@media(max-width:700px){.category-card img.category-art{height:120px}.mode-card img.mode-art{height:120px}img.answer-art,.many-answers img.answer-art{height:120px}img.reading-art{height:240px}.spelling-layout{grid-template-columns:1fr}img.spelling-clue{height:220px}}
