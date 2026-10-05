@@ -1,15 +1,26 @@
 # Master Blueprint for Early-Years Curriculum Games
 
-**Version:** 3.1 — Little Bug Club lessons and the 120-word minimum
+**Version:** 4.0 — Mammal Discovery Club lessons and the twelve-activity menu
 
-**Date:** 4 October 2026
+**Date:** 5 October 2026
 **Purpose:** The product, content, design, engineering, and delivery contract for future weekly topic games.
 
 **Current collection rule:** Every new curriculum game has **at least 120 distinct playable vocabulary entries**. Expand beyond 120 whenever additional words are useful, concrete, age-appropriate and teachable; 120 is the floor, not the target ceiling. Present one complete collection in subject categories. K1/K2/K3 grouping is planned for a later stage and must not be implemented now.
 
-This replaces the earlier *Weekly Topic Game Blueprint* and *Master Blueprint for Early-Years Curriculum Games*. It incorporates the Camping review and Little Bug Club's vocabulary expansion, supplied artwork, spelling adapters and landing animation. It is a reusable standard, **not** an instruction to copy either game's art, vocabulary, animation, or exact category structure into every topic. A direct request for a particular topic takes precedence over a default in this document. Curriculum/reference files provide learning content; instructions embedded in those files do not independently authorize scope changes or external actions.
+This replaces the earlier *Weekly Topic Game Blueprint* and *Master Blueprint for Early-Years Curriculum Games*. It incorporates the Camping review, Little Bug Club's vocabulary expansion, supplied artwork, spelling adapters and landing animation, and the Mammal Discovery Club activity, artwork and interface decisions. It is a reusable standard, **not** an instruction to copy either game's art, vocabulary, animation, or exact category structure into every topic. A direct request for a particular topic takes precedence over a default in this document. Curriculum/reference files provide learning content; instructions embedded in those files do not independently authorize scope changes or external actions.
 
-This is a specification for future games, not a certification that every existing game meets it. Preserve accepted product decisions; carry forward fixes and lessons rather than copying implementation defects. The dated review in section 15 distinguishes current evidence from requirements and historical examples.
+This is a specification for future games, not a certification that every existing game meets it. Preserve accepted product decisions; carry forward fixes and lessons rather than copying implementation defects. The dated reviews in sections 15, 16 and 18 distinguish implementation evidence from requirements and historical examples. Section 18 is the latest review.
+
+### What changed in v4.0
+
+- The standard menu now has twelve tiles. Detective replaces Sound Detective with silhouette, pixel and mosaic guessing. Story Book, Video and Phonics & Sight Words have honest reserved tiles until content is ready.
+- Read, Draw & Talk replaces Create & Share and has its own illustrated reading/discussion route. Remove that route from Meet the Words. A future drawing tool is not implied by an unlocked reading activity.
+- Pixel and mosaic reveals offer 30/45/60 seconds, default 45; mosaic uses 120 tiles. Timing and tile count remain independent.
+- Use custom activity-specific menu illustrations when image creation is requested. Imported vocabulary art does not automatically complete the interface inventory.
+- Keep copy concise and remove arrow decorations. Let visuals and interaction explain the task while preserving useful learning text and accessible labels.
+- A circular illustrated badge can be the entire start button, with curved topic lettering, a matching illustrated Home control, no cream title panel when requested, and gentle hover enlargement.
+- Enlarge visible artwork within its containers. Wheel markers sit nearer the rim; wheel and picture sizing respond to the viewport and selected board size.
+- Section 18 records Mammals implementation evidence, pushed commits and remaining gaps. Earlier dated reviews remain historical evidence.
 
 ### What changed in v3.0
 
@@ -31,14 +42,14 @@ Do not add accounts, ads, analytics, external navigation, worksheets, unrelated 
 ## 2. The shared product contract
 
 - Launch on a themed scene with a dominant centred identity and one clear start button. The logo may be separate from the button; a painted leaf can carry readable HTML button text. Keep the control a real semantic button with a visible focus state. Do not show game cards until it is activated. Keep decorative motion behind the control and never let it block input.
-- Open the fixed eight-card menu from the logo. A visible topic-logo/Home control returns to the clean launch screen.
+- Open the fixed twelve-tile menu from the start control. A visible topic-logo/Home control returns to the clean launch screen.
 - Keep Sound/Mute and Fullscreen controls available. Mute applies to speech, tones, wheel ticks, and approved topic audio. Fullscreen failure is explained gently.
 - Each playable activity has Back, a clear question/task, a round or word counter, progress, a star score, and an obvious next action. Escape follows a predictable path back.
 - Use large touch targets, strong focus indicators, semantic buttons, useful image descriptions, live feedback announcements, and no colour-only meaning. Support keyboard use and reduced motion.
 - Wrong answers receive a gentle retry. Do not shame children or prematurely advance. Correct answers receive immediate, legible feedback.
 - End activities with a results screen, score, stars, pack-specific completion message, suitable celebration, Play Again, and Choose Another Game.
 - Keep the app usable without speech synthesis or network access. Text and pictures must carry the learning task.
-- Remove redundant helper copy, then rebalance the composition. Empty space after hiding a picture is not a finished layout.
+- Remove redundant helper copy, subtitles, repeated mode names, instructional paragraphs and arrow decorations, then rebalance the composition. Keep names, definitions, reading sentences, questions, meaningful clues, concise control labels and accessible state information. Put adult guidance behind a compact disclosure when useful. Empty space after hiding a picture is not a finished layout.
 - Keep the visual world coherent between launch and menu. When the same scene is requested on both, share its assets/adapter instead of maintaining drifting copies. Activities may use a calmer panel for readability. Moving scenery on the menu is optional, not an automatic consequence of sharing a background.
 - Declare scoring per mode. Camping gives recognition/sorting/knowledge points for first-try answers, spelling points for completed words, and completion points for learning, matching and reading. Gentle retries remain available even where a point is no longer earned. Do not present completion points as an assessment of independent reading.
 
@@ -46,7 +57,7 @@ Do not add accounts, ads, analytics, external navigation, worksheets, unrelated 
 
 Start with an approved content inventory: topic and locale, learning objectives, categories, real vocabulary words, child-friendly definitions, knowledge/safety questions, visual list, audio status, and session sizes. Record which words came from an approved curriculum and which were drafted for teacher review. *Camping Club* used five groups of twelve (60 words) and ten questions; that is a successful large-pack example, **not a universal quota**. Aim for enough unique words to support the desired Flip boards. Do not pad a board with repeated or invented words.
 
-A supplied weekly curriculum page is a starting outline, not the entire game specification or a ceiling on vocabulary. Expand it into a coherent, age-appropriate pack while preserving its objectives. Build a coverage matrix: **source objective → vocabulary/concept → sentence frame or reading practice → activity/prompt → review status**. Capture observation, classification, anatomy, movement, counting, descriptive language, questions and answers where the topic calls for them. An objective is not covered merely because its word appears in a list. Put original short reading sentences and teacher prompts in the pack and identify where learners practise them within the eight modes; do not silently add a ninth game or require automatic speech on the Wheel reveal.
+A supplied weekly curriculum page is a starting outline, not the entire game specification or a ceiling on vocabulary. Expand it into a coherent, age-appropriate pack while preserving its objectives. Build a coverage matrix: **source objective → vocabulary/concept → sentence frame or reading practice → activity/prompt → review status**. Capture observation, classification, anatomy, movement, counting, descriptive language, questions and answers where the topic calls for them. An objective is not covered merely because its word appears in a list. Put original short reading sentences and teacher prompts in the pack and map them to the separate Read, Draw & Talk activity. Meet the Words retains vocabulary definitions and example sentences. Do not duplicate the reading activity inside its category chooser or require automatic speech on the Wheel reveal.
 
 Separate source-provided content, researched factual corrections, and proposed extensions. Check scientific relationships and visual anatomy as well as spelling: an informal topic heading is not necessarily a biological classification. Avoid forcing overlapping properties into one-answer sorting: declare one clear criterion per question, accept all valid answers when the mechanic supports that, or choose examples with one unambiguous answer. Keep taxonomy, body parts, movement, habitats and descriptive attributes as distinct concepts. Do not invent curriculum approval for newly drafted words, definitions or questions.
 
@@ -80,22 +91,26 @@ Use supplied approved artwork first. Inspect it before replacing it, and identif
 
 For animation requests, supply an asset contract: source canvas, visible-art scale, pose/frame order, support/root/mouth/tail landmarks as needed, native facing, timings, outcome states and static reduced-motion poses. This avoids repeated regeneration caused by missing attachment points or unusable framing.
 
-## 4. Eight permanent modes
+## 4. Twelve permanent activity tiles
 
-Keep these IDs and card order. A locked audio card still occupies its position; it is not described as playable.
+Keep these IDs and tile order. Reserved activities remain visible, disabled and marked Coming soon until their content and interaction are ready. An attractive illustration does not make a locked activity playable. New builds use Detective; do not carry forward Sound Detective as a permanent placeholder. Updating an existing game still requires authorization for that game.
 
 | Order | Mode | Required behaviour |
 | --- | --- | --- |
 | 1 | **Meet the Words** | Choose a category first. Show its words one by one with a large image, name, short definition, optional local speech actions, progress, and Next. |
 | 2 | **Sort It** | Show the item and readable category choices. Every eligible item is reachable through either All Words or fair non-repeating sessions. |
-| 3 | **Sound Detective** | Play a recognisable approved sound and choose its image. If the complete audio set and playback UI are not ready, show an honest **Coming soon** locked card. Never unlock by changing a flag alone. |
+| 3 | **Detective** (`detective`) | Offer Silhouette, Pixel Reveal and Mosaic Reveal. Guess a theme-based picture; timed reveals offer 30/45/60 seconds with 45 seconds selected by default. Use 120 mosaic tiles and the lifecycle/scoring contract in section 4.4. |
 | 4 | **Which One Is It?** | Prompt for one item and show exactly three distinct answer choices. Provide independent **Target picture** and **Answer pictures** teacher toggles, plus Hear Word when available. When answer pictures are hidden, remove their space and enlarge/centre the text; keep labels and buttons usable. |
 | 5 | **Knowledge & Safety** | Show one question, three choices, immediate feedback, and the explanation after the correct answer. Use only explicitly mapped visuals. |
 | 6 | **Spelling adventure** (`spelling`; Camping: **Frog Crossing**) | Guess letters in real words; reveal every occurrence of a correct letter and preserve spaces/hyphens. Declare the selected skin's rules, mistake budget, progress direction, win/loss scenes and input locks. Frog Crossing's exact contract is below. Ice Cream Meltdown is an optional earlier skin, not the mandatory name or mechanic for every topic. |
 | 7 | **Flip the Tiles** | Offer only supported counts of unique words, normally 10/20/30 words = 20/40/60 tiles. Both selections visibly flip. **Mismatches stay face-up until the teacher selects the next available tile**; that selection closes the old pair and starts the next turn. Do not auto-hide them on a timer. Matches stay revealed and cannot score again. Give small pair and larger final celebrations. Board and image size must respond to selected count: **fewer tiles use more available space**. Test every count separately at classroom sizes. |
-| 8 | **Spin the Wheel** | Begin with category choice and All Words. Use local illustrated markers, a centre Spin button, fixed red pointer on the right, and a brief tick. Land and visibly hold the selected item, then show a large **text-only** reading screen. Next removes that item. Do not auto-speak the reading reveal. Batch large pools explicitly without dropping words. |
+| 8 | **Spin the Wheel** | Begin with category choice and All Words. Use local illustrated markers, a centre Spin button, fixed round red pointer marker on the right, and a brief tick. Land and visibly hold the selected item, then show a large **text-only** reading screen. Next removes that item. Do not auto-speak the reading reveal. Batch large pools explicitly without dropping words. |
+| 9 | **Story Book** (`story`) | A future theme-based book to read together. Keep locked until an authorized book and reading interface exist. |
+| 10 | **Video** (`video`) | Future curated, theme-based videos. Keep locked until content and playback are ready. Video integration must disclose any network dependency. |
+| 11 | **Phonics & Sight Words** (`phonics`) | Future phoneme and sight-word activities. Keep locked until content and interaction are ready. |
+| 12 | **Read, Draw & Talk** (`create`) | Open illustrated sentence/discussion cards directly from the menu. Drawing tools can be added later; retain working reading and discussion now. |
 
-Keep the exact IDs `learn`, `sort`, `sound`, `identify`, `knowledge`, `spelling`, `flip`, `wheel` and the eight-card order. Display labels and visual skins may vary. Shared learning/navigation behavior remains consistent; a spelling skin explicitly declares its visual mechanics rather than inheriting contradictory rules from another skin. Sound Detective is eight-card consistency, not permission to use questionable audio.
+Keep the exact IDs `learn`, `sort`, `detective`, `identify`, `knowledge`, `spelling`, `flip`, `wheel`, `story`, `video`, `phonics`, `create` in this order. `create` is retained as the stable ID for Read, Draw & Talk; it is not a second Create & Share tile. Display labels and spelling skins may vary where the topic calls for it. Shared learning/navigation behavior remains consistent; a spelling skin explicitly declares its visual mechanics rather than inheriting contradictory rules from another skin.
 
 ### 4.1. Frog Crossing reference behavior
 
@@ -127,6 +142,24 @@ Use one scene coordinate system with a geometry module, sampled support rail or 
 
 Review every settled mistake state, feeding pair, both traverse midpoints and each win/loss phase enlarged and at its real display size. Measure support continuity and inspect the pictures. A plausible coordinate or passing DOM assertion alone does not prove visual contact. Keep development guides and review fixtures out of production.
 
+### 4.4. Detective reveal contract
+
+- Silhouette uses a meaningful, answer-concealing cutout. Pixel Reveal starts coarse and becomes clearer over the chosen duration. Mosaic Reveal covers the scene with **120 tiles**, normally a 12-column by 10-row grid, and uncovers them in a shuffled order without repeats.
+- Offer **30 / 45 / 60 seconds** before Start; default to **45 seconds**. Keep the selected duration across Detective modes in the current session. Duration selection is unavailable after the reveal starts. Changing tile count must not silently change total duration.
+- Reveal progress uses accumulated active elapsed time, not a count of interval callbacks. For mosaic, derive revealed tiles from `floor(activeSeconds / duration * tileCount)` and show all tiles at completion. Fractional intervals are expected; 120 tiles do not mean a 120-second reveal.
+- Start explicitly, then support Pause/Resume, Guess, Reveal, Next and mode selection. Guess pauses the reveal while answers are visible. Background tabs pause the timer without catch-up on return. Exit destroys pending timers and callbacks; late image decoding cannot reopen a departed screen.
+- A correct guess awards one star once. Incorrect guesses remain available as gentle retries according to the activity policy; manual and timed reveals award no correct-guess star. Lock duplicate scoring and expose Next only at a usable completed/revealed state.
+- Keep the mystery picture's accessible description answer-neutral until the answer is revealed. Show loading/failure states and an exit path. Avoid explaining the whole mechanic in repeated text: the mode label and visible reveal should make it understandable.
+- A single-picture trial is a labeled demo, not a complete topic collection. Add a reviewed bank with stable answers, distinct choices and suitable silhouettes before claiming comprehensive Detective coverage. Do not reuse a landscape as a silhouette when its outlines disclose or obscure the wrong subject.
+
+### 4.5. Read, Draw & Talk and deferred content
+
+Use one direct menu entry, not a hidden extra activity under Meet the Words. Each card has a stable item ID, relevant illustration, short readable sentence and optional adult discussion prompt. Use Next, a card counter and a completion route; Games/Back returns to the menu, and Play Again restarts these cards rather than vocabulary groups. Completion stars do not certify independent reading.
+
+Do not claim a drawing canvas exists because the tile says Draw. Keep future drawing functionality in the roadmap until implemented. A paper drawing/discussion prompt can be useful now. Remove the previous Create & Share tile and any share-a-fact requirement; do not reintroduce extra copy just to explain deferred tools. Story Book, Video and Phonics & Sight Words remain reserved until their own content is ready.
+
+Mammals uses **Field Notes** as its spelling skin with six wrong guesses for every word, duplicate-input protection and explicit win/loss states. This is another pack-specific skin, not a change to Frog Crossing's or The Last Leaf's reference contracts.
+
 ## 5. Topic-pack contract
 
 Use one stable-ID module and local assets. The following is the shape, not a hard-coded topic to copy:
@@ -140,6 +173,9 @@ export const topic = {
     logoImage: 'assets/topics/new-topic/logo.png', logoAlt: '...',
     backgroundImage: 'assets/topics/new-topic/background.png',
     backgroundAlt: '...',
+    clubBadge: 'assets/topics/new-topic/club-badge.png',
+    badgeLettering: {top: 'Topic', bottom: 'Discovery Club'},
+    // Optional badge-only start control, curved live text and hover scale.
     // Optional pack-owned scenery and peek animals.
   },
   theme: {primary: '#...', accent: '#...', ink: '#...', cardColors: ['#...']},
@@ -163,12 +199,17 @@ export const topic = {
   knowledgeQuestions: [{id: 'question-1', prompt: '...', visualItemId: 'example',
     choices: [{id: 'a', label: '...'}, {id: 'b', label: '...'},
       {id: 'c', label: '...'}], correctChoiceId: 'a', explanation: '...'}],
-  modes: [/* eight cards in the fixed order, with pack labels and art */],
+  modes: [/* twelve tiles in the fixed order, with labels, art and honest locked states */],
   modeSkins: {spelling: {
     id: 'selected-skin',
     // Named renderer/configuration, mistake policy, assets and outcomes.
     // Frog, ice-cream or another agreed skin; not hard-coded frog behavior.
   }},
+  detective: {
+    durationOptions: [30, 45, 60], defaultSeconds: 45,
+    mosaic: {columns: 12, rows: 10},
+    rounds: [/* stable answer IDs, scene/cutout paths and distinct choices */]
+  },
   sessions: {
     defaultRoundCount: 12, supportedFlipWordCounts: [10, 20, 30],
     wheel: {allWords: true, capacity: 12, markerStrategy: 'explicit-batches'}
@@ -177,7 +218,7 @@ export const topic = {
 };
 ```
 
-The pack also declares its approved sound metadata if Sound Detective is unlocked. Bind title, metadata, language, theme tokens, background, logo/Home label, menu cards, illustrations, mode copy, and optional scene elements from this pack. Do not scatter a topic name, item literal, category, or asset path through shared HTML/CSS/core JavaScript. A pack can use a shared visual primitive, but the topic chooses the asset and configuration.
+The pack declares Detective rounds and reveal settings; approved audio metadata is needed only for an explicitly requested optional sound activity, not the default Detective tile. Bind title, metadata, language, theme tokens, background, logo/Home label, menu cards, illustrations, mode copy, and optional scene elements from this pack. Do not scatter a topic name, item literal, category, or asset path through shared HTML/CSS/core JavaScript. A pack can use a shared visual primitive, but the topic chooses the asset and configuration.
 
 This is the **target contract**, not a claim that the Camping engine already consumes every field. Add validation, rendering and tests for new curriculum/skin/scene fields before treating them as supported. Use an explicit skin/scene adapter registry; copying a pack and changing its title is not enough to prove interchangeability. The second-topic test must change category structure, words, labels, assets and optional scenery, and exercise a different spelling configuration (or explicitly state that only one skin is supported). It must run with scenery absent. Keep universal interface copy separate from skin-specific instructions such as “Help the frog cross.”
 
@@ -211,6 +252,16 @@ Preserve original approved bytes and archive provenance, SHA-256, dimensions, co
 
 Distinguish source/reference assets from assets actually loaded at runtime. Report compressed bytes, active referenced bytes and unusually large decoded canvases separately where they matter. Avoid preloading the entire vocabulary just to start the landing page. Preload/decode the small active landing sheets and the chosen spelling scene, with a usable loading/failure state. Topic-specific preload paths belong to configuration/build output rather than a supposedly interchangeable shared entry page. Every build includes required active assets and excludes test screenshots, archives and private reference documents from public output.
 
+### 7.2. Large visible pictures and coherent interface artwork
+
+Artwork should occupy the useful space in its existing card or panel, rather than a small fixed thumbnail surrounded by empty padding. Inspect the visible subject as well as the image element: generous transparent margins can make a technically large PNG look tiny. Keep originals intact; use a documented derivative or measured presentation adjustment if margins prevent a good fit. Preserve aspect ratio, complete animals and anatomical details. Do not distort or indiscriminately crop art just to fill a box.
+
+Apply sizing coherently to menu and category tiles, learning pictures, target/answer pictures, reading cards, spelling clues, matching cards and wheel markers. Keep labels and controls readable and separate from pictures. Learning artwork can use a large dedicated area; reduce unused padding before growing its outer panel. The Mammals change doubled the original 285px learning display height to 570px, then removed internal image padding; this is an example, not a mandatory fixed height for every screen.
+
+For wheels, place marker centres nearer the rim while retaining full artwork inside the disc. Mammals moved centres from 35% to **40% of the wheel diameter from its centre** and enlarged the wheel by **30%** (410px → 533px desktop, 280px → 364px in the short-desktop layout). Picture boxes later grew to 18% of wheel diameter. Use proportional geometry, preserve angular centring and pointer alignment, and cap the overall wheel to available width on phones. Check the dense 12-marker batch as well as smaller categories; these measurements are tested starting points, not permission to overlap or clip.
+
+Imported vocabulary artwork and custom menu artwork are separate inventory categories. When dedicated image creation is requested, create activity-specific illustrations in one coherent style: book, sorting baskets, magnifier, choices, care/safety shield, notebook, memory cards, spinner, storybook, video, phonics tiles and drawing/discussion materials. Reusing a vocabulary animal is a temporary substitution, not a custom activity illustration. Keep generated assets local, preserve transparency, record each prompt, source/tool, path and checksum, and verify all twelve runtime images decode. Future locked tiles still deserve clear artwork; Coming soon communicates availability without making the illustration nearly invisible.
+
 ## 8. Optional living launch scene: lessons from both games
 
 Atmosphere can make the launch screen memorable, but scenery is **optional and subordinate to learning**. Keep it pack-owned, pointer-safe around the logo, and disabled or settled under reduced motion. Use separate DOM hit layers for interactive objects; a flat background PNG by itself has no reliable depth or collision geometry.
@@ -238,7 +289,9 @@ Use actual painted surfaces for atmospheric placement: water sparkle belongs on 
 
 Store marked screenshot coordinates with viewport, scene origin and background scaling information. Recheck each requested point after mapping; do not apply one approximate offset to all marks. Keep effect layer bounds separate from the scene's painted boundaries when cover scaling changes aspect ratio.
 
-Painted logo/button assets preserve the home design. Place readable live text over an image button and check contrast, hit area and focus state at desktop and phone sizes. Avoid adding an arrow or a new illustration merely as decoration when the user has removed or replaced it.
+Painted logo/button assets preserve the home design. A circular illustrated badge may be the **entire** start button; do not retain a separate plain pill when the user chose the artwork as the control. Place curved topic lettering above and below using live SVG/HTML text, with the words supplied by the topic pack. Remove the surrounding cream title panel when requested. The whole control remains one semantic button with an accessible action name, keyboard activation and visible focus. Decorative artwork and duplicate curved lettering are hidden from assistive technology.
+
+Use the same badge on the top-left Home control beside a short topic name. Home reliably returns to the clean landing page. A hover enlargement can include both badge and curved lettering; Mammals uses a 10% scale over 0.22 seconds. Restrict hover styling to hover-capable inputs, preserve touch operation, disable the transition under reduced motion, and reserve enough space for the enlarged bounds. Check contrast, complete hit area and focus at desktop and phone sizes. Do not add arrow decorations.
 
 ## 9. Audio, accessibility, and state cleanup
 
@@ -275,7 +328,7 @@ Make the build reproducible from source. Prefer ignoring `dist/`; if an older re
 
 ## 11. Verification contract
 
-**Automated checks:** unique IDs; valid references; required image/alt/definition fields; exact eight-card order; knowledge question structure; approved-audio gate; local asset paths, naming, existence and decode; session/Flip/Wheel policies; forbidden topic literals in core; synthetic second-topic rendering; spelling (short, long, multi-word); three distinct identification choices; Flip pair counts and state; Wheel pointer/removal including last item; fair session exhaustion; star thresholds; mute and missing speech; timer cleanup and input locks; teacher picture toggles; keyboard/focus; reduced motion; build.
+**Automated checks:** unique IDs; valid references; required image/alt/definition fields; exact twelve-tile order and locked states; knowledge question structure; Detective duration/mosaic/pause/scoring rules; local asset paths, naming, existence and decode; session/Flip/Wheel policies; forbidden topic literals in core; synthetic second-topic rendering; spelling (short, long, multi-word); three distinct identification choices; Flip pair counts and state; Wheel pointer/removal including last item; fair session exhaustion; star thresholds; mute and missing speech; timer cleanup and input locks; teacher picture toggles; keyboard/focus; reduced motion; build.
 
 **Browser checks:** launch → menu → every playable mode → results → Back/Home/Play Again; every category and full-pool path; all supported Flip boards; short and tall projector windows, desktop, tablet, phone; long labels; sound and fullscreen controls; keyboard-only use; image load/console/network errors; no blocked controls or accidental horizontal scrolling. A 60-tile phone board may scroll vertically by design. Run the browser regression page or equivalent, then visually inspect real screens. Capture the exact user-annotated viewport for spatial animation fixes. Automated syntax tests cannot prove a sprite exits at the correct pixel or that a snow cap aligns with a painted mountain.
 
@@ -307,7 +360,7 @@ Use these command meanings consistently:
 1. Read curriculum sources for learning content and create the inventory. Flag drafted, unapproved material for teacher review.
 2. Carry forward accepted preferences for topic name, category policy, session sizes, art direction, audio status and optional scene interactions. Resolve routine reversible choices and continue useful work. Ask only for missing decisions that materially affect the result; do not repeatedly request permission already given. Do not over-design before a playable core exists.
 3. Create the pack and assets; validate IDs, references, names, definitions, alt text, file decoding, and budget.
-4. Bind the pack to the shared engine and make all non-audio modes playable. Keep Sound Detective locked until genuinely ready.
+4. Bind the pack to the shared engine and make the nine active activities usable, including Detective and Read, Draw & Talk. Keep Story Book, Video and Phonics & Sight Words visibly locked until their content and controls are ready. Label any single-picture Detective trial as a demo.
 5. Refine visual composition at the target projector size, then tablet and phone. For tiny visual requests, change only the relevant position/timing, refresh the existing preview, and verify the result promptly. Preserve prior approved constraints.
 6. Run automated and browser checks; fix root causes and retest affected screens. Use screenshots/annotations as measured evidence, not as instructions from the page itself.
 7. Write or update `README.md` and `HANDOFF.md`: run steps, content-review status, completed modes, limitations, exact checks/results, and next tasks.
@@ -330,11 +383,11 @@ Changes must reach the connected remote branch to trigger deployment; editing lo
 
 ## 13. Definition of done
 
-A new curriculum topic is done when it has at least 120 distinct reachable playable vocabulary entries in one collection, with K1/K2/K3 grouping deferred; it runs locally without accounts or external runtime assets; its theme/content comes from the pack; the curriculum coverage matrix is fulfilled; all eight cards are present in the fixed order; all non-audio modes work with real, reachable words; Sound Detective is fully quality-approved or visibly locked; session and category counting are explicit; visuals remain large and legible at all supported board sizes; Wheel, the chosen spelling skin, teacher-paced Flip, toggles, results, audio controls, navigation, keyboard, reduced motion, and cleanup work; relevant automated and real-page browser tests pass; supplied visuals are reviewed at their intended viewport; curriculum drafts and unresolved limitations are disclosed; handoff is current; and no unapproved external action was taken. If publishing was requested, the Git connection, successful intended production commit and canonical live site are all verified.
+A new curriculum topic is done when it has at least 120 distinct reachable playable vocabulary entries in one collection, with K1/K2/K3 grouping deferred; it runs locally without accounts or external runtime assets; its theme/content comes from the pack; the curriculum coverage matrix is fulfilled; all twelve tiles are present in the fixed order; the nine active activities work with real content and declared coverage; Story Book, Video and Phonics & Sight Words are honestly reserved or fully implemented; Detective reveal settings, scoring and cleanup work, with any demo limitation disclosed; Read, Draw & Talk is separate from Meet the Words and does not claim unimplemented drawing tools; session and category counting are explicit; visuals remain large and legible at all supported board sizes; Wheel, the chosen spelling skin, teacher-paced Flip, toggles, results, audio controls, navigation, keyboard, reduced motion, and cleanup work; relevant automated and real-page browser tests pass; supplied visuals are reviewed at their intended viewport; curriculum drafts and unresolved limitations are disclosed; handoff is current; and no unapproved external action was taken. If publishing was requested, the Git connection, successful intended production commit and canonical live site are all verified.
 
 ## 14. Copy-ready prompt for the next weekly game
 
-> Build a **new standalone, local-first early-years curriculum game** for **[TOPIC]** in **[DIRECTORY]**, following the *Master Blueprint for Early-Years Curriculum Games v3.1 (4 October 2026)*. Read the supplied curriculum and this blueprint first. Preserve existing games. Carry forward accepted preferences and resolve routine choices without repeated approval requests. Expand the outline into at least 120 distinct playable vocabulary entries, and add more useful, concrete, picture-recognisable, age-appropriate words whenever possible. Keep one complete subject-category collection; do not assign K1/K2/K3 levels or create year-group sections yet. Map objectives, sentence frames and reading practice to actual activities. Reconcile aliases, category counts and stable IDs. Integrate additions into the agreed subject categories and one complete playable set unless separate tiers are explicitly requested. Flag factual corrections, drafted extensions and adult-support notes. Inventory all learning, UI and animation assets; use supplied approved art first, preserve bytes/alignment, and provide a clear missing-image brief. Do not use paid image generation or change the selected model without a request. Reuse verified engine behavior and fix documented starter gaps; keep topic assets, copy and rules in the pack. Include the eight fixed cards, with Sound Detective locked unless its approved sounds and playback are complete. Use fair sessions that restore unanswered/unplayed words on exit, explicit category/All Words paths, teacher-paced Flip mismatches, responsive boards, independent identification picture toggles, and a silent text-only Wheel reveal. Declare the selected spelling skin's mistake budget, animation locks and distinct win/loss states. Make the playable learning modes first. Any requested scene animation must use measured anchors/control clearance, independent travel/frame timing, static reduced-motion outcomes, hidden-document suspension and complete navigation cleanup. Validate curriculum/assets/logic and inspect production pages at projector, tablet and phone sizes; run focused animation checks and every supported Flip count. Leave a working local preview, exact check evidence and current handoff. Do not commit, push, pull, upload, create a remote repository, host or deploy unless requested. When publishing is requested, follow section 12.1 and distinguish a successful push from a verified live deployment.
+> Build a **new standalone, local-first early-years curriculum game** for **[TOPIC]** in **[DIRECTORY]**, following the *Master Blueprint for Early-Years Curriculum Games v4.0 (5 October 2026)*. Read the supplied curriculum and this blueprint first. Preserve existing games. Carry forward accepted preferences and resolve routine choices without repeated approval requests. Expand the outline into at least 120 distinct playable vocabulary entries, and add more useful, concrete, picture-recognisable, age-appropriate words whenever possible. Keep one complete subject-category collection; do not assign K1/K2/K3 levels or create year-group sections yet. Map objectives, sentence frames and reading practice to actual activities. Reconcile aliases, category counts and stable IDs. Integrate additions into the agreed subject categories and one complete playable set unless separate tiers are explicitly requested. Flag factual corrections, drafted extensions and adult-support notes. Inventory all learning, UI and animation assets; use supplied approved art first, preserve bytes/alignment, and provide a clear missing-image brief. Do not use paid image generation or change the selected model without a request. Reuse verified engine behavior and fix documented starter gaps; keep topic assets, copy and rules in the pack. Include the twelve tiles in the documented order. Replace Sound Detective with Detective: silhouette, pixel and 120-tile mosaic guessing, with 30/45/60-second choices and 45 seconds by default. Keep Story Book, Video and Phonics & Sight Words locked until content is ready. Give Read, Draw & Talk its own illustrated sentence/discussion cards, remove its route from Meet the Words, and defer drawing tools until requested. Keep copy concise and remove arrow decorations. When requested, use a circular illustrated start button with curved pack-owned lettering, a matching badge/Home control, and gentle accessible hover enlargement. Use custom activity-specific art when image creation is requested, and make artwork large within its containers without cropping learning details; put wheel markers near the rim and preserve readable proportional sizing. Use fair sessions that restore unanswered/unplayed words on exit, explicit category/All Words paths, teacher-paced Flip mismatches, responsive boards, independent identification picture toggles, and a silent text-only Wheel reveal. Declare the selected spelling skin's mistake budget, animation locks and distinct win/loss states. Make the playable learning modes first. Any requested scene animation must use measured anchors/control clearance, independent travel/frame timing, static reduced-motion outcomes, hidden-document suspension and complete navigation cleanup. Validate curriculum/assets/logic and inspect production pages at projector, tablet and phone sizes; run focused animation checks and every supported Flip count. Leave a working local preview, exact check evidence and current handoff. Do not commit, push, pull, upload, create a remote repository, host or deploy unless requested. When publishing is requested, follow section 12.1 and distinguish a successful push from a verified live deployment.
 
 ## 15. Historical review record — 1 October 2026
 
@@ -385,8 +438,32 @@ Use this compact preparation sheet. Existing decisions can fill it; missing rout
 | Classroom use | Intended projector size, tablet/phone support, short-session size and persistence policy |
 | Spelling | Chosen skin, mistake budget, correct/wrong response, locks, distinct endings and supplied poses |
 | Art | Existing approved images, missing-image brief, visual style, source canvases and landmarks |
-| Audio | Approved collection/playback available, or Sound Detective locked |
+| Detective and audio | Reviewed scene/cutout bank or disclosed demo; 30/45/60-second reveals, default 45, 120 mosaic tiles; any optional approved sound collection is separate |
+| Reserved content | Story Book, Video and Phonics & Sight Words availability; Read, Draw & Talk card set; drawing tools explicitly deferred or implemented |
 | Scene | Requested decoration, measured clearance, motion/static policy and lifecycle owner |
 | Starter and delivery | New directory; reviewed active engine/adapters; local preview; publishing only when requested |
 
-Start by validating the inventory and making a playable first slice with real supplied art. Expand that same collection, complete the seven non-audio modes and curriculum practice, then polish requested scenery. Reuse the fixes above as acceptance criteria; neither 131 words nor Little Bug Club's insects, pond and caterpillar are compulsory features of the next topic.
+Start by validating the inventory and making a playable first slice with real supplied art. Expand that same collection, complete the nine active activities and curriculum practice, retain the three honest reserved tiles, then polish requested scenery. Reuse the fixes above as acceptance criteria; neither 131 words nor Little Bug Club's insects, pond and caterpillar are compulsory features of the next topic.
+
+## 18. Mammal Discovery Club review record — 5 October 2026
+
+This record updates the reusable standard from the authorized Mammals work. It does not retroactively certify Camping, Plants or Little Bug Club, or authorize editing those repositories.
+
+- The previous governing document was **v3.1, 4 October 2026** in `docs/MASTER-BLUEPRINT.md`. Its original bytes were preserved separately before this revision. September masters remain earlier reference versions.
+- Mammals has **132 vocabulary entries** in six groups, with counts **50 / 8 / 24 / 22 / 20 / 8**, plus 16 knowledge questions and 16 illustrated reading/discussion cards. Category art reuses explicitly mapped vocabulary pictures. Original wording and extensions still require teacher review.
+- The twelve-tile order matches section 4. Nine activities are active. Story Book, Video and Phonics & Sight Words are locked. Read, Draw & Talk uses the existing reading/discussion cards through the `create` ID; drawing tools are not implemented. Create & Share and the reading activity inside Meet the Words were removed.
+- Detective is a **single-elephant demo** with a full scene and cutout: silhouette, pixel and mosaic; 120 mosaic tiles; 30/45/60-second options; default 45; Start/Pause/Resume/Guess/Reveal/Next and exit cleanup. This is not yet a full theme-wide Detective bank.
+- All 132 supplied PNGs were imported byte-for-byte with checksums. The tusk and horn images were subsequently replaced by explicitly supplied walrus and goat PNGs, also preserved byte-for-byte; their current dimensions are 1254×1254 rather than the original pack's 1024×1024. Do not hard-code one image dimension as the loading test for all current assets.
+- Twelve dedicated menu illustrations and the squirrel club badge were created with the built-in image creator at the user's request. Paths/prompts/checksums are recorded in `docs/menu-artwork.json`; supplied vocabulary provenance is in `docs/supplied-artwork.json`. Detective gameplay art remained unchanged during menu production.
+- The start control became a circular image with curved Mammal / Discovery Club text, no cream panel and a 10% hover enlargement. The top-left Home control uses the same badge. Repeated helper copy and arrows were removed. Wheels grew 30%, markers moved outward, and artwork sizing was increased across activity containers.
+- **Release evidence:** `2ac56069a15a75a1fae0ad0a404e5580165429f6` was pushed to `main` with the activity/artwork work; `b7e371e` was subsequently pushed with wheel and image sizing changes. `npm run build` passed with 132 vocabulary checksums and current local assets; the latest `npm test` run passed **11/11**. Git push output confirmed both intended remote updates. Live deployment of these revisions was **not verified** in this conversation.
+- A **20/20 browser suite** passed after the Read, Draw & Talk navigation/replay move. Later menu-artwork loading was checked for all twelve images in the production preview. Later wheel/category enlargement was visually checked in the ordinary preview; this is not a new full projector/tablet/phone regression result. Recheck affected responsive layouts before claiming complete fit at all sizes.
+
+### 18.1. Remaining implementation gaps for a future reusable starter
+
+- Curved badge words are currently Mammals-specific in the core renderer. Move them into validated topic-pack fields before claiming full interchangeability. The pack example above is the target contract, not a claim that today's renderer consumes every field.
+- Detective currently uses a demo/configuration shape rather than the complete reviewed round bank described in section 4.4. Add the bank and test cycling/exhaustion when continuing Detective creation.
+- Some question-choice artwork uses name-based matching; replace that shortcut with explicit stable item IDs before generalizing the starter.
+- Reading prompts, their objective-to-mode mapping, completion messages and navigation should be reconciled against the separate `create` route. A passing vocabulary coverage check does not prove that all new activity mappings are semantically complete.
+- Consolidate the successive CSS overrides into readable rules when doing further layout work. Respect the current approved appearance and rerun affected viewport checks after consolidation. Updated image sizing invalidates older fit assumptions.
+- Keep README/HANDOFF release status current when next delivering game work; do not confuse this blueprint-only update with another game commit, push or deployment.
