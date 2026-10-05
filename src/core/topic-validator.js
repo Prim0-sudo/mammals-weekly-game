@@ -2,12 +2,16 @@ import { letters } from "./logic.js";
 export const modeOrder = [
   "learn",
   "sort",
-  "sound",
+  "detective",
   "identify",
   "knowledge",
   "spelling",
   "flip",
   "wheel",
+  "story",
+  "video",
+  "phonics",
+  "create",
 ];
 export function assetPaths(t) {
   return [
@@ -15,11 +19,13 @@ export function assetPaths(t) {
       t.launch.logoImage,
       t.launch.backgroundImage,
       t.launch.buttonImage,
+      ...(t.launch.clubBadge ? [t.launch.clubBadge] : []),
       ...(t.launch.flyingBugs || []).flatMap(bug => [bug.sheet, bug.turnImage].filter(Boolean)),
       ...(t.launch.emblem
         ? [t.launch.emblem.baseImage, ...t.launch.emblem.wings.map((x) => x.image)]
         : []),
       ...(t.launch.scene?.assets || []),
+      ...(t.detectiveDemo ? [t.detectiveDemo.scene, t.detectiveDemo.cutout] : []),
       ...t.items.map((x) => x.image),
       ...t.categories.map((x) => x.image),
       ...t.modes.map((x) => x.image),
@@ -41,8 +47,13 @@ export function validateTopic(t) {
     unique(t[key], key);
   check(
     t.modes.map((x) => x.id).join() === modeOrder.join(),
-    "Incorrect eight-card order",
+    "Incorrect menu-card order",
   );
+  for (const id of ["story", "video", "phonics"]) {
+    const mode = t.modes.find((x) => x.id === id);
+    check(mode?.locked && mode.lockedReason, "Keep empty activity locked: " + id);
+  }
+  check(t.modes.find(x => x.id === "create")?.locked || t.curriculum.readingPractice.length > 0, "Read, Draw & Talk needs reading cards");
   check(t.items.length >= 3, "At least three words required");
   check(
     new Set(t.items.map((x) => x.name.toLowerCase())).size === t.items.length,
@@ -87,11 +98,11 @@ export function validateTopic(t) {
     );
     check(!q.visualItemId || ids.has(q.visualItemId), "Unknown visual " + q.id);
   }
-  const sound = t.modes.find((x) => x.id === "sound");
-  // No playback adapter is implemented. Metadata alone must never unlock it.
+  const detective = t.modes.find((x) => x.id === "detective");
+  // Detective needs both the full scene and a transparent silhouette source.
   check(
-    sound.locked && sound.lockedReason,
-    "Sound playback is not implemented; keep locked",
+    !detective.locked && t.detectiveDemo?.scene && t.detectiveDemo?.cutout && t.detectiveDemo?.answer,
+    "Detective test artwork is incomplete",
   );
   check(
     ["field-notes"].includes(t.modeSkins.spelling.id),

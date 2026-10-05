@@ -1,6 +1,6 @@
 # Mammal Discovery Club
 
-**Status — 4 October 2026: published functional draft.** GitHub push and Cloudflare Pages production deployment were verified separately. Vocabulary artwork and teacher review remain outstanding.
+**Status — 5 October 2026: local artwork update.** All 132 supplied vocabulary images are installed. Local changes have not yet been published; teacher review of drafted content remains outstanding.
 
 Repository: https://github.com/Prim0-sudo/mammals-weekly-game
 
@@ -26,7 +26,7 @@ Each entry includes a definition, sentence, useful intended alt text, reserved i
 
 ## Activities
 
-The eight fixed IDs remain `learn`, `sort`, `sound`, `identify`, `knowledge`, `spelling`, `flip`, `wheel`. Sound Detective is visibly locked. The seven other activities work with the available text content. Meet the Words includes sentences and **Read & talk together**, with 16 sentence/discussion cards and the three supplied assessment phrases. Draw-the-caption prompts are included in these cards. Translation remains teacher-led because no target language was supplied.
+The nine active activity IDs are `learn`, `sort`, `detective`, `identify`, `knowledge`, `spelling`, `flip`, `wheel`, `create`. Detective now has a single-picture elephant demo: silhouette guessing, pixel and mosaic reveals with 30/45/60-second options (45 seconds by default), with 120 mosaic tiles. Start, pause, guess, reveal and Next controls work; hidden tabs pause the timer. Correct guesses award one star; manual and timed reveals do not. The seven other activities work with the available text content. Meet the Words includes vocabulary sentences. **Read, Draw & Talk** is a separate active menu tile with 16 illustrated sentence/discussion cards and the three supplied assessment phrases. Draw-the-caption prompts are included in these cards; drawing tools will be added later. Translation remains teacher-led because no target language was supplied.
 
 Sort It sorts field-guide word roles, not mutually exclusive land/water animal classes. Identification has three distinct choices and independent target/answer picture controls. Flip mismatches stay open until a different available tile is selected. Wheel holds its selected item before a silent text-only reveal and removes it on Next, in explicit batches of at most 12.
 
@@ -36,18 +36,30 @@ Short sort/identify/knowledge/spelling sessions reserve up to 12 entries from in
 
 Mouse, touch, Tab/Enter, Escape, and number keys for choices are supported. M toggles mute and F toggles fullscreen; both are letter guesses in spelling. Speech depends on an available local English system voice. The text content works without speech. Native fullscreen was exercised in the in-app browser; other browser/device support may vary.
 
+## Interface
+
+Navigation uses short labels without arrows. Menus show icons and titles; repeated instructions and decorative copy are removed. Vocabulary, reading passages, quiz questions and teaching feedback remain.
+
+## Coming-soon activities
+
+Story Book, Video, and Phonics & Sight Words are empty, disabled menu tiles. A theme-based book, curated videos, and phoneme/sight-word activities will be added later. Read, Draw & Talk replaces Create & Share and opens the existing reading cards; drawing tools are planned for later.
+
 ## Artwork and review
 
-No approved vocabulary artwork was provided. **132 vocabulary images are pending; 16 reserved interface slots currently use CSS/text.** The animal-free generated woodland/coast background is installed and its original checksum is recorded in the asset manifest. The centred landing and menu contain CSS controls and icons. Missing-picture panels are explicit, Flip currently matches text, and Wheel currently uses text markers. These are functional fallbacks while the user supplies artwork separately. No static animals appear on the landing page; unused generated animal drafts are archived locally outside the published assets.
+All **132 supplied vocabulary PNGs** are installed, unchanged from Mammal_Discovery_Club_132_Game_Assets.zip. Filenames, delivery checksums, 1024 × 1024 dimensions and RGBA transparency were verified. Six category cards reuse appropriate vocabulary pictures. Learning, sorting, identification, spelling, matching, wheel markers, reading cards and fully illustrated quiz-choice sets now use the supplied artwork. Detective keeps its original test scene and cutout. The animal-free generated woodland/coast background is installed and its original checksum is recorded in the asset manifest. The centred landing and menu contain CSS controls and icons. Flip includes pictures with word labels, and Wheel uses picture markers. Optional interface artwork retains its CSS fallback. No static animals appear on the landing page; unused generated animal drafts are archived locally outside the published assets.
 
 The existing fish comparison category remains in this draft. Its scope was questioned by the user and needs a content decision before final curriculum approval.
 
 - [Current complete image request](docs/IMAGE-REQUEST.md): 132 word pictures plus 16 optional interface art slots and the installed background.
 
 - [Vocabulary](docs/VOCABULARY.md), [content notes](docs/CONTENT.md), [objective mapping](docs/COVERAGE.md).
+- [Supplied artwork import record](docs/supplied-artwork.json), [delivery manifest](docs/supplied-artwork-manifest.json).
 - [Word-by-word image checklist](docs/IMAGE-CHECKLIST.md), [separate UI/animation brief](docs/ART-DIRECTION.md), [asset manifest](docs/asset-manifest.json).
 - [Verification and limitations](HANDOFF.md).
 
 The supplied screenshot is preserved byte-for-byte at `docs/curriculum-outline.png`; its SHA-256 is recorded in the manifest. Import future art without changing originals, inspect it, record its checksum, and change that entry's `assetStatus` only when ready. Reserved missing paths are intentionally not requested by the runtime.
 
 The implementation derives from the active Little Bug Club engine at local commit `063f04c`, which matched the visible GitHub latest commit during this session. The reference game's local source, README, handoff and content notes were reviewed; its live launch/menu were inspected. Those observations do not certify its deployed source hash or transfer its earlier test results to this game.
+
+
+All 12 activity menu tiles use custom woodland illustrations generated with the built-in image creator. PNGs live in `assets/topics/mammals/menu/`; generation prompts and checksums are recorded in `docs/menu-artwork.json`. Detective game artwork is unchanged.

@@ -1,6 +1,6 @@
 # Complete vocabulary collection
 
-132 entries. No year-group assignments. All wording pending teacher review. Every entry is reachable in Meet the Words and All Words; pictures are pending.
+132 entries. No year-group assignments. All wording pending teacher review. Every entry is reachable in Meet the Words and All Words; all 132 supplied pictures are installed.
 
 ## Meet the Mammals (50)
 

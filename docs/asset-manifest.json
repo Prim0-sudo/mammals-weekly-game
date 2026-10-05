@@ -1,9 +1,13 @@
 {
-  "status": "132 vocabulary images pending approval; one draft background installed; 16 interface slots currently covered by CSS/text.",
+  "status": "132 supplied vocabulary images installed and checksum-verified; six categories reuse vocabulary artwork; Detective test assets unchanged; remaining interface slots use CSS.",
   "source": {
     "path": "docs/curriculum-outline.png",
     "sha256": "f85a6a5e92b6bf307852e3df054463e165d5bd66508219499f42682e2ecbe190",
     "bytes": 69278
+  },
+  "artworkSource": {
+    "archive": "Mammal_Discovery_Club_132_Game_Assets.zip",
+    "sha256": "0c8778096943f80214f475f88a4efa07d89172072ea720b2e81673d98fa56713"
   },
   "vocabulary": [
     {
@@ -13,10 +17,16 @@
       "path": "assets/topics/mammals/vocabulary/lion.png",
       "alt": "A male lion standing, with its mane and four paws visible.",
       "brief": "A male lion standing, with its mane and four paws visible.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "3d38c606e0d26b8f769322b7517a883ed6f9a0fea60384f23af993f1682d31a4",
+      "bytes": 770301,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "elephant",
@@ -25,10 +35,16 @@
       "path": "assets/topics/mammals/vocabulary/elephant.png",
       "alt": "An elephant using its trunk, with large ears and four legs visible.",
       "brief": "An elephant using its trunk, with large ears and four legs visible.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "2fd9e8bcedc611621d37b517f79aab908ae0642d4135b1003bd9c41932690af4",
+      "bytes": 950400,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "giraffe",
@@ -37,10 +53,16 @@
       "path": "assets/topics/mammals/vocabulary/giraffe.png",
       "alt": "A giraffe reaching toward leaves, with its whole long neck visible.",
       "brief": "A giraffe reaching toward leaves, with its whole long neck visible.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "175bf55ce883b2e2b653837416aef06a74bcecd4067d83d6cd9dcadae4db9360",
+      "bytes": 420295,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "monkey",
@@ -49,10 +71,16 @@
       "path": "assets/topics/mammals/vocabulary/monkey.png",
       "alt": "A long-tailed monkey holding a branch with its hands.",
       "brief": "A long-tailed monkey holding a branch with its hands.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "1c2c1064afc76394be65d386054b97fc4030cd384da7ed76da22fff8a40f888d",
+      "bytes": 669902,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "bear",
@@ -61,10 +89,16 @@
       "path": "assets/topics/mammals/vocabulary/bear.png",
       "alt": "A brown bear standing on all four paws.",
       "brief": "A brown bear standing on all four paws.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "870164ed24f12010b3c9acc93201494d6450b8b8952abc032f2cd343f5428c64",
+      "bytes": 966902,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "rabbit",
@@ -73,10 +107,16 @@
       "path": "assets/topics/mammals/vocabulary/rabbit.png",
       "alt": "A rabbit with long ears and its back feet visible.",
       "brief": "A rabbit with long ears and its back feet visible.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "893adcda739b7353db0a6df662d7f7d688674d42172fdd9b70f77654005e3e8a",
+      "bytes": 772735,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "cat",
@@ -85,10 +125,16 @@
       "path": "assets/topics/mammals/vocabulary/cat.png",
       "alt": "A domestic cat showing its whiskers and paws.",
       "brief": "A domestic cat showing its whiskers and paws.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "8cc2095c9f4e634fbdf70061f9791b99ff9b70eb69cc4495ad20f49459a06dda",
+      "bytes": 877923,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "dog",
@@ -97,10 +143,16 @@
       "path": "assets/topics/mammals/vocabulary/dog.png",
       "alt": "A domestic dog with a visible nose, ears and four legs.",
       "brief": "A domestic dog with a visible nose, ears and four legs.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "1d91cdc603246b78722267c738e28aee80c4d111e4fe86acacae60b769cadb15",
+      "bytes": 765309,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "horse",
@@ -109,10 +161,16 @@
       "path": "assets/topics/mammals/vocabulary/horse.png",
       "alt": "A horse standing side-on with its mane and hooves visible.",
       "brief": "A horse standing side-on with its mane and hooves visible.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "bc172421630421c9f740996b3049ce79c996cc2eebdb458cc20e69cc09ff15a4",
+      "bytes": 616937,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "donkey",
@@ -121,10 +179,16 @@
       "path": "assets/topics/mammals/vocabulary/donkey.png",
       "alt": "A grey donkey with long ears and a short upright mane.",
       "brief": "A grey donkey with long ears and a short upright mane.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "a8375fb97af7d79cc571794e894f3ffe1594c6cfcf44d6dea81ccc9acc72b371",
+      "bytes": 667806,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "cow",
@@ -133,10 +197,16 @@
       "path": "assets/topics/mammals/vocabulary/cow.png",
       "alt": "An adult cow standing with its udder visible without emphasis.",
       "brief": "An adult cow standing with its udder visible without emphasis.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "47a3941b103358e0c6f7d641ed75a9336557fcf6f00b0cfe93d883d186c45e27",
+      "bytes": 721868,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "sheep",
@@ -145,10 +215,16 @@
       "path": "assets/topics/mammals/vocabulary/sheep.png",
       "alt": "An adult sheep with a thick woolly coat.",
       "brief": "An adult sheep with a thick woolly coat.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "ebf89e7f15e616b0e48364ec386baa855494318b0fd678f25bffd6fd146eda66",
+      "bytes": 816439,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "goat",
@@ -157,10 +233,16 @@
       "path": "assets/topics/mammals/vocabulary/goat.png",
       "alt": "A goat standing on a low rock, with split hooves visible.",
       "brief": "A goat standing on a low rock, with split hooves visible.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "d5ebabea39d9493ba024a04006024ea1c752c3aafd0768553ae066f792796f6d",
+      "bytes": 757967,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "pig",
@@ -169,10 +251,16 @@
       "path": "assets/topics/mammals/vocabulary/pig.png",
       "alt": "A domestic pig rooting in soil with its snout.",
       "brief": "A domestic pig rooting in soil with its snout.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "81341bd4ecaae351782adba9ae10a7ab733579e058f7a710dab575f4e10df161",
+      "bytes": 852904,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "mouse",
@@ -181,10 +269,16 @@
       "path": "assets/topics/mammals/vocabulary/mouse.png",
       "alt": "A mouse beside a seed, with its thin tail visible.",
       "brief": "A mouse beside a seed, with its thin tail visible.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "1278764d43ed57d3691efe3568ad668d3c033aa15a450f0224c4a4225bbea68c",
+      "bytes": 586155,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "rat",
@@ -193,10 +287,16 @@
       "path": "assets/topics/mammals/vocabulary/rat.png",
       "alt": "A rat beside a same-scale mouse outline for size comparison; focus on the rat.",
       "brief": "A rat beside a same-scale mouse outline for size comparison; focus on the rat.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "370549043cf0cda872e1428785a6791084627845a2f016ee953d9aa922ebc11c",
+      "bytes": 463932,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "hamster",
@@ -205,10 +305,16 @@
       "path": "assets/topics/mammals/vocabulary/hamster.png",
       "alt": "A hamster with gently rounded cheek pouches and a short tail.",
       "brief": "A hamster with gently rounded cheek pouches and a short tail.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "09b29045897b2f526dbcf3a916ba815699df37c41b88dc36bbc5bec0cee8a345",
+      "bytes": 795796,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "guinea-pig",
@@ -217,10 +323,16 @@
       "path": "assets/topics/mammals/vocabulary/guinea-pig.png",
       "alt": "A guinea pig standing with its short ears and rounded body visible.",
       "brief": "A guinea pig standing with its short ears and rounded body visible.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "7867c4e3ccb5d072ad65f775bdcfd064824ae82c650306500bbdbd26b29c5a47",
+      "bytes": 876696,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "squirrel",
@@ -229,10 +341,16 @@
       "path": "assets/topics/mammals/vocabulary/squirrel.png",
       "alt": "A tree squirrel on a branch with a bushy tail.",
       "brief": "A tree squirrel on a branch with a bushy tail.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "5bf0231e703ed19db0ef6787309e3f1eddd2f1c1ccc88fbdf0cfe9064feeed1f",
+      "bytes": 1076927,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "hedgehog",
@@ -241,10 +359,16 @@
       "path": "assets/topics/mammals/vocabulary/hedgehog.png",
       "alt": "A hedgehog showing spines on its back and fur on its face.",
       "brief": "A hedgehog showing spines on its back and fur on its face.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "a0b68900d447d55d558e5547f689f93852a6dfd000168ecba5bd1a90e5619771",
+      "bytes": 969208,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "fox",
@@ -253,10 +377,16 @@
       "path": "assets/topics/mammals/vocabulary/fox.png",
       "alt": "A red fox with pointed ears and a bushy tail.",
       "brief": "A red fox with pointed ears and a bushy tail.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "08c3a41317838528e6a88ec53606dea24a5033667d0338b33d31f490f395d7cd",
+      "bytes": 726277,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "wolf",
@@ -265,10 +395,16 @@
       "path": "assets/topics/mammals/vocabulary/wolf.png",
       "alt": "A grey wolf standing, with long legs and thick fur.",
       "brief": "A grey wolf standing, with long legs and thick fur.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "f3809cfb612ba948a2c274a97dbb0bd2ff0b4685c95ce31d45a0eb202d9c1415",
+      "bytes": 796610,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "deer",
@@ -277,10 +413,16 @@
       "path": "assets/topics/mammals/vocabulary/deer.png",
       "alt": "A male red deer with branched antlers.",
       "brief": "A male red deer with branched antlers.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "ee34d49d2cff8cf2ab0c74cfbd754e559c751b00d0f390032d80916733c06f71",
+      "bytes": 394734,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "moose",
@@ -289,10 +431,16 @@
       "path": "assets/topics/mammals/vocabulary/moose.png",
       "alt": "An adult male moose with broad, flat antlers and a long face.",
       "brief": "An adult male moose with broad, flat antlers and a long face.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "551880dcb0a26946c11c3ddf712a93cc0f8a36f2fbcbef87cdcf099c8848f888",
+      "bytes": 485625,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "zebra",
@@ -301,10 +449,16 @@
       "path": "assets/topics/mammals/vocabulary/zebra.png",
       "alt": "A zebra with black and white stripes and hooves.",
       "brief": "A zebra with black and white stripes and hooves.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "f7da73a5eb2743e4fb1051f575e47c98dad37e042d26bc1817ce4eac586bdc93",
+      "bytes": 700596,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "rhinoceros",
@@ -313,10 +467,16 @@
       "path": "assets/topics/mammals/vocabulary/rhinoceros.png",
       "alt": "A white rhinoceros with two nose horns, broad mouth and thick skin.",
       "brief": "A white rhinoceros with two nose horns, broad mouth and thick skin.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "aafdc1e6fe0f0693379944ba5a62d4b86e67321240c5e8beeff787026e214f5e",
+      "bytes": 863644,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "hippopotamus",
@@ -325,10 +485,16 @@
       "path": "assets/topics/mammals/vocabulary/hippopotamus.png",
       "alt": "A hippopotamus at the river surface with nostrils above water.",
       "brief": "A hippopotamus at the river surface with nostrils above water.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "b5674178cdab039d4537cd40e511e4e23676f3c52227acc5e976d91848079696",
+      "bytes": 846078,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "camel",
@@ -337,10 +503,16 @@
       "path": "assets/topics/mammals/vocabulary/camel.png",
       "alt": "A one-humped camel in a dry landscape.",
       "brief": "A one-humped camel in a dry landscape.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "ca793ab3c3d578d7ba3aa318747783bdfa003be2176b3ed0974f7af01df1a0cd",
+      "bytes": 866315,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "tiger",
@@ -349,10 +521,16 @@
       "path": "assets/topics/mammals/vocabulary/tiger.png",
       "alt": "A tiger showing orange fur and dark stripes.",
       "brief": "A tiger showing orange fur and dark stripes.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "40d6882e6e84bb22128a508b52d16e15e67ffc44869ce7b2a9bb69a78b0eac45",
+      "bytes": 828329,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "cheetah",
@@ -361,10 +539,16 @@
       "path": "assets/topics/mammals/vocabulary/cheetah.png",
       "alt": "A cheetah with spots, a slender body and dark tear marks.",
       "brief": "A cheetah with spots, a slender body and dark tear marks.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "54c850017e8a526cb361e7a7e03935d2f42a23c153850b2fa7e6ebbe01e6b2e8",
+      "bytes": 639686,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "leopard",
@@ -373,10 +557,16 @@
       "path": "assets/topics/mammals/vocabulary/leopard.png",
       "alt": "A leopard showing rosette markings, sturdy body and long tail.",
       "brief": "A leopard showing rosette markings, sturdy body and long tail.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "60fc340d328a8e7ea9c170030ca522cec0ed3202d47ebd2e2d2987c38532dc59",
+      "bytes": 830674,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "gorilla",
@@ -385,10 +575,16 @@
       "path": "assets/topics/mammals/vocabulary/gorilla.png",
       "alt": "An adult gorilla with broad chest, long arms and no tail.",
       "brief": "An adult gorilla with broad chest, long arms and no tail.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "9f9bf121edd429f7874be3b75c52bb2df25be8c7d5988f34c529e245a887dc42",
+      "bytes": 959498,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "chimpanzee",
@@ -397,10 +593,16 @@
       "path": "assets/topics/mammals/vocabulary/chimpanzee.png",
       "alt": "A chimpanzee showing long arms, hands and no tail.",
       "brief": "A chimpanzee showing long arms, hands and no tail.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "cf8c1fc5657f3b7f3f8913690284d2f143f5f6cd116c845ab3217329d6964ef7",
+      "bytes": 874742,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "kangaroo",
@@ -409,10 +611,16 @@
       "path": "assets/topics/mammals/vocabulary/kangaroo.png",
       "alt": "A female kangaroo with a visible pouch and long balancing tail.",
       "brief": "A female kangaroo with a visible pouch and long balancing tail.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "529ddfd870f45baca38db800dd70d5ba5749a3c0ae3facc9db3312d623fb4624",
+      "bytes": 513562,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "koala",
@@ -421,10 +629,16 @@
       "path": "assets/topics/mammals/vocabulary/koala.png",
       "alt": "A koala holding a eucalyptus branch, with rounded furry ears.",
       "brief": "A koala holding a eucalyptus branch, with rounded furry ears.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "36f9ff50a8f487703539b4c8b3facc6465378f0e6bd921be1fd999f1fc0e6541",
+      "bytes": 1021389,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "wombat",
@@ -433,10 +647,16 @@
       "path": "assets/topics/mammals/vocabulary/wombat.png",
       "alt": "A stocky wombat beside a burrow entrance.",
       "brief": "A stocky wombat beside a burrow entrance.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "d0e9a1f6c9a4ba436ffcce8d4208577d0adf1c7c43bb81fc53fa10c72e51f760",
+      "bytes": 1044924,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "platypus",
@@ -445,10 +665,16 @@
       "path": "assets/topics/mammals/vocabulary/platypus.png",
       "alt": "A platypus showing its broad bill, fur and webbed front feet.",
       "brief": "A platypus showing its broad bill, fur and webbed front feet.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "dd15581945b050ee68aae9127c6cbee1b0f72edb2a83a7ae7a10b2166888e693",
+      "bytes": 628719,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "echidna",
@@ -457,10 +683,16 @@
       "path": "assets/topics/mammals/vocabulary/echidna.png",
       "alt": "An echidna with strong claws, spines and a long narrow snout.",
       "brief": "An echidna with strong claws, spines and a long narrow snout.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "87b2a4374cd62e0386d70da7c5737d76f57b6b8cbb290cde8ea51d3d2cc1b174",
+      "bytes": 950516,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "bat",
@@ -469,10 +701,16 @@
       "path": "assets/topics/mammals/vocabulary/bat.png",
       "alt": "A fruit bat with wings spread to show skin stretched over long fingers.",
       "brief": "A fruit bat with wings spread to show skin stretched over long fingers.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "bfe2071d3701d4fc4dd9e291b7a2399fd558ef2ee6a669e373c1fbb9c25c3df1",
+      "bytes": 610398,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "sloth",
@@ -481,10 +719,16 @@
       "path": "assets/topics/mammals/vocabulary/sloth.png",
       "alt": "A sloth hanging safely from a branch by its curved claws.",
       "brief": "A sloth hanging safely from a branch by its curved claws.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "a6a43e21fb3530bea69c7d4960b447b8169c341b75bed9b2d7b823440301f17a",
+      "bytes": 983754,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "whale",
@@ -493,10 +737,16 @@
       "path": "assets/topics/mammals/vocabulary/whale.png",
       "alt": "A humpback whale surfacing, with horizontal tail flukes and blowholes inset.",
       "brief": "A humpback whale surfacing, with horizontal tail flukes and blowholes inset.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "ba45c6d2faac0bf866f4633c5e52ac24cdf3b458845c41e22ca0b254b8858c2a",
+      "bytes": 1026369,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "dolphin",
@@ -505,10 +755,16 @@
       "path": "assets/topics/mammals/vocabulary/dolphin.png",
       "alt": "A bottlenose dolphin at the surface, showing its single blowhole.",
       "brief": "A bottlenose dolphin at the surface, showing its single blowhole.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "1f8afb727ad81fc7d06d64eae1f9b3aee506d9519011dd48f3d4875d1a0fdc21",
+      "bytes": 649785,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "porpoise",
@@ -517,10 +773,16 @@
       "path": "assets/topics/mammals/vocabulary/porpoise.png",
       "alt": "A harbour porpoise with rounded head and triangular dorsal fin.",
       "brief": "A harbour porpoise with rounded head and triangular dorsal fin.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "5af65b330e6073b80eda4f74094d837bf527c07d8c916a7a67e8fe8a012a7410",
+      "bytes": 297996,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "seal",
@@ -529,10 +791,16 @@
       "path": "assets/topics/mammals/vocabulary/seal.png",
       "alt": "A harbour seal resting on a rock, showing small ear openings.",
       "brief": "A harbour seal resting on a rock, showing small ear openings.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "de0b2b6bf018953ebee5f66e963576aab71defd7aaa7635bd633b6c648733cc4",
+      "bytes": 824699,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "sea-lion",
@@ -541,10 +809,16 @@
       "path": "assets/topics/mammals/vocabulary/sea-lion.png",
       "alt": "A sea lion propped up on its large front flippers, ear flaps visible.",
       "brief": "A sea lion propped up on its large front flippers, ear flaps visible.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "d88c74a0cbbc0125fa0b89f4db86c78dc040ef51401073feea7e4361728e2595",
+      "bytes": 810002,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "walrus",
@@ -553,10 +827,16 @@
       "path": "assets/topics/mammals/vocabulary/walrus.png",
       "alt": "An adult walrus showing paired tusks, whiskers and flippers.",
       "brief": "An adult walrus showing paired tusks, whiskers and flippers.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "1ac64d368fccea099f17b18090b60f1f5db53691cc62955d914240e46a154e72",
+      "bytes": 728399,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "manatee",
@@ -565,10 +845,16 @@
       "path": "assets/topics/mammals/vocabulary/manatee.png",
       "alt": "A manatee with paddle-shaped tail and rounded snout eating plants.",
       "brief": "A manatee with paddle-shaped tail and rounded snout eating plants.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "5de643b8450cf97535f4658e4985312f979bf8c39188e63bab7450801f89978b",
+      "bytes": 735423,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "dugong",
@@ -577,10 +863,16 @@
       "path": "assets/topics/mammals/vocabulary/dugong.png",
       "alt": "A dugong with downturned snout and forked, whale-like tail.",
       "brief": "A dugong with downturned snout and forked, whale-like tail.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "14a327821764062b9c740e58349bf9823b8e83ea9dfcd6409cc35f19e1c622f9",
+      "bytes": 512663,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "sea-otter",
@@ -589,10 +881,16 @@
       "path": "assets/topics/mammals/vocabulary/sea-otter.png",
       "alt": "A sea otter floating on its back with forepaws visible.",
       "brief": "A sea otter floating on its back with forepaws visible.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "a9ee2791ad8b071ae522eb7134c9c42a54290a27582a45cfcccbb36689e2a37a",
+      "bytes": 944814,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "polar-bear",
@@ -601,10 +899,16 @@
       "path": "assets/topics/mammals/vocabulary/polar-bear.png",
       "alt": "A polar bear on sea ice, showing broad furry paws.",
       "brief": "A polar bear on sea ice, showing broad furry paws.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "15a4d831c2d4d04de24a14cc92bc00dbdd033e02788977bc4531fa82441961c7",
+      "bytes": 849052,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "goldfish",
@@ -613,10 +917,16 @@
       "path": "assets/topics/mammals/vocabulary/goldfish.png",
       "alt": "A goldfish with gill covers and fins clearly visible.",
       "brief": "A goldfish with gill covers and fins clearly visible.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "b58692d49f9fa8b111dd3273cc202960249d138a4551235a85419fdfea2f4523",
+      "bytes": 678423,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "salmon",
@@ -625,10 +935,16 @@
       "path": "assets/topics/mammals/vocabulary/salmon.png",
       "alt": "A salmon side-on with fins and gill covers visible.",
       "brief": "A salmon side-on with fins and gill covers visible.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "46d183d5b811976db375e4910796b11b5d8b888faebb7c5f6dc36e9325ab54d5",
+      "bytes": 325958,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "tuna",
@@ -637,10 +953,16 @@
       "path": "assets/topics/mammals/vocabulary/tuna.png",
       "alt": "A tuna with a streamlined body and small finlets near its tail.",
       "brief": "A tuna with a streamlined body and small finlets near its tail.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "99693c882bc37850161f5839d655e65e9dec1ca1538725aa0e85af90ae2ab10e",
+      "bytes": 355326,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "shark",
@@ -649,10 +971,16 @@
       "path": "assets/topics/mammals/vocabulary/shark.png",
       "alt": "A shark side-on with gill slits visible, no scary teeth close-up.",
       "brief": "A shark side-on with gill slits visible, no scary teeth close-up.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "c9b42d9cf1dfd275aeabe643b8faf930a07c717f9036c70620c5c19ba29e2aee",
+      "bytes": 283942,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "ray",
@@ -661,10 +989,16 @@
       "path": "assets/topics/mammals/vocabulary/ray.png",
       "alt": "A ray seen from above, with an inset showing underside gill slits.",
       "brief": "A ray seen from above, with an inset showing underside gill slits.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "12e4134b3c11c6e7a50ae72dbcc66dc0e21bafeb19e146b5b4a992fcfe45c2fe",
+      "bytes": 650048,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "seahorse",
@@ -673,10 +1007,16 @@
       "path": "assets/topics/mammals/vocabulary/seahorse.png",
       "alt": "A seahorse gripping seagrass with its curled tail.",
       "brief": "A seahorse gripping seagrass with its curled tail.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "919c4d0eec3e987d59e6233cf8bc95ce00cb0e25dce96ccf4cb309b53d019857",
+      "bytes": 525282,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "clownfish",
@@ -685,10 +1025,16 @@
       "path": "assets/topics/mammals/vocabulary/clownfish.png",
       "alt": "An orange clownfish with white bands beside a sea anemone.",
       "brief": "An orange clownfish with white bands beside a sea anemone.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "a62342a2a4e2f7d626cff09bba59eb29901cd86f57f6d510ffbb49c70dfeb6c0",
+      "bytes": 781198,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "eel",
@@ -697,10 +1043,16 @@
       "path": "assets/topics/mammals/vocabulary/eel.png",
       "alt": "An eel showing a long body and small gill opening.",
       "brief": "An eel showing a long body and small gill opening.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "ea023eb6c2025b9dbbd3286bee2b7856addb61b01d2dda4209746f32a7fc10fa",
+      "bytes": 537010,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "fur",
@@ -709,10 +1061,16 @@
       "path": "assets/topics/mammals/vocabulary/fur.png",
       "alt": "A close view of rabbit fur, with the rabbit shown in a small context view.",
       "brief": "A close view of rabbit fur, with the rabbit shown in a small context view.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "97e7603f87b405b75600bda4f8d9e8c487949afb7957ad8b4ec69c44db9b74b4",
+      "bytes": 853658,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "whiskers",
@@ -721,10 +1079,16 @@
       "path": "assets/topics/mammals/vocabulary/whiskers.png",
       "alt": "A cat face close-up with whiskers clearly indicated.",
       "brief": "A cat face close-up with whiskers clearly indicated.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "144da9e1f3c9f62801257692e9948ac05477a1aacf94b058f27f1c43941f8654",
+      "bytes": 969262,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "skin",
@@ -733,10 +1097,16 @@
       "path": "assets/topics/mammals/vocabulary/skin.png",
       "alt": "A close view of elephant skin, with a small whole-elephant context.",
       "brief": "A close view of elephant skin, with a small whole-elephant context.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "be217ae8eacccc42837d5a8772fa3dc61924043447d3428e5751d783c4dcb6e8",
+      "bytes": 841453,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "paw",
@@ -745,10 +1115,16 @@
       "path": "assets/topics/mammals/vocabulary/paw.png",
       "alt": "A cat paw close-up showing pads and toes.",
       "brief": "A cat paw close-up showing pads and toes.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "73390d5bb596aaa344fb3a602a3e3425dac4ca1b7629758c8adb7a197fbf96ec",
+      "bytes": 812719,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "hoof",
@@ -757,10 +1133,16 @@
       "path": "assets/topics/mammals/vocabulary/hoof.png",
       "alt": "A horse hoof in close view with lower leg included.",
       "brief": "A horse hoof in close view with lower leg included.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "d954a64af1cbfeb6d251534d3569e3e1bad3e8413830443df975cdb8cb0b9df7",
+      "bytes": 686133,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "claw",
@@ -769,10 +1151,16 @@
       "path": "assets/topics/mammals/vocabulary/claw.png",
       "alt": "A bear paw close-up with one claw clearly indicated.",
       "brief": "A bear paw close-up with one claw clearly indicated.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "19cd9102677f007afb44fb63cdac04b75d188c83d8582e3dfcc2dcf7aa551fd6",
+      "bytes": 709654,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "tail",
@@ -781,10 +1169,16 @@
       "path": "assets/topics/mammals/vocabulary/tail.png",
       "alt": "A squirrel with its bushy tail clearly indicated.",
       "brief": "A squirrel with its bushy tail clearly indicated.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "0d746bf6d197f8b2969ca80ed1eece7c7da05f77aa31cf55c4b840e783a44a89",
+      "bytes": 778856,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "ear",
@@ -793,10 +1187,16 @@
       "path": "assets/topics/mammals/vocabulary/ear.png",
       "alt": "A rabbit head with one ear clearly indicated.",
       "brief": "A rabbit head with one ear clearly indicated.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "8d53b7b02d2f3eadd9aea729c30d8c095a1d0c9aca2226471602e5b70181eaf6",
+      "bytes": 728717,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "eye",
@@ -805,10 +1205,16 @@
       "path": "assets/topics/mammals/vocabulary/eye.png",
       "alt": "A horse face with one eye clearly indicated.",
       "brief": "A horse face with one eye clearly indicated.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "020e55942eae927784fe077a19b4c0f5ac6887d0866a6725d19445adfa47eefd",
+      "bytes": 890943,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "nose",
@@ -817,10 +1223,16 @@
       "path": "assets/topics/mammals/vocabulary/nose.png",
       "alt": "A dog face close-up with its nose clearly indicated.",
       "brief": "A dog face close-up with its nose clearly indicated.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "0e104e914db17a1585bedd35253d288b74b09c0ef7e6c0882b9fa81e14d3af69",
+      "bytes": 985946,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "mouth",
@@ -829,10 +1241,16 @@
       "path": "assets/topics/mammals/vocabulary/mouth.png",
       "alt": "A goat head with the mouth clearly indicated, not frightening.",
       "brief": "A goat head with the mouth clearly indicated, not frightening.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "608bb775dd7d1d5af89dae33534315b80c67831190bfcbd3ed015e61d025a1e4",
+      "bytes": 866082,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "tooth",
@@ -841,10 +1259,16 @@
       "path": "assets/topics/mammals/vocabulary/tooth.png",
       "alt": "A simple non-graphic horse mouth diagram showing one tooth.",
       "brief": "A simple non-graphic horse mouth diagram showing one tooth.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "0bf133b61f43226d0ce51171a59b9319f548a230b88065e76214e19874d8315b",
+      "bytes": 747173,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "tongue",
@@ -853,10 +1277,16 @@
       "path": "assets/topics/mammals/vocabulary/tongue.png",
       "alt": "A cat lapping water with its tongue visible.",
       "brief": "A cat lapping water with its tongue visible.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "8dbdc5fbdc6237365d3d0a8fe05aedb6ddfaa24ef2b9d1f68a4fccb850852ed6",
+      "bytes": 882144,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "trunk",
@@ -865,10 +1295,16 @@
       "path": "assets/topics/mammals/vocabulary/trunk.png",
       "alt": "An elephant face with trunk clearly indicated, reaching toward leaves.",
       "brief": "An elephant face with trunk clearly indicated, reaching toward leaves.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "517f30f2d98341c5d98d8d025fd2e41dab1f7c67dd055c64821ea35ecb867485",
+      "bytes": 754395,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "tusk",
@@ -877,10 +1313,16 @@
       "path": "assets/topics/mammals/vocabulary/tusk.png",
       "alt": "A walrus head with one tusk clearly indicated.",
       "brief": "A walrus head with one tusk clearly indicated.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "245b1557343c8ab38d6c15def3cc46befd4f74cd125b2b6c5cb82f92d50c79f4",
+      "bytes": 1785658,
+      "provenance": "User-supplied Front-facing walrus with two visible tusks-1.png"
     },
     {
       "id": "horn",
@@ -889,10 +1331,16 @@
       "path": "assets/topics/mammals/vocabulary/horn.png",
       "alt": "A goat head with one unbranched horn clearly indicated.",
       "brief": "A goat head with one unbranched horn clearly indicated.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "647cb5ad05ef257022af624408ee047d6c4498187410ae00d0205ca999d9ee4e",
+      "bytes": 1476815,
+      "provenance": "User-supplied Goat Head with Two Curved Horns-2.png"
     },
     {
       "id": "antlers",
@@ -901,10 +1349,16 @@
       "path": "assets/topics/mammals/vocabulary/antlers.png",
       "alt": "A male red deer head showing branched antlers.",
       "brief": "A male red deer head showing branched antlers.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "729bab93232bf134310d62e5982ae138b531ddef1310fadb5b85cea968ac00de",
+      "bytes": 950405,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "mane",
@@ -913,10 +1367,16 @@
       "path": "assets/topics/mammals/vocabulary/mane.png",
       "alt": "A male lion with its mane clearly indicated.",
       "brief": "A male lion with its mane clearly indicated.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "449a462e1deb887c4664e77a205782c5efdb2f88c4775372dac2bbecf161a5be",
+      "bytes": 1011588,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "pouch",
@@ -925,10 +1385,16 @@
       "path": "assets/topics/mammals/vocabulary/pouch.png",
       "alt": "A kangaroo mother with a joey in her pouch.",
       "brief": "A kangaroo mother with a joey in her pouch.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "9f87547fe06a53c339fc7eb9e254db5402e1e76816d46a1093525766a2cad6da",
+      "bytes": 961856,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "flipper",
@@ -937,10 +1403,16 @@
       "path": "assets/topics/mammals/vocabulary/flipper.png",
       "alt": "A seal with one front flipper clearly indicated.",
       "brief": "A seal with one front flipper clearly indicated.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "181d01e7379cf77c503be30425052bbd6e44d95abcb7ce9553973e46b81677f1",
+      "bytes": 1017665,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "blowhole",
@@ -949,10 +1421,16 @@
       "path": "assets/topics/mammals/vocabulary/blowhole.png",
       "alt": "A dolphin at the surface with its blowhole clearly indicated.",
       "brief": "A dolphin at the surface with its blowhole clearly indicated.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "c20c1c26b95fb840ed9b7dab5f093207c1c7871309133490ea73b8f0e9210aec",
+      "bytes": 923151,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "lungs",
@@ -961,10 +1439,16 @@
       "path": "assets/topics/mammals/vocabulary/lungs.png",
       "alt": "A simple child-friendly mammal body diagram highlighting paired lungs.",
       "brief": "A simple child-friendly mammal body diagram highlighting paired lungs.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "667658cfee7b134b579165790c57c44c026df6d1784dcc3aea592748882d07cf",
+      "bytes": 645564,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "backbone",
@@ -973,10 +1457,16 @@
       "path": "assets/topics/mammals/vocabulary/backbone.png",
       "alt": "A simple non-graphic dog skeleton outline with backbone highlighted.",
       "brief": "A simple non-graphic dog skeleton outline with backbone highlighted.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "727f42638ba3d45629cc879527e9ef195054f266ca7eec41211b3b6a40c1938b",
+      "bytes": 408295,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "gills",
@@ -985,10 +1475,16 @@
       "path": "assets/topics/mammals/vocabulary/gills.png",
       "alt": "A fish diagram with gills highlighted under an open gill-cover inset.",
       "brief": "A fish diagram with gills highlighted under an open gill-cover inset.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "dd29f9a6bf4931e080c896d8fd600130dd9a6a5555f9374599e2a36f1d60d5e3",
+      "bytes": 702534,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "land",
@@ -997,10 +1493,16 @@
       "path": "assets/topics/mammals/vocabulary/land.png",
       "alt": "A simple coastline with the solid land highlighted.",
       "brief": "A simple coastline with the solid land highlighted.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "6eb37d67a81f1e92dcf4f8a9e5079eb735b1c6ab1e767b77f1db273e2c944c96",
+      "bytes": 1035371,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "ocean",
@@ -1009,10 +1511,16 @@
       "path": "assets/topics/mammals/vocabulary/ocean.png",
       "alt": "A wide ocean view with a whale far in the water for scale.",
       "brief": "A wide ocean view with a whale far in the water for scale.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "2eab396c434f43387379ca1a82e318ea9b033f23be1e02bb9ca6ce581783f662",
+      "bytes": 989367,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "ocean-floor",
@@ -1021,10 +1529,16 @@
       "path": "assets/topics/mammals/vocabulary/ocean-floor.png",
       "alt": "A cutaway sea view with the bottom clearly highlighted.",
       "brief": "A cutaway sea view with the bottom clearly highlighted.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "b24ac64df010e4ff4cefa709feceeead57851af3be5eca76c8f2e2e033108fe1",
+      "bytes": 1082102,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "river",
@@ -1033,10 +1547,16 @@
       "path": "assets/topics/mammals/vocabulary/river.png",
       "alt": "A flowing river with clear banks and a visible bend.",
       "brief": "A flowing river with clear banks and a visible bend.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "39c1ae8bd48fc4e5ee8b5f0a6ae0d0cc43f30472399a2a8eb534573442cef471",
+      "bytes": 1264432,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "lake",
@@ -1045,10 +1565,16 @@
       "path": "assets/topics/mammals/vocabulary/lake.png",
       "alt": "A lake with land visible all around its edges.",
       "brief": "A lake with land visible all around its edges.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "b3ee02415d7e9b5db8a28aab0ca751a189d0c21b162f46fe693b647aed010596",
+      "bytes": 802360,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "pond",
@@ -1057,10 +1583,16 @@
       "path": "assets/topics/mammals/vocabulary/pond.png",
       "alt": "A small pond in a grassy area.",
       "brief": "A small pond in a grassy area.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "036d791b7389760ebc64ecffbbe1b895af1bd016f59548663fb274c0cfd361a0",
+      "bytes": 1115461,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "forest",
@@ -1069,10 +1601,16 @@
       "path": "assets/topics/mammals/vocabulary/forest.png",
       "alt": "A forest with many trees and a clear path.",
       "brief": "A forest with many trees and a clear path.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "c97881b81c479e4a43d0670acbfaf443b143fe2778bdcc9ce81036cba85f134e",
+      "bytes": 1368853,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "grassland",
@@ -1081,10 +1619,16 @@
       "path": "assets/topics/mammals/vocabulary/grassland.png",
       "alt": "An open grassy plain with few trees and distant zebras.",
       "brief": "An open grassy plain with few trees and distant zebras.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "95a432f452e37760f68349b5c388d156390aed8beed2cee66007200088adcbe5",
+      "bytes": 1159525,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "desert",
@@ -1093,10 +1637,16 @@
       "path": "assets/topics/mammals/vocabulary/desert.png",
       "alt": "A dry desert landscape with sparse plants.",
       "brief": "A dry desert landscape with sparse plants.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "82a95b48e97be3af04d650c72bda94eb27fed18d0a2013f568fd72bacf41cfbe",
+      "bytes": 971170,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "cave",
@@ -1105,10 +1655,16 @@
       "path": "assets/topics/mammals/vocabulary/cave.png",
       "alt": "A rocky cave entrance with the inside visible.",
       "brief": "A rocky cave entrance with the inside visible.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "1cb037f8d4ebca98ca9920550528b2cbca86da8d7c82de8928d724c034bdd894",
+      "bytes": 1031468,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "burrow",
@@ -1117,10 +1673,16 @@
       "path": "assets/topics/mammals/vocabulary/burrow.png",
       "alt": "A cutaway wombat burrow showing the entrance and tunnel.",
       "brief": "A cutaway wombat burrow showing the entrance and tunnel.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "488c226754d5fec0d5f75ad855d83564148b63e1e96b7050eff930f19bcf6cfd",
+      "bytes": 903790,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "den",
@@ -1129,10 +1691,16 @@
       "path": "assets/topics/mammals/vocabulary/den.png",
       "alt": "A fox resting in a sheltered hollow under tree roots.",
       "brief": "A fox resting in a sheltered hollow under tree roots.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "9fb17327c44720996898712136d6b03bee4b6e3eebbb316868c0f5fd358436dc",
+      "bytes": 1090861,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "branch",
@@ -1141,10 +1709,16 @@
       "path": "assets/topics/mammals/vocabulary/branch.png",
       "alt": "A tree with one side branch clearly indicated.",
       "brief": "A tree with one side branch clearly indicated.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "de18a3328881116396d34c85fdbb1f7f40f6975faf10c49570def12ee7d80425",
+      "bytes": 892996,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "leaf",
@@ -1153,10 +1727,16 @@
       "path": "assets/topics/mammals/vocabulary/leaf.png",
       "alt": "A single fresh leaf with its outline and stalk visible.",
       "brief": "A single fresh leaf with its outline and stalk visible.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "952a7a5d5b6919f76ec370c9fa6068f313763b5bf6c8f029be6deb422a5928fa",
+      "bytes": 700221,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "grass",
@@ -1165,10 +1745,16 @@
       "path": "assets/topics/mammals/vocabulary/grass.png",
       "alt": "A close view of growing grass blades.",
       "brief": "A close view of growing grass blades.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "089502ac56a56fc1ae4564168171e07dd3f6d097b651e723160c62c7cbc1eabc",
+      "bytes": 803974,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "fruit",
@@ -1177,10 +1763,16 @@
       "path": "assets/topics/mammals/vocabulary/fruit.png",
       "alt": "A whole apple and a cut apple showing seeds.",
       "brief": "A whole apple and a cut apple showing seeds.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "e8761646b125ea7d742989f1cc79b924863d37b15293940bdec2e2ef7f368b77",
+      "bytes": 688001,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "seed",
@@ -1189,10 +1781,16 @@
       "path": "assets/topics/mammals/vocabulary/seed.png",
       "alt": "Several sunflower seeds with one enlarged seed.",
       "brief": "Several sunflower seeds with one enlarged seed.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "929e0485183fd2c2a89584c9a9b049a7aa59478d144dd3cd19488d8338cf5bf4",
+      "bytes": 712717,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "milk",
@@ -1201,10 +1799,16 @@
       "path": "assets/topics/mammals/vocabulary/milk.png",
       "alt": "A calf nursing from its mother in a gentle, clear side view.",
       "brief": "A calf nursing from its mother in a gentle, clear side view.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "d97ebaad1ff8f1482abc8c01d6993211b95b98c26b65bee84bdfdbe058c2dfd7",
+      "bytes": 713257,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "water",
@@ -1213,10 +1817,16 @@
       "path": "assets/topics/mammals/vocabulary/water.png",
       "alt": "Clear water in a shallow pool with a deer drinking.",
       "brief": "Clear water in a shallow pool with a deer drinking.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "1f097dae3aa699b1a97d4a9e83ad4574679c68cd87592a797fd3ef4867767a82",
+      "bytes": 1043318,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "snow",
@@ -1225,10 +1835,16 @@
       "path": "assets/topics/mammals/vocabulary/snow.png",
       "alt": "Snow on the ground with visible animal tracks.",
       "brief": "Snow on the ground with visible animal tracks.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "2a4bb402d00d4628135c36f5ff0848ad2ab910f7774a635a688556fc37607334",
+      "bytes": 758170,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "sea-ice",
@@ -1237,10 +1853,16 @@
       "path": "assets/topics/mammals/vocabulary/sea-ice.png",
       "alt": "A floating sea-ice sheet with water visible around its edge.",
       "brief": "A floating sea-ice sheet with water visible around its edge.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "dbb114234f45a85af49e32443fe5e88f12d786577e69187b4791e3a3d37fd11d",
+      "bytes": 565372,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "seagrass",
@@ -1249,10 +1871,16 @@
       "path": "assets/topics/mammals/vocabulary/seagrass.png",
       "alt": "Seagrass rooted in a sandy seabed, with a dugong nearby for context.",
       "brief": "Seagrass rooted in a sandy seabed, with a dugong nearby for context.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "787f755788d46cb3b3fc5ad64c2ae7c6bb4a90664c098bd5fce69e4aa2bf886c",
+      "bytes": 972835,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "walk",
@@ -1261,10 +1889,16 @@
       "path": "assets/topics/mammals/vocabulary/walk.png",
       "alt": "A bear walking, with sequential foot positions in two panels.",
       "brief": "A bear walking, with sequential foot positions in two panels.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "0021baa60fa3b72c8d2216db275ef3dc0372978b252b542b9367960c619e8fc4",
+      "bytes": 412705,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "run",
@@ -1273,10 +1907,16 @@
       "path": "assets/topics/mammals/vocabulary/run.png",
       "alt": "A horse running, with two clear movement poses.",
       "brief": "A horse running, with two clear movement poses.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "818ae5057d79da624a58db61228b5ed27b81fe085c14f1ebaafeda5e8b3463d1",
+      "bytes": 445370,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "hop",
@@ -1285,10 +1925,16 @@
       "path": "assets/topics/mammals/vocabulary/hop.png",
       "alt": "A rabbit hopping with two poses and a short movement arrow.",
       "brief": "A rabbit hopping with two poses and a short movement arrow.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "0203f8103915d14a2e4f56876707f4c08f1b40f0e57bfd0ce26a22532df8d833",
+      "bytes": 414409,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "jump",
@@ -1297,10 +1943,16 @@
       "path": "assets/topics/mammals/vocabulary/jump.png",
       "alt": "A cat jumping up onto a low ledge, with start and landing shown.",
       "brief": "A cat jumping up onto a low ledge, with start and landing shown.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "049d5925e1094ecb51a9477d639211e25d9366e6607d16b11011b136a87878aa",
+      "bytes": 481963,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "climb",
@@ -1309,10 +1961,16 @@
       "path": "assets/topics/mammals/vocabulary/climb.png",
       "alt": "A squirrel climbing a tree trunk.",
       "brief": "A squirrel climbing a tree trunk.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "b15d75a206ab066a91257bdf0227a6666bc3d3b9e5cbbf278ed77ae84236b70a",
+      "bytes": 1048054,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "swim",
@@ -1321,10 +1979,16 @@
       "path": "assets/topics/mammals/vocabulary/swim.png",
       "alt": "A dolphin swimming below the surface.",
       "brief": "A dolphin swimming below the surface.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "063222e2dbc5752d2a608f2e052bccdd5827c6dadfde867589c91c5d2364d225",
+      "bytes": 735562,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "dive",
@@ -1333,10 +1997,16 @@
       "path": "assets/topics/mammals/vocabulary/dive.png",
       "alt": "A seal moving from the surface down into water.",
       "brief": "A seal moving from the surface down into water.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "df969d44940a9e002dab1e52bff6a603ffaedadc217f51b0aece10150465d7f9",
+      "bytes": 804693,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "float",
@@ -1345,10 +2015,16 @@
       "path": "assets/topics/mammals/vocabulary/float.png",
       "alt": "A sea otter lying on its back at the surface.",
       "brief": "A sea otter lying on its back at the surface.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "909c41c63f956f119b1bf2db3d9176666e40dff911fd0664d4865d3dff2c6632",
+      "bytes": 748913,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "fly",
@@ -1357,10 +2033,16 @@
       "path": "assets/topics/mammals/vocabulary/fly.png",
       "alt": "A bat flying with its skin-covered wings spread.",
       "brief": "A bat flying with its skin-covered wings spread.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "8039588ae50072292712c6ac36553e8243eb12da0057c5e79643b0d5b6d89ed6",
+      "bytes": 490148,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "dig",
@@ -1369,10 +2051,16 @@
       "path": "assets/topics/mammals/vocabulary/dig.png",
       "alt": "A wombat moving soil with its front claws.",
       "brief": "A wombat moving soil with its front claws.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "8b5fbbc9112bf1ceeacab1ac1cf0281a278111951add8fc154f67d630d8ed131",
+      "bytes": 928194,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "sniff",
@@ -1381,10 +2069,16 @@
       "path": "assets/topics/mammals/vocabulary/sniff.png",
       "alt": "A dog with its nose close to the ground, sniffing a trail.",
       "brief": "A dog with its nose close to the ground, sniffing a trail.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "d394fad64209d305785849e1b528cca56ac874976fdc413a30a60ba26d3bb26f",
+      "bytes": 667472,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "chew",
@@ -1393,10 +2087,16 @@
       "path": "assets/topics/mammals/vocabulary/chew.png",
       "alt": "A horse chewing grass, shown in a clear face close-up.",
       "brief": "A horse chewing grass, shown in a clear face close-up.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "21deb59ab92d0de544d35fb8a17c83c735dcb1c7be94de92fa4d0407afc12c19",
+      "bytes": 969598,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "drink",
@@ -1405,10 +2105,16 @@
       "path": "assets/topics/mammals/vocabulary/drink.png",
       "alt": "A cat lapping water from a bowl.",
       "brief": "A cat lapping water from a bowl.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "0657d3e4504b52fbdb2541fde108e87451ebc9873d12e0eecda5840180d86b29",
+      "bytes": 817041,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "feed",
@@ -1417,10 +2123,16 @@
       "path": "assets/topics/mammals/vocabulary/feed.png",
       "alt": "A mother cow feeding her calf with milk, no human feeding wildlife.",
       "brief": "A mother cow feeding her calf with milk, no human feeding wildlife.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "67413b8354b3aefcef873997de14a49b14c5264bcf2ba93ddaae5055a1c1d396",
+      "bytes": 764356,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "breathe",
@@ -1429,10 +2141,16 @@
       "path": "assets/topics/mammals/vocabulary/breathe.png",
       "alt": "A whale at the surface with a simple air-flow inset, no underwater breathing.",
       "brief": "A whale at the surface with a simple air-flow inset, no underwater breathing.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "619b90be446dc556b052d2e68bcf128468565b02698b124404fc60f8ee93dbe0",
+      "bytes": 647043,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "sleep",
@@ -1441,10 +2159,16 @@
       "path": "assets/topics/mammals/vocabulary/sleep.png",
       "alt": "A curled-up cat asleep, relaxed eyes closed.",
       "brief": "A curled-up cat asleep, relaxed eyes closed.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "ef02ebd7950ccec2126dcd3a606c1b32bdcb8c0ccf24a364ed024070ffb214df",
+      "bytes": 802024,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "stretch",
@@ -1453,10 +2177,16 @@
       "path": "assets/topics/mammals/vocabulary/stretch.png",
       "alt": "A cat extending its front legs in a stretch.",
       "brief": "A cat extending its front legs in a stretch.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "08d55ec45a9868ee14f92bc7f1de649442f616d4b768daddd1c199e6ea456862",
+      "bytes": 641354,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "groom",
@@ -1465,10 +2195,16 @@
       "path": "assets/topics/mammals/vocabulary/groom.png",
       "alt": "A cat licking its own fur, with the action clearly visible.",
       "brief": "A cat licking its own fur, with the action clearly visible.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "7085246657f71d8b905bf17a4a6712aaaa3e70504b3b466a9737ae6ad635132d",
+      "bytes": 773428,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "carry",
@@ -1477,10 +2213,16 @@
       "path": "assets/topics/mammals/vocabulary/carry.png",
       "alt": "A monkey walking while holding a fruit.",
       "brief": "A monkey walking while holding a fruit.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "04a851476a563dd260c3d89dc105c7988ac9ca4b855d5e776b210d9a8cde89cc",
+      "bytes": 566022,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "hide",
@@ -1489,10 +2231,16 @@
       "path": "assets/topics/mammals/vocabulary/hide.png",
       "alt": "A mouse partly hidden behind a log, still identifiable.",
       "brief": "A mouse partly hidden behind a log, still identifiable.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "2eb80586d696c08d96841dbb318c87b44581868b66b7f9f74007deee93f6c49c",
+      "bytes": 738660,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "kitten",
@@ -1501,10 +2249,16 @@
       "path": "assets/topics/mammals/vocabulary/kitten.png",
       "alt": "A kitten next to its adult mother for size context.",
       "brief": "A kitten next to its adult mother for size context.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "d23b2719f2d3a8a1d4056887527313dba15c860f420891469fb0552520d8a3d8",
+      "bytes": 674312,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "puppy",
@@ -1513,10 +2267,16 @@
       "path": "assets/topics/mammals/vocabulary/puppy.png",
       "alt": "A puppy next to its adult mother for size context.",
       "brief": "A puppy next to its adult mother for size context.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "27898b180316b728e723d97fa1aeaf4941daedb1c48df490fc7f8376e1eb1a5c",
+      "bytes": 687038,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "calf",
@@ -1525,10 +2285,16 @@
       "path": "assets/topics/mammals/vocabulary/calf.png",
       "alt": "A young calf beside an adult cow.",
       "brief": "A young calf beside an adult cow.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "867bae4ceb91d4fe7977ddcf54098fa08a787bde50bcf3f636f8b8535d02c1df",
+      "bytes": 759378,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "lamb",
@@ -1537,10 +2303,16 @@
       "path": "assets/topics/mammals/vocabulary/lamb.png",
       "alt": "A lamb beside an adult sheep.",
       "brief": "A lamb beside an adult sheep.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "a75f89aed2884c0ec84d91bccdfe2aa0381175971a5815fd0e762f9e47614c0a",
+      "bytes": 795403,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "kid",
@@ -1549,10 +2321,16 @@
       "path": "assets/topics/mammals/vocabulary/kid.png",
       "alt": "A young goat beside an adult goat, clearly not a human child.",
       "brief": "A young goat beside an adult goat, clearly not a human child.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "3061c9007ad9409d8133ffbc7cd150eeb261764c0466bffdf59ef6945928e32d",
+      "bytes": 722022,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "foal",
@@ -1561,10 +2339,16 @@
       "path": "assets/topics/mammals/vocabulary/foal.png",
       "alt": "A foal with long legs standing beside a mare.",
       "brief": "A foal with long legs standing beside a mare.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "85dbc52d9ed46ff6d2e840bd35f69116d625399edc0ecd29ce85249482744d0b",
+      "bytes": 623474,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "cub",
@@ -1573,10 +2357,16 @@
       "path": "assets/topics/mammals/vocabulary/cub.png",
       "alt": "A lion cub beside an adult lioness.",
       "brief": "A lion cub beside an adult lioness.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "d5e594daa3961c97355f67fd02fcefd43ce02142fbc5240eaf20fc661493de4e",
+      "bytes": 675206,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
       "id": "joey",
@@ -1585,10 +2375,16 @@
       "path": "assets/topics/mammals/vocabulary/joey.png",
       "alt": "A kangaroo joey peeking out from its mother's pouch.",
       "brief": "A kangaroo joey peeking out from its mother's pouch.",
-      "status": "missing",
-      "canvas": "1024x1024",
-      "format": "PNG, sRGB, genuine alpha where appropriate",
-      "sha256": null
+      "status": "supplied",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "format": "PNG, RGBA, sRGB",
+      "sha256": "aa45f3b7d06103cca97430f2e6af20e10f01ea08790fadd8ae60685d426f2dc0",
+      "bytes": 511279,
+      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     }
   ],
   "other": [
@@ -1609,74 +2405,94 @@
       "sha256": null
     },
     {
-      "path": "assets/topics/mammals/categories/mammals.png",
-      "status": "reserved-css-text-fallback",
-      "sha256": null
+      "path": "assets/topics/mammals/generated/club-badge.png",
+      "status": "installed-draft",
+      "sha256": "202772364168aca5730f47d205eeb4e10ff4f0629254a72ca0b6953ec72af969",
+      "bytes": 3041451
     },
     {
-      "path": "assets/topics/mammals/categories/fish.png",
-      "status": "reserved-css-text-fallback",
-      "sha256": null
+      "path": "assets/topics/mammals/detective/elephant-scene.png",
+      "status": "installed-draft",
+      "sha256": "d2bec18f539d1c2bd2eeacf2f4a1d188e0f71adc828286b44dd62ac068cd24ef",
+      "bytes": 3055746
     },
     {
-      "path": "assets/topics/mammals/categories/bodies.png",
-      "status": "reserved-css-text-fallback",
-      "sha256": null
-    },
-    {
-      "path": "assets/topics/mammals/categories/places.png",
-      "status": "reserved-css-text-fallback",
-      "sha256": null
-    },
-    {
-      "path": "assets/topics/mammals/categories/actions.png",
-      "status": "reserved-css-text-fallback",
-      "sha256": null
-    },
-    {
-      "path": "assets/topics/mammals/categories/young.png",
-      "status": "reserved-css-text-fallback",
-      "sha256": null
+      "path": "assets/topics/mammals/detective/elephant-cutout.png",
+      "status": "installed-draft",
+      "sha256": "ba6b255233dbd7d50e17216f9900cf95f0fe5a150e24fc80f07321b67f9faf9b",
+      "bytes": 2561335
     },
     {
       "path": "assets/topics/mammals/menu/learn.png",
-      "status": "reserved-css-text-fallback",
-      "sha256": null
+      "status": "installed-draft",
+      "sha256": "02c1c45e5eecc44ab24114308c4ccda593bea3452c532b418c7608d6e0205434",
+      "bytes": 2339634
     },
     {
       "path": "assets/topics/mammals/menu/sort.png",
-      "status": "reserved-css-text-fallback",
-      "sha256": null
+      "status": "installed-draft",
+      "sha256": "0949b2b041b15987b4773f0d4732a76f32ac016e0b47dc2899c2a5e40c09fac7",
+      "bytes": 2295859
     },
     {
-      "path": "assets/topics/mammals/menu/sound.png",
-      "status": "reserved-css-text-fallback",
-      "sha256": null
+      "path": "assets/topics/mammals/menu/detective.png",
+      "status": "installed-draft",
+      "sha256": "6c5cf8a3ae6f713405955e1b699133a7e2919aa6018a7fa585fd6d515661d32d",
+      "bytes": 1872702
     },
     {
       "path": "assets/topics/mammals/menu/identify.png",
-      "status": "reserved-css-text-fallback",
-      "sha256": null
+      "status": "installed-draft",
+      "sha256": "68c977195f3f6635884fe6c48d1376658fa7deb96e8cfb0cd5bdd1d6ab54d870",
+      "bytes": 2209572
     },
     {
       "path": "assets/topics/mammals/menu/knowledge.png",
-      "status": "reserved-css-text-fallback",
-      "sha256": null
+      "status": "installed-draft",
+      "sha256": "f1b68378f028f44db27329ec9fc7be59b9797b87b6849e11b2c251eac99dbe7b",
+      "bytes": 2490037
     },
     {
       "path": "assets/topics/mammals/menu/spelling.png",
-      "status": "reserved-css-text-fallback",
-      "sha256": null
+      "status": "installed-draft",
+      "sha256": "2599a7b79579f205aa936962cf3f6996f4df60e5563ba9c74b9fd07b2d1ed8f3",
+      "bytes": 2314411
     },
     {
       "path": "assets/topics/mammals/menu/flip.png",
-      "status": "reserved-css-text-fallback",
-      "sha256": null
+      "status": "installed-draft",
+      "sha256": "c4bb76cc50a0c5bc25f8d5beccdb8de27310cb8cc192651dd966c2d6758b9ca5",
+      "bytes": 2314122
     },
     {
       "path": "assets/topics/mammals/menu/wheel.png",
-      "status": "reserved-css-text-fallback",
-      "sha256": null
+      "status": "installed-draft",
+      "sha256": "f08d92e87660f9d71369ee06164e281826db0e4a7d7968a04cc106b6766a2f20",
+      "bytes": 2747361
+    },
+    {
+      "path": "assets/topics/mammals/menu/story.png",
+      "status": "installed-draft",
+      "sha256": "8cf27e7537b9de032ab2e926e298cad789900ce812c56d7205643472fcfcc03a",
+      "bytes": 2457413
+    },
+    {
+      "path": "assets/topics/mammals/menu/video.png",
+      "status": "installed-draft",
+      "sha256": "ccc1a55206c2f57882e8bded2e8850d50ad22341e650e17ea95cb900bb5875b0",
+      "bytes": 2374476
+    },
+    {
+      "path": "assets/topics/mammals/menu/phonics.png",
+      "status": "installed-draft",
+      "sha256": "a666f216ba3daf9f95ea0bd3a487fa42039c3583b838ef784807d37843a3816f",
+      "bytes": 2513409
+    },
+    {
+      "path": "assets/topics/mammals/menu/create.png",
+      "status": "installed-draft",
+      "sha256": "75b799df821d45ddeab0214733e6e2e287786e442111403fcaaa24311dfa5584",
+      "bytes": 2195217
     }
   ]
 }

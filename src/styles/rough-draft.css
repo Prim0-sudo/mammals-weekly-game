@@ -27,3 +27,108 @@
 @media(min-width:800px) and (max-height:750px){:root{--toolbar-height:60px}.launch-screen,.menu-screen{padding-top:18px;padding-bottom:18px}}
 @media(max-width:700px){:root{--toolbar-height:64px}.launch-screen,.menu-screen{padding:24px 14px}}
 @media(min-width:800px) and (max-height:650px){.menu-screen{padding-top:12px;padding-bottom:12px}.menu-screen .mode-card{min-height:160px;padding:10px 12px 14px}.menu-screen .mode-card strong{font-size:16px;margin:5px 0}.menu-screen .mode-description{font-size:11px}}
+
+/* Reserved reading, video and early-literacy activities. */
+.icon-story i{width:60px;height:45px;left:14px;top:15px;background:linear-gradient(90deg,#fff8de 47%,#b5bc91 49%,#fff8de 52%);border:3px solid var(--line);border-radius:8px 8px 4px 4px;transform:rotate(-7deg);box-shadow:0 4px 0 #7c997166}.icon-story b{width:15px;height:3px;background:#95a77c;top:28px;left:23px;box-shadow:0 8px #95a77c,0 16px #95a77c}.icon-story em{width:9px;height:24px;background:#ba5841;left:53px;top:15px;clip-path:polygon(0 0,100% 0,100% 100%,50% 75%,0 100%)}
+.icon-video i{width:65px;height:46px;left:12px;top:14px;border:3px solid var(--line);border-radius:9px;background:#d6ece8;box-shadow:0 4px #7c997166}.icon-video b{width:0;height:0;left:37px;top:26px;border-top:12px solid transparent;border-bottom:12px solid transparent;border-left:19px solid var(--line)}
+.icon-phonics i,.icon-phonics b{width:36px;height:43px;top:17px;left:8px;border:3px solid var(--line);border-radius:7px;background:#fff8de;transform:rotate(-9deg)}.icon-phonics b{left:45px;transform:rotate(9deg);background:#d4e2bd}.icon-phonics i:after,.icon-phonics b:after{display:block;text-align:center;font:bold 29px Georgia,serif;line-height:37px;color:var(--line);content:'a'}.icon-phonics b:after{content:'sh';font-size:20px}
+
+.icon-create i{width:47px;height:55px;left:15px;top:9px;border:3px solid var(--line);border-radius:7px;background:#fff8de;transform:rotate(-7deg)}.icon-create b{width:11px;height:54px;left:59px;top:8px;border:2px solid #8f6937;border-radius:3px;background:linear-gradient(90deg,#d59538 50%,#f4ce73 50%);transform:rotate(30deg)}.icon-create em{width:23px;height:17px;left:27px;top:25px;border:3px solid #95a77c;border-radius:50% 50% 35% 35%;box-shadow:0 9px 0 -4px #95a77c}
+
+.icon-detective i{width:42px;height:42px;border:5px solid #477461;border-radius:50%;left:14px;top:6px;background:conic-gradient(#d6ece8 0 90deg,#a9c887 90deg 180deg,#fff8de 180deg 270deg,#d6ece8 270deg);box-shadow:inset 3px 2px #fff9}.icon-detective b{height:32px;width:12px;background:#b78548;border:3px solid #775a37;transform:rotate(-43deg);left:52px;top:41px;border-radius:4px}
+
+/* Large Detective picture, with controls kept outside the reveal. */
+[data-game="detective"] .progress-line{display:none}
+.detective-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:28px 0}
+.detective-options .session-card{display:flex;align-items:center;gap:16px;min-height:230px;text-align:center;padding:24px}
+.detective-option-icon{font:64px Georgia,serif;color:#477461}
+.detective-demo-note{text-align:center;color:#52665b;margin:18px}
+.detective-stage{position:relative;display:grid;place-items:center;margin:16px auto;max-width:100%;border:2px solid #9bad83;border-radius:18px;overflow:hidden;background:#f5f1df}
+.detective-canvas{display:block;width:100%;height:auto;max-height:58svh;object-fit:contain}
+.detective-loading{position:absolute;padding:18px;background:#fff8de;border-radius:12px;max-width:90%;text-align:center}
+.detective-status{display:flex;gap:18px;align-items:center;justify-content:center;margin:14px 0;flex-wrap:wrap;color:#365d43;font-weight:bold}
+.detective-status progress{width:min(280px,70vw);accent-color:#477461}
+.detective-controls{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:16px 0}
+.detective-controls .button{font-size:16px;padding:12px 18px}
+.detective-answers p{text-align:center;margin:12px}
+[data-game="detective"] .feedback{min-height:32px;text-align:center}
+@media(max-width:700px){.detective-options{grid-template-columns:1fr;gap:12px}.detective-options .session-card{min-height:150px;padding:18px}.detective-option-icon{font-size:40px}.detective-canvas{max-height:50svh}}
+
+/* Compact labels, generous breathing room, no arrow decorations. */
+.menu-heading{margin-bottom:24px;padding:14px 30px}
+.menu-heading h1{margin:0}
+.mode-card{justify-content:center;min-height:154px;padding:18px 12px}
+.mode-card strong{margin:12px 0 0}
+.mode-card:before{top:18px}
+.detective-options .session-card{min-height:190px}
+.game-heading{margin:12px 0 20px}
+.game-heading h1{margin-bottom:0}
+.detective-stage{margin-top:0}
+.detective-controls{gap:12px}
+.detective-controls .button{min-width:90px}
+.detective-status:has(#detective-time[hidden]):not(:has(.detective-durations:not([hidden]))){display:none}
+.field-notes{padding:24px 16px}
+.field-notes .note-stamps{margin:0}
+.wheel-pointer{top:calc(50% - 12px);right:-12px;width:24px;height:24px;border:4px solid #fff7d2;border-radius:50%;background:#bd503c}
+.icon-wheel em{width:13px;height:13px;right:3px;top:28px;border:2px solid #fff7d2;border-radius:50%;background:#ba5841}
+@media(max-width:700px){.mode-card{min-height:144px}.detective-options .session-card{min-height:130px}.menu-heading{padding:12px}.detective-controls .button{min-width:78px}}
+
+.detective-durations{display:flex;gap:4px;padding:4px;border:1px solid #a9b997;border-radius:24px;background:#eeeeda}.detective-durations .subtle{min-width:62px;min-height:44px;border:0;border-radius:20px;padding:8px 14px;background:transparent}.detective-durations .subtle[aria-pressed="true"]{background:#295e55;color:#fffbee;box-shadow:0 2px 4px #294d4822}.detective-status:has(.detective-durations:not([hidden])) #detective-progress{display:none}
+
+.reading-card{display:grid;grid-template-columns:minmax(160px,1fr) minmax(0,2fr);gap:24px;align-items:center;margin:12px auto;max-width:900px}
+.reading-art{display:block;width:100%;height:260px;object-fit:contain}
+.reading-card .sentence-reading{min-height:180px}
+@media(max-width:700px){.reading-card{grid-template-columns:1fr;gap:8px}.reading-art{height:180px}.reading-card .sentence-reading{min-height:100px}}
+
+.teacher-note summary{list-style:none}.teacher-note summary::-webkit-details-marker{display:none}
+
+/* Give the learning artwork twice its previous 285px display height. */
+[data-game="learn"]:has(.learn-layout){max-width:1600px;min-height:calc(100svh - 104px)}
+[data-game="learn"] .learn-layout{max-width:none;grid-template-columns:minmax(0,2fr) minmax(260px,1fr);gap:32px;min-height:570px}
+[data-game="learn"] .feature-art{height:570px;max-height:none;object-fit:contain}
+@media(max-width:800px){[data-game="learn"] .learn-layout{grid-template-columns:1fr;min-height:0;gap:24px}[data-game="learn"] .feature-art{height:min(570px,86vw)}[data-game="learn"] .learn-copy{max-width:600px;width:100%;margin:auto}}
+
+/* Illustrated invitation to explore. */
+.welcome .explore-button{display:inline-flex;align-items:center;justify-content:center;gap:16px;min-width:220px;min-height:80px;padding:7px 26px 7px 8px;border:3px solid #c5b779;border-radius:48px;background:linear-gradient(145deg,#477b52,#234e39);box-shadow:0 5px 0 #193e2e,0 9px 16px #294c3826,inset 0 1px 0 #ffffff40;font-size:21px;color:#fffbed}
+.explore-badge{display:grid;place-items:center;flex-shrink:0;width:60px;height:60px;border-radius:50%;background:radial-gradient(circle at 35% 25%,#fffdf0,#e4d7aa);border:2px solid #e3cf8d;box-shadow:0 2px 5px #102e2b40}
+.explore-art{display:block;width:54px;height:54px;object-fit:contain;transform:rotate(-12deg)}
+.welcome .explore-button:focus-visible{outline:3px solid #527b5c;outline-offset:5px}
+
+/* Matching woodland club buttons, with a painted badge as the focal point. */
+.welcome .explore-button{position:relative;isolation:isolate;min-width:270px;max-width:100%;min-height:88px;padding:8px 28px 8px 94px;gap:0;border:2px solid #e7d7a0;border-radius:48% 45% 44% 48% / 50%;background:radial-gradient(ellipse at 70% 12%,#78945a55,transparent 55%),linear-gradient(165deg,#416641,#183f2b 70%,#315737);box-shadow:0 0 0 3px #365b3a,0 0 0 6px #fffbe9,0 7px 0 5px #294b3133,0 12px 20px #173d3033,inset 0 2px 6px #d4df9b55;letter-spacing:.02em;font-size:21px}
+.explore-badge{position:absolute;left:-8px;top:50%;transform:translateY(-50%);width:98px;height:98px;border:0;background:none;box-shadow:none}
+.explore-art{width:100%;height:100%;object-fit:contain;transform:none;filter:drop-shadow(0 3px 3px #0b2d3240)}
+.welcome .explore-button:focus-visible{outline:3px solid #3d7184;outline-offset:10px}
+#home.brand{min-height:56px;padding:3px 20px 3px 3px;gap:10px;border:1px solid #fffdf0;border-radius:32px;background:linear-gradient(140deg,#fffdf0f5,#eeefd9ed);box-shadow:0 4px 12px #214b3826,inset 0 0 0 2px #b7bc8833;color:#214b38;font-size:15px}
+#home #brand-image{width:48px;height:48px;object-fit:contain;filter:drop-shadow(0 2px 2px #214b3826)}
+@media(max-width:700px){.welcome .explore-button{min-width:230px;min-height:78px;padding-left:80px;padding-right:20px;font-size:19px}.explore-badge{width:88px;height:88px;left:-8px}#home.brand{font-size:12px;gap:6px;padding-right:12px;min-height:48px}#home #brand-image{width:40px;height:40px}}
+
+/* The badge itself is the landing-page play button. */
+.welcome .explore-button{display:inline-grid;place-items:center;width:190px;height:190px;min-width:0;min-height:0;max-width:100%;padding:0;border:0;border-radius:50%;background:transparent;box-shadow:none;vertical-align:middle}
+.welcome .explore-badge{position:static;display:block;width:100%;height:100%;transform:none}
+.welcome .explore-art{width:100%;height:100%;filter:drop-shadow(0 5px 5px #18392940)}
+.welcome .explore-button:focus-visible{outline:3px solid #527b5c;outline-offset:5px}
+@media(max-width:700px){.welcome .explore-button{width:165px;height:165px;padding:0;min-width:0;min-height:0}}
+
+/* Curved club lettering floats around the badge on the landscape. */
+.welcome.welcome-badge{width:auto;max-width:100%;padding:0;margin:0;background:none;border:0;border-radius:0;box-shadow:none}
+.welcome-badge #welcome-title{margin:0;padding:0}
+.welcome-badge .explore-button{width:340px;height:340px;max-width:86vw;max-height:86vw}
+.welcome-badge .explore-badge{position:absolute;inset:16%;width:68%;height:68%;transform:none}
+.club-lettering{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none;fill:#214b38;font-family:Georgia,serif;font-weight:bold;paint-order:stroke fill;stroke:#fff9de;stroke-width:3px;stroke-linejoin:round;filter:drop-shadow(0 2px 2px #15382b30)}
+.club-top-text{font-size:38px;letter-spacing:2px}.club-bottom-text{font-size:29px;letter-spacing:1px}
+.welcome-badge .explore-button:focus-visible{outline-offset:7px}
+.welcome-badge .explore-button{transition:transform .22s ease,filter .22s ease;transform-origin:center}
+@media(hover:hover){.welcome-badge .explore-button:hover{transform:scale(1.1)}}
+.welcome-badge .explore-button:active{transform:scale(1.04)}
+@media(prefers-reduced-motion:reduce){.welcome-badge .explore-button{transition:none}}
+
+/* Supplied artwork gives the activity menu the same painted style as the cards. */
+.mode-card:has(img.mode-art){min-height:180px;padding:10px 12px 16px}
+.mode-card:has(img.mode-art):before{display:none}
+.mode-card img.mode-art{display:block;width:112px;height:112px;max-width:100%;object-fit:contain;margin:0 auto;filter:drop-shadow(0 3px 3px #2e503b15)}
+.mode-card:has(img.mode-art) strong{margin-top:8px}
+@media(max-width:700px){.mode-card:has(img.mode-art){min-height:164px}.mode-card img.mode-art{width:94px;height:94px}}
+
+/* Keep the custom illustrations legible on future activity tiles. */
+.mode-card:disabled img.mode-art{opacity:1}

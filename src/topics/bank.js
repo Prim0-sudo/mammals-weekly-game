@@ -139,5 +139,5 @@ export const bank=Object.entries(groups).flatMap(([categoryId,raw])=>raw.split('
  const [name,definition,imageAlt,sentence]=line.split('|');
  const id=name.replaceAll(' ','-');
  const generated=false;
- return {id,name,categoryId,definition,imageAlt,sentence,kind:'word',image:`assets/topics/mammals/${generated?'generated':'vocabulary'}/${id}.png`,assetStatus:generated?'generated-draft':'missing',artProvenance:generated?'Built-in imagegen, 4 October 2026; teacher review pending':'not-supplied',provenance:source.has(name)?'source-concept':'draft-extension',reviewStatus:'teacher-review-pending'};
+ return {id,name,categoryId,definition,imageAlt,sentence,kind:'word',image:`assets/topics/mammals/vocabulary/${id}.png`,assetStatus:'supplied',artProvenance:({horn:'User-supplied Goat Head with Two Curved Horns-2.png',tusk:'User-supplied Front-facing walrus with two visible tusks-1.png'})[id] || 'User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026',provenance:source.has(name)?'source-concept':'draft-extension',reviewStatus:'teacher-review-pending'};
 }));

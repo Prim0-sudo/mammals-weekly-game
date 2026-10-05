@@ -1,3 +1,7 @@
+## Local artwork integration — 5 October 2026
+
+All 132 vocabulary PNGs from Mammal_Discovery_Club_132_Game_Assets.zip are installed byte-for-byte with verified delivery checksums, 1024 × 1024 RGBA canvases and transparency. Category cards reuse suitable pictures, reading cards include illustrations, and quiz sets use pictures only when all three choices have matching artwork. Existing learning, sorting, identification, spelling, Flip and Wheel markers consume the same vocabulary assets. Detective code and artwork were not changed for this import. Source records: docs/supplied-artwork.json and docs/supplied-artwork-manifest.json. The larger Complete_132 archive in Downloads was not readable as a complete ZIP; the game-assets archive contains the full 132-picture delivery. Local verification: 11 Node tests, 20 browser tests, checksum/content checks and build passed. This update has not been published.
+
 # Mammal Discovery Club handoff
 
 ## Latest visual update — 4 October 2026

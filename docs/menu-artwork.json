@@ -1,0 +1,198 @@
+{
+  "generatedOn": "2026-10-05",
+  "tool": "built-in image generation",
+  "entries": [
+    {
+      "id": "learn",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a10a05-b2cb-7e30-bc16-163615c51cd8\\exec-c70ed1c7-8686-4e4f-b6d8-b7cfb2d203a4.png",
+      "prompt": "Create a single production-ready PNG illustration for a children's Mammal Discovery Club activity menu. Warm painterly natural-history storybook watercolor, refined detailed brushwork matching painted woodland animal artwork. Consistent forest green, russet, muted ochre gold and warm cream palette, soft tactile materials. One cohesive centered composition, readable as a thumbnail at 120px, occupies about 85% of square canvas. Genuine transparent background outside the artwork. No enclosing badge or frame, no full scene background, no drop shadow baked into canvas, no arrows, no UI mockup, no captions, no text except explicitly requested letter tiles. Subject: An open cream field-guide book showing a friendly red squirrel illustration on one page and a small oak leaf on the other; no writing.",
+      "path": "assets/topics/mammals/menu/learn.png",
+      "sha256": "02c1c45e5eecc44ab24114308c4ccda593bea3452c532b418c7608d6e0205434",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "sort",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a10a05-b2cb-7e30-bc16-163615c51cd8\\exec-0253abb9-814b-4e9c-a644-1b2bd983061b.png",
+      "prompt": "Create a single production-ready PNG illustration for a children's Mammal Discovery Club activity menu. Warm painterly natural-history storybook watercolor, refined detailed brushwork matching painted woodland animal artwork. Consistent forest green, russet, muted ochre gold and warm cream palette, soft tactile materials. One cohesive centered composition, readable as a thumbnail at 120px, occupies about 85% of square canvas. Genuine transparent background outside the artwork. No enclosing badge or frame, no full scene background, no drop shadow baked into canvas, no arrows, no UI mockup, no captions, no text except explicitly requested letter tiles. Subject: Three small woven baskets containing friendly animal picture cards, a rabbit, a lion, and a dolphin, arranged as a neat sorting activity.",
+      "path": "assets/topics/mammals/menu/sort.png",
+      "sha256": "0949b2b041b15987b4773f0d4732a76f32ac016e0b47dc2899c2a5e40c09fac7",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "detective",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a10a05-b2cb-7e30-bc16-163615c51cd8\\exec-9e0c0ec5-187d-4e0b-a273-659e12fdf98b.png",
+      "prompt": "Create a single production-ready PNG illustration for a children's Mammal Discovery Club activity menu. Warm painterly natural-history storybook watercolor, refined detailed brushwork matching painted woodland animal artwork. Consistent forest green, russet, muted ochre gold and warm cream palette, soft tactile materials. One cohesive centered composition, readable as a thumbnail at 120px, occupies about 85% of square canvas. Genuine transparent background outside the artwork. No enclosing badge or frame, no full scene background, no drop shadow baked into canvas, no arrows, no UI mockup, no captions, no text except explicitly requested letter tiles. Subject: A polished brass magnifying glass over a mammal paw print on a cream field-note card; an oak leaf alongside.",
+      "path": "assets/topics/mammals/menu/detective.png",
+      "sha256": "6c5cf8a3ae6f713405955e1b699133a7e2919aa6018a7fa585fd6d515661d32d",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "identify",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a10a05-b2cb-7e30-bc16-163615c51cd8\\exec-ddef6576-92b6-4072-99fc-022b018c89a2.png",
+      "prompt": "Create a single production-ready PNG illustration for a children's Mammal Discovery Club activity menu. Warm painterly natural-history storybook watercolor, refined detailed brushwork matching painted woodland animal artwork. Consistent forest green, russet, muted ochre gold and warm cream palette, soft tactile materials. One cohesive centered composition, readable as a thumbnail at 120px, occupies about 85% of square canvas. Genuine transparent background outside the artwork. No enclosing badge or frame, no full scene background, no drop shadow baked into canvas, no arrows, no UI mockup, no captions, no text except explicitly requested letter tiles. Subject: Three little upright animal portrait cards showing a rabbit, red squirrel, and hedgehog, with a brass magnifying glass examining the middle card.",
+      "path": "assets/topics/mammals/menu/identify.png",
+      "sha256": "68c977195f3f6635884fe6c48d1376658fa7deb96e8cfb0cd5bdd1d6ab54d870",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "knowledge",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a10a05-b2cb-7e30-bc16-163615c51cd8\\exec-504b8469-b552-40e7-9dd8-39074ad3c93b.png",
+      "prompt": "Create a single production-ready PNG illustration for a children's Mammal Discovery Club activity menu. Warm painterly natural-history storybook watercolor, refined detailed brushwork matching painted woodland animal artwork. Consistent forest green, russet, muted ochre gold and warm cream palette, soft tactile materials. One cohesive centered composition, readable as a thumbnail at 120px, occupies about 85% of square canvas. Genuine transparent background outside the artwork. No enclosing badge or frame, no full scene background, no drop shadow baked into canvas, no arrows, no UI mockup, no captions, no text except explicitly requested letter tiles. Subject: A friendly brown bear cub beside a protective forest-green shield bearing a simple cream paw mark, conveying animal care and safety.",
+      "path": "assets/topics/mammals/menu/knowledge.png",
+      "sha256": "f1b68378f028f44db27329ec9fc7be59b9797b87b6849e11b2c251eac99dbe7b",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "spelling",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a10a05-b2cb-7e30-bc16-163615c51cd8\\exec-17178103-757e-4a22-b835-8135ea551aed.png",
+      "prompt": "Create a single production-ready PNG illustration for a children's Mammal Discovery Club activity menu. Warm painterly natural-history storybook watercolor, refined detailed brushwork matching painted woodland animal artwork. Consistent forest green, russet, muted ochre gold and warm cream palette, soft tactile materials. One cohesive centered composition, readable as a thumbnail at 120px, occupies about 85% of square canvas. Genuine transparent background outside the artwork. No enclosing badge or frame, no full scene background, no drop shadow baked into canvas, no arrows, no UI mockup, no captions, no text except explicitly requested letter tiles. Subject: A cream field notebook open beside a warm wooden pencil and small paw print stamp; ruled lines but absolutely no letters or writing.",
+      "path": "assets/topics/mammals/menu/spelling.png",
+      "sha256": "2599a7b79579f205aa936962cf3f6996f4df60e5563ba9c74b9fd07b2d1ed8f3",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "flip",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a10a05-b2cb-7e30-bc16-163615c51cd8\\exec-48beeea7-3ecc-4cd1-832e-10240afda796.png",
+      "prompt": "Create a single production-ready PNG illustration for a children's Mammal Discovery Club activity menu. Warm painterly natural-history storybook watercolor, refined detailed brushwork matching painted woodland animal artwork. Consistent forest green, russet, muted ochre gold and warm cream palette, soft tactile materials. One cohesive centered composition, readable as a thumbnail at 120px, occupies about 85% of square canvas. Genuine transparent background outside the artwork. No enclosing badge or frame, no full scene background, no drop shadow baked into canvas, no arrows, no UI mockup, no captions, no text. Subject: Two overlapping rounded cream memory-game cards, both with matching painted red squirrel portraits; one turned slightly, clearly a matching pair.",
+      "path": "assets/topics/mammals/menu/flip.png",
+      "sha256": "c4bb76cc50a0c5bc25f8d5beccdb8de27310cb8cc192651dd966c2d6758b9ca5",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "wheel",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a10a05-b2cb-7e30-bc16-163615c51cd8\\exec-4da86807-91f3-432c-8c50-50763dc385e1.png",
+      "prompt": "Create a single production-ready PNG illustration for a children's Mammal Discovery Club activity menu. Warm painterly natural-history storybook watercolor, refined detailed brushwork matching painted woodland animal artwork. Consistent forest green, russet, muted ochre gold and warm cream palette, soft tactile materials. One cohesive centered composition, readable as a thumbnail at 120px, occupies about 85% of square canvas. Genuine transparent background outside the artwork. No enclosing badge or frame, no full scene background, no drop shadow baked into canvas, no arrows, no UI mockup, no captions, no text except explicitly requested letter tiles. Subject: A beautiful wooden circular spinner wheel with six muted green, golden yellow, rust and teal segments, tiny mammal portraits on several segments, a brass central hub and small round marker.",
+      "path": "assets/topics/mammals/menu/wheel.png",
+      "sha256": "f08d92e87660f9d71369ee06164e281826db0e4a7d7968a04cc106b6766a2f20",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "story",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a10a05-b2cb-7e30-bc16-163615c51cd8\\exec-c1e424a8-0756-49df-9304-2738dd167869.png",
+      "prompt": "Create a single production-ready PNG illustration for a children's Mammal Discovery Club activity menu. Warm painterly natural-history storybook watercolor, refined detailed brushwork matching painted woodland animal artwork. Consistent forest green, russet, muted ochre gold and warm cream palette, soft tactile materials. One cohesive centered composition, readable as a thumbnail at 120px, occupies about 85% of square canvas. Genuine transparent background outside the artwork. No enclosing badge or frame, no full scene background, no drop shadow baked into canvas, no arrows, no UI mockup, no captions, no text except explicitly requested letter tiles. Subject: An open storybook with a tiny friendly rabbit and leafy woodland illustration emerging gently above its pages, storybook atmosphere; absolutely no writing.",
+      "path": "assets/topics/mammals/menu/story.png",
+      "sha256": "8cf27e7537b9de032ab2e926e298cad789900ce812c56d7205643472fcfcc03a",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "video",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a10a05-b2cb-7e30-bc16-163615c51cd8\\exec-a449ba52-008a-4f2b-a776-e50c9609a900.png",
+      "prompt": "Create a single production-ready PNG illustration for a children's Mammal Discovery Club activity menu. Warm painterly natural-history storybook watercolor, refined detailed brushwork matching painted woodland animal artwork. Consistent forest green, russet, muted ochre gold and warm cream palette, soft tactile materials. One cohesive centered composition, readable as a thumbnail at 120px, occupies about 85% of square canvas. Genuine transparent background outside the artwork. No enclosing badge or frame, no full scene background, no drop shadow baked into canvas, no arrows, no UI mockup, no captions, no text except explicitly requested letter tiles. Subject: A cream rounded miniature screen with a painted woodland squirrel scene and a simple forest-green triangular play symbol in its centre; moss and oak leaf beneath.",
+      "path": "assets/topics/mammals/menu/video.png",
+      "sha256": "ccc1a55206c2f57882e8bded2e8850d50ad22341e650e17ea95cb900bb5875b0",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "phonics",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a10a05-b2cb-7e30-bc16-163615c51cd8\\exec-b9140643-433e-49c9-ab5b-123b8dd839d4.png",
+      "prompt": "Create a single production-ready PNG illustration for a children's Mammal Discovery Club activity menu. Warm painterly natural-history storybook watercolor, refined detailed brushwork matching painted woodland animal artwork. Consistent forest green, russet, muted ochre gold and warm cream palette, soft tactile materials. One cohesive centered composition, readable as a thumbnail at 120px, occupies about 85% of square canvas. Genuine transparent background outside the artwork. No enclosing badge or frame, no full scene background, no drop shadow baked into canvas, no arrows, no UI mockup, no captions, no text except explicitly requested letter tiles. Subject: Three cream wooden letter tiles with the only exact text 'a', 'sh', and 'the', clearly legible dark forest-green lowercase lettering, arranged with a small oak leaf and a friendly squirrel listening.",
+      "path": "assets/topics/mammals/menu/phonics.png",
+      "sha256": "a666f216ba3daf9f95ea0bd3a487fa42039c3583b838ef784807d37843a3816f",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "create",
+      "source": "C:\\Users\\User\\.codex\\generated_images\\01a10a05-b2cb-7e30-bc16-163615c51cd8\\exec-a4642f13-d03d-47dc-a5b7-26df4302b0e6.png",
+      "prompt": "Create a single production-ready PNG illustration for a children's Mammal Discovery Club activity menu. Warm painterly natural-history storybook watercolor, refined detailed brushwork matching painted woodland animal artwork. Consistent forest green, russet, muted ochre gold and warm cream palette, soft tactile materials. One cohesive centered composition, readable as a thumbnail at 120px, occupies about 85% of square canvas. Genuine transparent background outside the artwork. No enclosing badge or frame, no full scene background, no drop shadow baked into canvas, no arrows, no UI mockup, no captions, no text except explicitly requested letter tiles. Subject: A cream sketchbook with a simple rabbit drawing, three coloured pencils in warm green, russet and golden yellow, and two small round speech bubbles without any text.",
+      "path": "assets/topics/mammals/menu/create.png",
+      "sha256": "75b799df821d45ddeab0214733e6e2e287786e442111403fcaaa24311dfa5584",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ]
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 # Artwork and motion delivery brief
 
-**Current brief:** [IMAGE-REQUEST.md](IMAGE-REQUEST.md) supersedes the original interface proposals below. The landing page uses an installed animal-free background, CSS badge/button and empty future animation layers. No static animals belong on it. 132 vocabulary images await approval; 16 optional interface slots use CSS/text. Unused generated animal drafts are archived locally and are excluded from publication.
+**Current brief:** [IMAGE-REQUEST.md](IMAGE-REQUEST.md) supersedes the original interface proposals below. The landing page uses an installed animal-free background, CSS badge/button and empty future animation layers. No static animals belong on it. All 132 user-supplied vocabulary images are installed. Categories reuse vocabulary artwork; optional interface slots use CSS. Unused generated animal drafts are archived locally and are excluded from publication.
 
-Vocabulary: see IMAGE-CHECKLIST.md and asset-manifest.json, keyed by 132 stable IDs. All images are currently missing. The original curriculum PNG is retained byte-for-byte with SHA-256; it is a reference document, not an approved learning asset. No paid image generation was used. No animal art was improvised or borrowed from Little Bug Club.
+Vocabulary: see IMAGE-CHECKLIST.md and asset-manifest.json, keyed by 132 stable IDs. All 132 vocabulary images are installed with verified delivery checksums. The original curriculum PNG is retained byte-for-byte with SHA-256; it is a reference document, not an approved learning asset. No paid image generation was used. No animal art was improvised or borrowed from Little Bug Club.
 
 ## Separate interface art
 
@@ -12,7 +12,7 @@ Vocabulary: see IMAGE-CHECKLIST.md and asset-manifest.json, keyed by 132 stable 
 - Six category cards: categories/{mammals,fish,bodies,places,actions,young}.png, 1024 × 1024. Category-level compositions; not counted as vocabulary.
 - Eight menu cards: menu/{learn,sort,sound,identify,knowledge,spelling,flip,wheel}.png, 1024 × 1024. Clear activity symbols in the same style. Sound remains locked.
 - Questions: currently text-only neutral prompts, with no inferred answer-derived image. Optional reviewed illustrations must receive explicit question IDs before integration.
-- Wheel: reuse approved per-word images as markers once supplied. Current wheel uses small text markers, a documented temporary limitation.
+- Wheel: reuse approved per-word images as markers once supplied. The wheel now uses supplied per-word picture markers.
 - Results: CSS stars/confetti currently, optional 1200 × 800 transparent celebration art later.
 
 17 reserved interface paths plus 132 vocabulary paths = 149 missing required art mappings. Optional question/results/motion art is separate and uncounted.

@@ -38,4 +38,4 @@ Modes: learn, knowledge. Prompts: wildlife, pet, read-14.
 
 Words: seal, dog.
 
-All 132 vocabulary cards contain original example sentences. Meet the Words → Read & talk together contains 16 reachable text-only sentence/discussion cards, including all three supplied assessment phrases. Wheel practises isolated word reading silently. Sort It practises the guide’s subject categories, not a land-only/water-only animal classification.
+All 132 vocabulary cards contain original example sentences. Read, Draw & Talk contains 16 reachable illustrated sentence/discussion cards; drawing tools will be added later, including all three supplied assessment phrases. Wheel practises isolated word reading silently. Sort It practises the guide’s subject categories, not a land-only/water-only animal classification.

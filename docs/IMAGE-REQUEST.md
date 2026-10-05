@@ -2,7 +2,7 @@
 
 Current draft inventory, 4 October 2026. This lists the existing bank; it does not add vocabulary. The vocabulary is being developed separately and is still pending teacher review. Preserve the IDs when supplying or revising content.
 
-**132 vocabulary pictures across 6 categories.** Every vocabulary picture is currently awaiting approved artwork. The existing animal-free background is already installed. Interface graphics currently work in CSS; the 16 interface slots below are available if custom artwork is wanted. They are not additional vocabulary entries.
+**132 vocabulary pictures across 6 categories.** All 132 supplied vocabulary pictures were installed on 5 October 2026; the table below remains the original picture brief. See supplied-artwork.json for checksums and file details. The existing animal-free background is already installed. Interface graphics currently work in CSS; the 16 interface slots below are available if custom artwork is wanted. They are not additional vocabulary entries.
 
 ## Vocabulary pictures
 

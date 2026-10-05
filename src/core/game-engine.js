@@ -13,6 +13,7 @@ import {
   takeSession,
   restoreSession,
 } from "./logic.js";
+import { Detective } from "./detective.js";
 import { AudioManager } from "./audio.js";
 import { getSkin } from "./skins/index.js";
 import { mountLandingScene } from "./landing-scene.js";
@@ -72,6 +73,8 @@ export class GameEngine {
     this.launch();
   }
   clean() {
+    this.detective?.destroy();
+    this.detective = null;
     this.landingScene?.destroy();
     this.landingScene = null;
     window.scrollTo({top:0,left:0,behavior:'instant'});
@@ -112,7 +115,7 @@ export class GameEngine {
       if (cls === 'category-art') return '';
       if (cls === 'marker-art') return '<span class="marker-label">'+esc(item.name)+'</span>';
       if (cls === 'tile-art') return '';
-      return '<div class="missing-art '+cls+'" role="img" aria-label="Picture pending: '+esc(alt || item.imageAlt)+'"><span>Picture pending</span>'+(cls==='answer-art'?'':'<small>'+esc(cls === 'spelling-clue' ? item.definition : (item.imageAlt || alt))+'</small>')+'</div>';
+      return '<div class="missing-art '+cls+'" role="img" aria-label="Picture pending: '+esc(alt || item.imageAlt)+'">'+(cls === 'spelling-clue' ? '<small>'+esc(item.definition)+'</small>' : cls === 'answer-art' ? '<span aria-hidden="true">○</span>' : '<span>Picture coming soon</span>')+'</div>';
     }
     return `<img class="${cls}" src="${esc(item.image)}" alt="${esc(alt)}" draggable="false" ${attrs}>`;
   }
@@ -144,7 +147,9 @@ export class GameEngine {
     this.state = { screen: "launch" };
     document.getElementById("home").hidden = true;
     this.app.className = "launch-screen";
-    this.app.innerHTML = '<section class="welcome" aria-labelledby="welcome-title"><span class="eyebrow">'+esc(this.topic.subject)+'</span><div class="welcome-rule" aria-hidden="true"></div><h1 id="welcome-title">'+esc(this.topic.title)+'</h1><p>'+esc(this.topic.subtitle)+'</p>'+button('Come and explore','launch')+'<span class="welcome-footnote">A little adventure. A world of discovery.</span></section>';
+    const exploreArt = this.topic.launch.clubBadge ? '<span class="explore-badge" aria-hidden="true"><img class="explore-art" src="'+esc(this.topic.launch.clubBadge)+'" alt="" draggable="false"></span>' : '';
+    const badgeLettering = '<svg class="club-lettering" viewBox="0 0 320 320" aria-hidden="true"><defs><path id="club-top-arc" d="M 30,160 A 130,130 0 0,1 290,160"/><path id="club-bottom-arc" d="M 22,160 A 138,138 0 0,0 298,160"/></defs><text class="club-top-text"><textPath href="#club-top-arc" startOffset="50%" text-anchor="middle">Mammal</textPath></text><text class="club-bottom-text"><textPath href="#club-bottom-arc" startOffset="50%" text-anchor="middle">Discovery Club</textPath></text></svg>';
+    this.app.innerHTML = '<section class="welcome welcome-badge" aria-labelledby="welcome-title"><h1 id="welcome-title" class="sr-only">'+esc(this.topic.title)+'</h1>'+button(exploreArt+badgeLettering+'<span class="sr-only">Explore</span>','launch','button explore-button')+'</section>';
     if(this.topic.launch.sceneLayout) this.landingScene=mountLandingScene(this.app,this.topic.launch.sceneLayout,[this.app.querySelector('.welcome'),document.querySelector('.topbar')]);
     this.bind('launch',()=>this.menu());
     this.focus('[data-action="launch"]');
@@ -155,7 +160,7 @@ export class GameEngine {
     this.state = { screen: "menu" };
     document.getElementById("home").hidden = false;
     this.app.className = "menu-screen";
-    this.app.innerHTML = `<div class="menu-heading"><span class="eyebrow">${esc(this.topic.text.menuEyebrow)}</span><h1>${esc(this.topic.title)}</h1><p>${esc(this.topic.subtitle)}</p></div><div class="mode-grid">${this.topic.modes.map((m, i) => `<button class="mode-card" data-mode="${m.id}" style="--card:var(--card-${i})" ${m.locked ? "disabled" : ""} aria-label="${esc(m.label + (m.locked ? ". " + m.lockedReason : ""))}"><span class="mode-number">0${i + 1}</span>${this.img(m, "mode-art", "")}<strong>${esc(m.label)}</strong><span class="mode-description">${esc(m.description)}</span>${m.locked ? '<span class="locked-tag">Coming soon</span>' : ""}</button>`).join("")}</div><p class="menu-footnote">${esc(this.topic.text.menuFootnote)}</p>`;
+    this.app.innerHTML = `<div class="menu-heading"><h1>${esc(this.topic.title)}</h1></div><div class="mode-grid">${this.topic.modes.map((m, i) => `<button class="mode-card" data-mode="${m.id}" style="--card:var(--card-${i % this.topic.theme.cardColors.length})" ${m.locked ? "disabled" : ""} aria-label="${esc(m.label + (m.locked ? ". " + m.lockedReason : ""))}">${this.img(m, "mode-art", "")}<strong>${esc(m.label)}</strong>${m.locked ? '<span class="locked-tag">Coming soon</span>' : ""}</button>`).join("")}</div>`;
     this.app
       .querySelectorAll("[data-mode]")
       .forEach((el) => (el.onclick = () => this.start(el.dataset.mode)));
@@ -177,6 +182,8 @@ export class GameEngine {
       showTarget: true,
       showAnswers: true,
     };
+    if (mode === "detective") { this.detective = new Detective(this); return; }
+    if (mode === "create") { this.startReading(); return; }
     if (mode === "learn" || mode === "wheel") this.categories();
     else if (mode === "flip") this.categories();
     else this.categories();
@@ -186,18 +193,14 @@ export class GameEngine {
     const s = this.state,
       mode = this.topic.modes.find((m) => m.id === s.mode);
     this.app.className = "game-screen";
-    const backLabel = s.category ? "Groups" : "Games";
-    this.app.innerHTML = `<section class="game-panel" data-game="${s.mode}"><div class="game-toolbar">${button("← " + backLabel, "back", "subtle")}<span class="eyebrow">${esc(mode.label)}</span><span class="score" aria-label="${s.score} stars">★ <b>${s.score}</b></span></div><div class="progress-line"><span id="round-count">${current} / ${total}</span><div class="progress" role="progressbar" aria-label="Activity progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${total ? Math.round((current / total) * 100) : 0}"><span style="width:${total ? (current / total) * 100 : 0}%"></span></div></div><div class="game-heading"><h1>${esc(title)}</h1>${helper ? `<p>${esc(helper)}</p>` : ""}</div><div id="content">${content}</div><div id="feedback" class="feedback" role="status" aria-live="polite"></div></section>`;
+    const backLabel = s.category && s.screen !== "reading" ? "Groups" : "Games";
+    this.app.innerHTML = `<section class="game-panel" data-game="${s.mode}"><div class="game-toolbar">${button(backLabel, "back", "subtle")}${title === mode.label ? "" : `<span class="eyebrow">${esc(mode.label)}</span>`}<span class="score" aria-label="${s.score} stars">★ <b>${s.score}</b></span></div><div class="progress-line" ${total > 0 && (current > 0 || title === mode.label) ? "" : "hidden"}><span id="round-count">${current} / ${total}</span><div class="progress" role="progressbar" aria-label="Activity progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${total ? Math.round((current / total) * 100) : 0}"><span style="width:${total ? (current / total) * 100 : 0}%"></span></div></div><div class="game-heading"><h1>${esc(title)}</h1></div><div id="content">${content}</div><div id="feedback" class="feedback" role="status" aria-live="polite"></div></section>`;
     this.bind("back", () => this.back());
   }
   back() {
     const s = this.state;
     if (s.screen === "reading") {
-      this.clean();
-      s.screen = "game";
-      s.reading = false;
-      s.category = null;
-      this.categories();
+      this.menu(s.mode);
       return;
     }
     if (s.screen === "results") {
@@ -233,10 +236,10 @@ export class GameEngine {
       .join("");
     this.shell(
       s.mode === "wheel"
-        ? "Which words shall we spin?"
-        : s.mode === 'learn' ? "Which words shall we meet?" : "Choose a subject group",
+        ? "Groups"
+        : s.mode === 'learn' ? "Groups" : "Groups",
       "",
-      `<div class="category-grid">${cards}</div>${button(`All ${pool.length} ${s.mode==='knowledge'?'questions':'words'} →`, "all", "button all-words")}${s.mode === "learn" ? button("Read & talk together →", "reading", "button all-words") : ""}`,
+      `<div class="category-grid">${cards}</div>${button(`All ${pool.length} ${s.mode==='knowledge'?'questions':'words'}`, "all", "button all-words")}`,
       0,
       pool.length,
     );
@@ -246,7 +249,6 @@ export class GameEngine {
         (el) => (el.onclick = () => this.chooseCategory(el.dataset.category)),
       );
     this.bind("all", () => this.chooseCategory("all"));
-    this.bind("reading", () => this.startReading());
     this.focus();
   }
   chooseCategory(id) {
@@ -278,11 +280,11 @@ export class GameEngine {
       count = Math.min(this.topic.sessions.defaultRoundCount, pool.length);
     const remaining = this.queues[s.mode + ":" + s.category]?.length;
     this.shell(
-      "Choose a session length",
+      "Session",
       `${this.topic.categories.find(c=>c.id===s.category)?.label || 'All groups'} · ${pool.length} ${s.mode==='knowledge'?'questions':'words'}. Short sessions finish this pool before repeating.`,
       '<div class="session-options">' +
-        button(`<strong>${Math.min(count,remaining||count)} ${s.mode==='knowledge'?'questions':'words'}</strong><span>Short adventure${remaining ? ` · ${remaining} remain` : ""}</span>`, "short", "session-card") +
-        button(`<strong>All ${pool.length} ${s.mode==='knowledge'?'questions':'words'}</strong><span>The selected group</span>`, "all-words", "session-card") +
+        button(`<strong>${Math.min(count,remaining||count)} ${s.mode==='knowledge'?'questions':'words'}</strong>`, "short", "session-card") +
+        button(`<strong>All ${pool.length} ${s.mode==='knowledge'?'questions':'words'}</strong>`, "all-words", "session-card") +
         "</div>",
       0,
       pool.length,
@@ -317,14 +319,14 @@ export class GameEngine {
     const s = this.state,
       card = s.items[s.index];
     this.shell(
-      card.type,
+      "Read, Draw & Talk",
       "",
-      '<div class="sentence-reading"><p>' +
+      '<div class="reading-card">' + this.img(this.topic.items.find(item => item.id === card.itemId), 'reading-art') + '<div class="sentence-reading"><p>' +
         esc(card.text) +
-        '</p></div><details class="teacher-note"><summary>Teacher prompt</summary><p>' +
+        '</p></div></div><details class="teacher-note"><summary>Teacher prompt</summary><p>' +
         esc(card.note) +
         "</p></details>" +
-        button("Next →", "read-next", "button reading-next"),
+        button("Next", "read-next", "button reading-next"),
       s.index + 1,
       s.items.length,
     );
@@ -386,9 +388,9 @@ export class GameEngine {
   learn(item) {
     const s = this.state;
     this.shell(
-      this.topic.text.learnPrompt,
+      "Meet the Words",
       "",
-      `<div class="learn-layout">${this.img(item, "feature-art")}<div class="learn-copy"><div class="vocab-word">${esc(item.name)}</div><p class="definition">${esc(item.definition)}</p><div class="say-together"><span>LET’S SAY</span><p>${esc(item.sentence)}</p></div><div class="learn-audio">${button("Say word", "word", "subtle")}${button("Hear meaning", "meaning", "subtle")}</div>${button(s.index === s.items.length - 1 ? "Finish →" : "Next word →", "next")}</div></div>`,
+      `<div class="learn-layout">${this.img(item, "feature-art")}<div class="learn-copy"><div class="vocab-word">${esc(item.name)}</div><p class="definition">${esc(item.definition)}</p><div class="say-together"><p>${esc(item.sentence)}</p></div><div class="learn-audio">${button("Say word", "word", "subtle")}${button("Hear meaning", "meaning", "subtle")}</div>${button(s.index === s.items.length - 1 ? "Finish" : "Next", "next")}</div></div>`,
       s.index + 1,
       s.items.length,
     );
@@ -412,7 +414,7 @@ export class GameEngine {
             s.wrong = true;
             el.disabled = true;
             el.classList.add("wrong");
-            this.feedback("Have another look. Try again.");
+            this.feedback("Try again.");
             this.audio.tone(230);
             return;
           }
@@ -432,7 +434,7 @@ export class GameEngine {
   sort(item) {
     const s = this.state;
     this.shell(
-      `Which group teaches “${item.name}”?`,
+      `Where does “${item.name}” belong?`,
       "Sort by the word’s place in our field guide.",
       `<div class="sort-clue">${this.img(item, "clue-art")}</div>${this.answerMarkup(this.topic.categories)}`,
       s.index + 1,
@@ -484,7 +486,7 @@ export class GameEngine {
   }
   feedback(message, onNext) {
     const el = document.getElementById("feedback");
-    el.innerHTML = `<span>${esc(message)}</span>${onNext ? button("Next →", "continue") : ""}`;
+    el.innerHTML = `<span>${esc(message)}</span>${onNext? button("Next", "continue") : ""}`;
     if (onNext) {
       this.bind("continue", onNext);
       this.focus('[data-action="continue"]');
@@ -542,10 +544,6 @@ export class GameEngine {
           "</button>",
       )
       .join("");
-    const wrong = s.guessed
-      .filter((c) => !all.includes(c))
-      .join(", ")
-      .toUpperCase();
     this.shell(
       skin.title,
       skin.instruction,
@@ -555,9 +553,8 @@ export class GameEngine {
         getSkin(skin.id).render(skin, s.visualStage, esc, s.winExitDone, s.spellingStatus, s) +
         '<div class="spelling-attempts"><strong class="guess-count">' +
         Math.max(0, limit - s.misses) +
-        (limit - s.misses === 1 ? " try left" : " tries left") + "</strong><span>Wrong letters: " +
-        esc(wrong || "none yet") +
-        '</span></div></div></div><div class="spelling-word" aria-label="' +
+        (limit - s.misses === 1 ? " try left" : " tries left") +
+        '</strong></div></div></div><div class="spelling-word" aria-label="' +
         (s.spellingStatus ? esc(item.name) : "Hidden word") +
         '">' +
         word +
@@ -574,7 +571,7 @@ export class GameEngine {
       this.feedback(
         s.spellingStatus === "won"
           ? "You spelled “" + item.name + "”!"
-          : "The word is “" + item.name + "”. Let’s try another together.",
+          : "The word is “" + item.name + "”.",
         () => this.next(),
       );
   }
@@ -659,7 +656,7 @@ export class GameEngine {
     const counts = this.topic.sessions.supportedFlipWordCounts.filter((n) => n <= pool.length);
     if (!counts.length && pool.length >= 2) counts.push(pool.length);
     this.shell(
-      "Choose your matching board",
+      "Board size",
       `Choose how many words to match from all ${pool.length}. Each word has two matching tiles.`,
       `<div class="session-options">${counts.map((n) => button(`<strong>${n} words</strong><span>${n * 2} tiles</span>`, "flip-count", "session-card", `data-count="${n}"`)).join("")}</div>`,
       0,
@@ -684,7 +681,7 @@ export class GameEngine {
     s.first = null;
     s.mismatch = null;
     this.shell(
-      "Find the matching pairs",
+      "Flip the Tiles",
       "",
       `<div class="flip-board flip-board--${count}" data-size="${count * 2}">${s.tiles.map((t, i) => `<button class="tile" data-tile="${t.id}" aria-label="Tile ${i + 1}"><span class="tile-inner"><span class="tile-back" aria-hidden="true">${i + 1}</span><span class="tile-front" aria-hidden="true">${this.img(t.item, "tile-art", "")}<span>${esc(t.item.name)}</span></span></span></button>`).join("")}</div>`,
       0,
@@ -779,9 +776,9 @@ export class GameEngine {
     const s = this.state;
     if (s.selected) {
       this.shell(
-        "Read this word together",
+        "Spin the Wheel",
         "",
-        `<div class="reading-word">${esc(s.selected.name)}</div>${button("Next →", "wheel-next", "button reading-next")}`,
+        `<div class="reading-word">${esc(s.selected.name)}</div>${button("Next", "wheel-next", "button reading-next")}`,
         s.score,
         s.items.length,
       );
@@ -799,7 +796,7 @@ export class GameEngine {
       })
       .join("");
     this.shell(
-      "What will we read next?",
+      "Spin the Wheel",
       s.totalBatches > 1
         ? `All ${s.items.length} words · batch ${s.batch} of ${s.totalBatches} · ${s.remaining.length} words left`
         : `${s.remaining.length} words left`,
@@ -871,7 +868,7 @@ export class GameEngine {
     s.screen = "results";
     const count = stars(s.score, s.items.length);
     this.app.className = "results-screen";
-    this.app.innerHTML = `<section class="results-panel"><span class="eyebrow">ADVENTURE COMPLETE</span><div class="result-stars" aria-label="${count} stars">${"★".repeat(count)}</div><h1>Look what you did!</h1><p>${esc(this.topic.completionMessages[s.mode])}</p><div class="result-score">${s.score}<span> / ${s.items.length}</span></div><div class="result-actions">${button("Play again", "again")}${button("Choose another game", "menu", "subtle")}</div></section>`;
+    this.app.innerHTML = `<section class="results-panel"><div class="result-stars" aria-label="${count} stars">${"★".repeat(count)}</div><h1>Well done!</h1><div class="result-score">${s.score}<span> / ${s.items.length}</span></div><div class="result-actions">${button("Play again", "again")}${button("Games", "menu", "subtle")}</div></section>`;
     this.bind("again", () => this.start(s.mode));
     this.bind("menu", () => this.menu(s.mode));
     this.focus();

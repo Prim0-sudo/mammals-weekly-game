@@ -1,0 +1,2256 @@
+{
+  "importedOn": "2026-10-05",
+  "sourceArchive": "Mammal_Discovery_Club_132_Game_Assets.zip",
+  "sourceArchiveSha256": "0c8778096943f80214f475f88a4efa07d89172072ea720b2e81673d98fa56713",
+  "status": "supplied artwork imported byte-for-byte",
+  "entries": [
+    {
+      "id": "lion",
+      "path": "assets/topics/mammals/vocabulary/lion.png",
+      "category": "mammals",
+      "sha256": "3d38c606e0d26b8f769322b7517a883ed6f9a0fea60384f23af993f1682d31a4",
+      "bytes": 770301,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "elephant",
+      "path": "assets/topics/mammals/vocabulary/elephant.png",
+      "category": "mammals",
+      "sha256": "2fd9e8bcedc611621d37b517f79aab908ae0642d4135b1003bd9c41932690af4",
+      "bytes": 950400,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "giraffe",
+      "path": "assets/topics/mammals/vocabulary/giraffe.png",
+      "category": "mammals",
+      "sha256": "175bf55ce883b2e2b653837416aef06a74bcecd4067d83d6cd9dcadae4db9360",
+      "bytes": 420295,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "monkey",
+      "path": "assets/topics/mammals/vocabulary/monkey.png",
+      "category": "mammals",
+      "sha256": "1c2c1064afc76394be65d386054b97fc4030cd384da7ed76da22fff8a40f888d",
+      "bytes": 669902,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "bear",
+      "path": "assets/topics/mammals/vocabulary/bear.png",
+      "category": "mammals",
+      "sha256": "870164ed24f12010b3c9acc93201494d6450b8b8952abc032f2cd343f5428c64",
+      "bytes": 966902,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "rabbit",
+      "path": "assets/topics/mammals/vocabulary/rabbit.png",
+      "category": "mammals",
+      "sha256": "893adcda739b7353db0a6df662d7f7d688674d42172fdd9b70f77654005e3e8a",
+      "bytes": 772735,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "cat",
+      "path": "assets/topics/mammals/vocabulary/cat.png",
+      "category": "mammals",
+      "sha256": "8cc2095c9f4e634fbdf70061f9791b99ff9b70eb69cc4495ad20f49459a06dda",
+      "bytes": 877923,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "dog",
+      "path": "assets/topics/mammals/vocabulary/dog.png",
+      "category": "mammals",
+      "sha256": "1d91cdc603246b78722267c738e28aee80c4d111e4fe86acacae60b769cadb15",
+      "bytes": 765309,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "horse",
+      "path": "assets/topics/mammals/vocabulary/horse.png",
+      "category": "mammals",
+      "sha256": "bc172421630421c9f740996b3049ce79c996cc2eebdb458cc20e69cc09ff15a4",
+      "bytes": 616937,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "donkey",
+      "path": "assets/topics/mammals/vocabulary/donkey.png",
+      "category": "mammals",
+      "sha256": "a8375fb97af7d79cc571794e894f3ffe1594c6cfcf44d6dea81ccc9acc72b371",
+      "bytes": 667806,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "cow",
+      "path": "assets/topics/mammals/vocabulary/cow.png",
+      "category": "mammals",
+      "sha256": "47a3941b103358e0c6f7d641ed75a9336557fcf6f00b0cfe93d883d186c45e27",
+      "bytes": 721868,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "sheep",
+      "path": "assets/topics/mammals/vocabulary/sheep.png",
+      "category": "mammals",
+      "sha256": "ebf89e7f15e616b0e48364ec386baa855494318b0fd678f25bffd6fd146eda66",
+      "bytes": 816439,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "goat",
+      "path": "assets/topics/mammals/vocabulary/goat.png",
+      "category": "mammals",
+      "sha256": "d5ebabea39d9493ba024a04006024ea1c752c3aafd0768553ae066f792796f6d",
+      "bytes": 757967,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "pig",
+      "path": "assets/topics/mammals/vocabulary/pig.png",
+      "category": "mammals",
+      "sha256": "81341bd4ecaae351782adba9ae10a7ab733579e058f7a710dab575f4e10df161",
+      "bytes": 852904,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "mouse",
+      "path": "assets/topics/mammals/vocabulary/mouse.png",
+      "category": "mammals",
+      "sha256": "1278764d43ed57d3691efe3568ad668d3c033aa15a450f0224c4a4225bbea68c",
+      "bytes": 586155,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "rat",
+      "path": "assets/topics/mammals/vocabulary/rat.png",
+      "category": "mammals",
+      "sha256": "370549043cf0cda872e1428785a6791084627845a2f016ee953d9aa922ebc11c",
+      "bytes": 463932,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "hamster",
+      "path": "assets/topics/mammals/vocabulary/hamster.png",
+      "category": "mammals",
+      "sha256": "09b29045897b2f526dbcf3a916ba815699df37c41b88dc36bbc5bec0cee8a345",
+      "bytes": 795796,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "guinea-pig",
+      "path": "assets/topics/mammals/vocabulary/guinea-pig.png",
+      "category": "mammals",
+      "sha256": "7867c4e3ccb5d072ad65f775bdcfd064824ae82c650306500bbdbd26b29c5a47",
+      "bytes": 876696,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "squirrel",
+      "path": "assets/topics/mammals/vocabulary/squirrel.png",
+      "category": "mammals",
+      "sha256": "5bf0231e703ed19db0ef6787309e3f1eddd2f1c1ccc88fbdf0cfe9064feeed1f",
+      "bytes": 1076927,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "hedgehog",
+      "path": "assets/topics/mammals/vocabulary/hedgehog.png",
+      "category": "mammals",
+      "sha256": "a0b68900d447d55d558e5547f689f93852a6dfd000168ecba5bd1a90e5619771",
+      "bytes": 969208,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "fox",
+      "path": "assets/topics/mammals/vocabulary/fox.png",
+      "category": "mammals",
+      "sha256": "08c3a41317838528e6a88ec53606dea24a5033667d0338b33d31f490f395d7cd",
+      "bytes": 726277,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "wolf",
+      "path": "assets/topics/mammals/vocabulary/wolf.png",
+      "category": "mammals",
+      "sha256": "f3809cfb612ba948a2c274a97dbb0bd2ff0b4685c95ce31d45a0eb202d9c1415",
+      "bytes": 796610,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "deer",
+      "path": "assets/topics/mammals/vocabulary/deer.png",
+      "category": "mammals",
+      "sha256": "ee34d49d2cff8cf2ab0c74cfbd754e559c751b00d0f390032d80916733c06f71",
+      "bytes": 394734,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "moose",
+      "path": "assets/topics/mammals/vocabulary/moose.png",
+      "category": "mammals",
+      "sha256": "551880dcb0a26946c11c3ddf712a93cc0f8a36f2fbcbef87cdcf099c8848f888",
+      "bytes": 485625,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "zebra",
+      "path": "assets/topics/mammals/vocabulary/zebra.png",
+      "category": "mammals",
+      "sha256": "f7da73a5eb2743e4fb1051f575e47c98dad37e042d26bc1817ce4eac586bdc93",
+      "bytes": 700596,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "rhinoceros",
+      "path": "assets/topics/mammals/vocabulary/rhinoceros.png",
+      "category": "mammals",
+      "sha256": "aafdc1e6fe0f0693379944ba5a62d4b86e67321240c5e8beeff787026e214f5e",
+      "bytes": 863644,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "hippopotamus",
+      "path": "assets/topics/mammals/vocabulary/hippopotamus.png",
+      "category": "mammals",
+      "sha256": "b5674178cdab039d4537cd40e511e4e23676f3c52227acc5e976d91848079696",
+      "bytes": 846078,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "camel",
+      "path": "assets/topics/mammals/vocabulary/camel.png",
+      "category": "mammals",
+      "sha256": "ca793ab3c3d578d7ba3aa318747783bdfa003be2176b3ed0974f7af01df1a0cd",
+      "bytes": 866315,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "tiger",
+      "path": "assets/topics/mammals/vocabulary/tiger.png",
+      "category": "mammals",
+      "sha256": "40d6882e6e84bb22128a508b52d16e15e67ffc44869ce7b2a9bb69a78b0eac45",
+      "bytes": 828329,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "cheetah",
+      "path": "assets/topics/mammals/vocabulary/cheetah.png",
+      "category": "mammals",
+      "sha256": "54c850017e8a526cb361e7a7e03935d2f42a23c153850b2fa7e6ebbe01e6b2e8",
+      "bytes": 639686,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "leopard",
+      "path": "assets/topics/mammals/vocabulary/leopard.png",
+      "category": "mammals",
+      "sha256": "60fc340d328a8e7ea9c170030ca522cec0ed3202d47ebd2e2d2987c38532dc59",
+      "bytes": 830674,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "gorilla",
+      "path": "assets/topics/mammals/vocabulary/gorilla.png",
+      "category": "mammals",
+      "sha256": "9f9bf121edd429f7874be3b75c52bb2df25be8c7d5988f34c529e245a887dc42",
+      "bytes": 959498,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "chimpanzee",
+      "path": "assets/topics/mammals/vocabulary/chimpanzee.png",
+      "category": "mammals",
+      "sha256": "cf8c1fc5657f3b7f3f8913690284d2f143f5f6cd116c845ab3217329d6964ef7",
+      "bytes": 874742,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "kangaroo",
+      "path": "assets/topics/mammals/vocabulary/kangaroo.png",
+      "category": "mammals",
+      "sha256": "529ddfd870f45baca38db800dd70d5ba5749a3c0ae3facc9db3312d623fb4624",
+      "bytes": 513562,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "koala",
+      "path": "assets/topics/mammals/vocabulary/koala.png",
+      "category": "mammals",
+      "sha256": "36f9ff50a8f487703539b4c8b3facc6465378f0e6bd921be1fd999f1fc0e6541",
+      "bytes": 1021389,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "wombat",
+      "path": "assets/topics/mammals/vocabulary/wombat.png",
+      "category": "mammals",
+      "sha256": "d0e9a1f6c9a4ba436ffcce8d4208577d0adf1c7c43bb81fc53fa10c72e51f760",
+      "bytes": 1044924,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "platypus",
+      "path": "assets/topics/mammals/vocabulary/platypus.png",
+      "category": "mammals",
+      "sha256": "dd15581945b050ee68aae9127c6cbee1b0f72edb2a83a7ae7a10b2166888e693",
+      "bytes": 628719,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "echidna",
+      "path": "assets/topics/mammals/vocabulary/echidna.png",
+      "category": "mammals",
+      "sha256": "87b2a4374cd62e0386d70da7c5737d76f57b6b8cbb290cde8ea51d3d2cc1b174",
+      "bytes": 950516,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "bat",
+      "path": "assets/topics/mammals/vocabulary/bat.png",
+      "category": "mammals",
+      "sha256": "bfe2071d3701d4fc4dd9e291b7a2399fd558ef2ee6a669e373c1fbb9c25c3df1",
+      "bytes": 610398,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "sloth",
+      "path": "assets/topics/mammals/vocabulary/sloth.png",
+      "category": "mammals",
+      "sha256": "a6a43e21fb3530bea69c7d4960b447b8169c341b75bed9b2d7b823440301f17a",
+      "bytes": 983754,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "whale",
+      "path": "assets/topics/mammals/vocabulary/whale.png",
+      "category": "mammals",
+      "sha256": "ba45c6d2faac0bf866f4633c5e52ac24cdf3b458845c41e22ca0b254b8858c2a",
+      "bytes": 1026369,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "dolphin",
+      "path": "assets/topics/mammals/vocabulary/dolphin.png",
+      "category": "mammals",
+      "sha256": "1f8afb727ad81fc7d06d64eae1f9b3aee506d9519011dd48f3d4875d1a0fdc21",
+      "bytes": 649785,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "porpoise",
+      "path": "assets/topics/mammals/vocabulary/porpoise.png",
+      "category": "mammals",
+      "sha256": "5af65b330e6073b80eda4f74094d837bf527c07d8c916a7a67e8fe8a012a7410",
+      "bytes": 297996,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "seal",
+      "path": "assets/topics/mammals/vocabulary/seal.png",
+      "category": "mammals",
+      "sha256": "de0b2b6bf018953ebee5f66e963576aab71defd7aaa7635bd633b6c648733cc4",
+      "bytes": 824699,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "sea-lion",
+      "path": "assets/topics/mammals/vocabulary/sea-lion.png",
+      "category": "mammals",
+      "sha256": "d88c74a0cbbc0125fa0b89f4db86c78dc040ef51401073feea7e4361728e2595",
+      "bytes": 810002,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "walrus",
+      "path": "assets/topics/mammals/vocabulary/walrus.png",
+      "category": "mammals",
+      "sha256": "1ac64d368fccea099f17b18090b60f1f5db53691cc62955d914240e46a154e72",
+      "bytes": 728399,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "manatee",
+      "path": "assets/topics/mammals/vocabulary/manatee.png",
+      "category": "mammals",
+      "sha256": "5de643b8450cf97535f4658e4985312f979bf8c39188e63bab7450801f89978b",
+      "bytes": 735423,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "dugong",
+      "path": "assets/topics/mammals/vocabulary/dugong.png",
+      "category": "mammals",
+      "sha256": "14a327821764062b9c740e58349bf9823b8e83ea9dfcd6409cc35f19e1c622f9",
+      "bytes": 512663,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "sea-otter",
+      "path": "assets/topics/mammals/vocabulary/sea-otter.png",
+      "category": "mammals",
+      "sha256": "a9ee2791ad8b071ae522eb7134c9c42a54290a27582a45cfcccbb36689e2a37a",
+      "bytes": 944814,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "polar-bear",
+      "path": "assets/topics/mammals/vocabulary/polar-bear.png",
+      "category": "mammals",
+      "sha256": "15a4d831c2d4d04de24a14cc92bc00dbdd033e02788977bc4531fa82441961c7",
+      "bytes": 849052,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "goldfish",
+      "path": "assets/topics/mammals/vocabulary/goldfish.png",
+      "category": "fish",
+      "sha256": "b58692d49f9fa8b111dd3273cc202960249d138a4551235a85419fdfea2f4523",
+      "bytes": 678423,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "salmon",
+      "path": "assets/topics/mammals/vocabulary/salmon.png",
+      "category": "fish",
+      "sha256": "46d183d5b811976db375e4910796b11b5d8b888faebb7c5f6dc36e9325ab54d5",
+      "bytes": 325958,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "tuna",
+      "path": "assets/topics/mammals/vocabulary/tuna.png",
+      "category": "fish",
+      "sha256": "99693c882bc37850161f5839d655e65e9dec1ca1538725aa0e85af90ae2ab10e",
+      "bytes": 355326,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "shark",
+      "path": "assets/topics/mammals/vocabulary/shark.png",
+      "category": "fish",
+      "sha256": "c9b42d9cf1dfd275aeabe643b8faf930a07c717f9036c70620c5c19ba29e2aee",
+      "bytes": 283942,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "ray",
+      "path": "assets/topics/mammals/vocabulary/ray.png",
+      "category": "fish",
+      "sha256": "12e4134b3c11c6e7a50ae72dbcc66dc0e21bafeb19e146b5b4a992fcfe45c2fe",
+      "bytes": 650048,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "seahorse",
+      "path": "assets/topics/mammals/vocabulary/seahorse.png",
+      "category": "fish",
+      "sha256": "919c4d0eec3e987d59e6233cf8bc95ce00cb0e25dce96ccf4cb309b53d019857",
+      "bytes": 525282,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "clownfish",
+      "path": "assets/topics/mammals/vocabulary/clownfish.png",
+      "category": "fish",
+      "sha256": "a62342a2a4e2f7d626cff09bba59eb29901cd86f57f6d510ffbb49c70dfeb6c0",
+      "bytes": 781198,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "eel",
+      "path": "assets/topics/mammals/vocabulary/eel.png",
+      "category": "fish",
+      "sha256": "ea023eb6c2025b9dbbd3286bee2b7856addb61b01d2dda4209746f32a7fc10fa",
+      "bytes": 537010,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "fur",
+      "path": "assets/topics/mammals/vocabulary/fur.png",
+      "category": "bodies",
+      "sha256": "97e7603f87b405b75600bda4f8d9e8c487949afb7957ad8b4ec69c44db9b74b4",
+      "bytes": 853658,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "whiskers",
+      "path": "assets/topics/mammals/vocabulary/whiskers.png",
+      "category": "bodies",
+      "sha256": "144da9e1f3c9f62801257692e9948ac05477a1aacf94b058f27f1c43941f8654",
+      "bytes": 969262,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "skin",
+      "path": "assets/topics/mammals/vocabulary/skin.png",
+      "category": "bodies",
+      "sha256": "be217ae8eacccc42837d5a8772fa3dc61924043447d3428e5751d783c4dcb6e8",
+      "bytes": 841453,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "paw",
+      "path": "assets/topics/mammals/vocabulary/paw.png",
+      "category": "bodies",
+      "sha256": "73390d5bb596aaa344fb3a602a3e3425dac4ca1b7629758c8adb7a197fbf96ec",
+      "bytes": 812719,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "hoof",
+      "path": "assets/topics/mammals/vocabulary/hoof.png",
+      "category": "bodies",
+      "sha256": "d954a64af1cbfeb6d251534d3569e3e1bad3e8413830443df975cdb8cb0b9df7",
+      "bytes": 686133,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "claw",
+      "path": "assets/topics/mammals/vocabulary/claw.png",
+      "category": "bodies",
+      "sha256": "19cd9102677f007afb44fb63cdac04b75d188c83d8582e3dfcc2dcf7aa551fd6",
+      "bytes": 709654,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "tail",
+      "path": "assets/topics/mammals/vocabulary/tail.png",
+      "category": "bodies",
+      "sha256": "0d746bf6d197f8b2969ca80ed1eece7c7da05f77aa31cf55c4b840e783a44a89",
+      "bytes": 778856,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "ear",
+      "path": "assets/topics/mammals/vocabulary/ear.png",
+      "category": "bodies",
+      "sha256": "8d53b7b02d2f3eadd9aea729c30d8c095a1d0c9aca2226471602e5b70181eaf6",
+      "bytes": 728717,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "eye",
+      "path": "assets/topics/mammals/vocabulary/eye.png",
+      "category": "bodies",
+      "sha256": "020e55942eae927784fe077a19b4c0f5ac6887d0866a6725d19445adfa47eefd",
+      "bytes": 890943,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "nose",
+      "path": "assets/topics/mammals/vocabulary/nose.png",
+      "category": "bodies",
+      "sha256": "0e104e914db17a1585bedd35253d288b74b09c0ef7e6c0882b9fa81e14d3af69",
+      "bytes": 985946,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "mouth",
+      "path": "assets/topics/mammals/vocabulary/mouth.png",
+      "category": "bodies",
+      "sha256": "608bb775dd7d1d5af89dae33534315b80c67831190bfcbd3ed015e61d025a1e4",
+      "bytes": 866082,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "tooth",
+      "path": "assets/topics/mammals/vocabulary/tooth.png",
+      "category": "bodies",
+      "sha256": "0bf133b61f43226d0ce51171a59b9319f548a230b88065e76214e19874d8315b",
+      "bytes": 747173,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "tongue",
+      "path": "assets/topics/mammals/vocabulary/tongue.png",
+      "category": "bodies",
+      "sha256": "8dbdc5fbdc6237365d3d0a8fe05aedb6ddfaa24ef2b9d1f68a4fccb850852ed6",
+      "bytes": 882144,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "trunk",
+      "path": "assets/topics/mammals/vocabulary/trunk.png",
+      "category": "bodies",
+      "sha256": "517f30f2d98341c5d98d8d025fd2e41dab1f7c67dd055c64821ea35ecb867485",
+      "bytes": 754395,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "tusk",
+      "path": "assets/topics/mammals/vocabulary/tusk.png",
+      "category": "bodies",
+      "sha256": "245b1557343c8ab38d6c15def3cc46befd4f74cd125b2b6c5cb82f92d50c79f4",
+      "bytes": 1785658,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": false,
+      "sourceFile": "Front-facing walrus with two visible tusks-1.png",
+      "replacedOn": "2026-10-05"
+    },
+    {
+      "id": "horn",
+      "path": "assets/topics/mammals/vocabulary/horn.png",
+      "category": "bodies",
+      "sha256": "647cb5ad05ef257022af624408ee047d6c4498187410ae00d0205ca999d9ee4e",
+      "bytes": 1476815,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": false,
+      "sourceFile": "Goat Head with Two Curved Horns-2.png",
+      "replacedOn": "2026-10-05"
+    },
+    {
+      "id": "antlers",
+      "path": "assets/topics/mammals/vocabulary/antlers.png",
+      "category": "bodies",
+      "sha256": "729bab93232bf134310d62e5982ae138b531ddef1310fadb5b85cea968ac00de",
+      "bytes": 950405,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "mane",
+      "path": "assets/topics/mammals/vocabulary/mane.png",
+      "category": "bodies",
+      "sha256": "449a462e1deb887c4664e77a205782c5efdb2f88c4775372dac2bbecf161a5be",
+      "bytes": 1011588,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "pouch",
+      "path": "assets/topics/mammals/vocabulary/pouch.png",
+      "category": "bodies",
+      "sha256": "9f87547fe06a53c339fc7eb9e254db5402e1e76816d46a1093525766a2cad6da",
+      "bytes": 961856,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "flipper",
+      "path": "assets/topics/mammals/vocabulary/flipper.png",
+      "category": "bodies",
+      "sha256": "181d01e7379cf77c503be30425052bbd6e44d95abcb7ce9553973e46b81677f1",
+      "bytes": 1017665,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "blowhole",
+      "path": "assets/topics/mammals/vocabulary/blowhole.png",
+      "category": "bodies",
+      "sha256": "c20c1c26b95fb840ed9b7dab5f093207c1c7871309133490ea73b8f0e9210aec",
+      "bytes": 923151,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "lungs",
+      "path": "assets/topics/mammals/vocabulary/lungs.png",
+      "category": "bodies",
+      "sha256": "667658cfee7b134b579165790c57c44c026df6d1784dcc3aea592748882d07cf",
+      "bytes": 645564,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "backbone",
+      "path": "assets/topics/mammals/vocabulary/backbone.png",
+      "category": "bodies",
+      "sha256": "727f42638ba3d45629cc879527e9ef195054f266ca7eec41211b3b6a40c1938b",
+      "bytes": 408295,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "gills",
+      "path": "assets/topics/mammals/vocabulary/gills.png",
+      "category": "bodies",
+      "sha256": "dd29f9a6bf4931e080c896d8fd600130dd9a6a5555f9374599e2a36f1d60d5e3",
+      "bytes": 702534,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "land",
+      "path": "assets/topics/mammals/vocabulary/land.png",
+      "category": "places",
+      "sha256": "6eb37d67a81f1e92dcf4f8a9e5079eb735b1c6ab1e767b77f1db273e2c944c96",
+      "bytes": 1035371,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "ocean",
+      "path": "assets/topics/mammals/vocabulary/ocean.png",
+      "category": "places",
+      "sha256": "2eab396c434f43387379ca1a82e318ea9b033f23be1e02bb9ca6ce581783f662",
+      "bytes": 989367,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "ocean-floor",
+      "path": "assets/topics/mammals/vocabulary/ocean-floor.png",
+      "category": "places",
+      "sha256": "b24ac64df010e4ff4cefa709feceeead57851af3be5eca76c8f2e2e033108fe1",
+      "bytes": 1082102,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "river",
+      "path": "assets/topics/mammals/vocabulary/river.png",
+      "category": "places",
+      "sha256": "39c1ae8bd48fc4e5ee8b5f0a6ae0d0cc43f30472399a2a8eb534573442cef471",
+      "bytes": 1264432,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "lake",
+      "path": "assets/topics/mammals/vocabulary/lake.png",
+      "category": "places",
+      "sha256": "b3ee02415d7e9b5db8a28aab0ca751a189d0c21b162f46fe693b647aed010596",
+      "bytes": 802360,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "pond",
+      "path": "assets/topics/mammals/vocabulary/pond.png",
+      "category": "places",
+      "sha256": "036d791b7389760ebc64ecffbbe1b895af1bd016f59548663fb274c0cfd361a0",
+      "bytes": 1115461,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "forest",
+      "path": "assets/topics/mammals/vocabulary/forest.png",
+      "category": "places",
+      "sha256": "c97881b81c479e4a43d0670acbfaf443b143fe2778bdcc9ce81036cba85f134e",
+      "bytes": 1368853,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "grassland",
+      "path": "assets/topics/mammals/vocabulary/grassland.png",
+      "category": "places",
+      "sha256": "95a432f452e37760f68349b5c388d156390aed8beed2cee66007200088adcbe5",
+      "bytes": 1159525,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "desert",
+      "path": "assets/topics/mammals/vocabulary/desert.png",
+      "category": "places",
+      "sha256": "82a95b48e97be3af04d650c72bda94eb27fed18d0a2013f568fd72bacf41cfbe",
+      "bytes": 971170,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "cave",
+      "path": "assets/topics/mammals/vocabulary/cave.png",
+      "category": "places",
+      "sha256": "1cb037f8d4ebca98ca9920550528b2cbca86da8d7c82de8928d724c034bdd894",
+      "bytes": 1031468,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "burrow",
+      "path": "assets/topics/mammals/vocabulary/burrow.png",
+      "category": "places",
+      "sha256": "488c226754d5fec0d5f75ad855d83564148b63e1e96b7050eff930f19bcf6cfd",
+      "bytes": 903790,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "den",
+      "path": "assets/topics/mammals/vocabulary/den.png",
+      "category": "places",
+      "sha256": "9fb17327c44720996898712136d6b03bee4b6e3eebbb316868c0f5fd358436dc",
+      "bytes": 1090861,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "branch",
+      "path": "assets/topics/mammals/vocabulary/branch.png",
+      "category": "places",
+      "sha256": "de18a3328881116396d34c85fdbb1f7f40f6975faf10c49570def12ee7d80425",
+      "bytes": 892996,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "leaf",
+      "path": "assets/topics/mammals/vocabulary/leaf.png",
+      "category": "places",
+      "sha256": "952a7a5d5b6919f76ec370c9fa6068f313763b5bf6c8f029be6deb422a5928fa",
+      "bytes": 700221,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "grass",
+      "path": "assets/topics/mammals/vocabulary/grass.png",
+      "category": "places",
+      "sha256": "089502ac56a56fc1ae4564168171e07dd3f6d097b651e723160c62c7cbc1eabc",
+      "bytes": 803974,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "fruit",
+      "path": "assets/topics/mammals/vocabulary/fruit.png",
+      "category": "places",
+      "sha256": "e8761646b125ea7d742989f1cc79b924863d37b15293940bdec2e2ef7f368b77",
+      "bytes": 688001,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "seed",
+      "path": "assets/topics/mammals/vocabulary/seed.png",
+      "category": "places",
+      "sha256": "929e0485183fd2c2a89584c9a9b049a7aa59478d144dd3cd19488d8338cf5bf4",
+      "bytes": 712717,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "milk",
+      "path": "assets/topics/mammals/vocabulary/milk.png",
+      "category": "places",
+      "sha256": "d97ebaad1ff8f1482abc8c01d6993211b95b98c26b65bee84bdfdbe058c2dfd7",
+      "bytes": 713257,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "water",
+      "path": "assets/topics/mammals/vocabulary/water.png",
+      "category": "places",
+      "sha256": "1f097dae3aa699b1a97d4a9e83ad4574679c68cd87592a797fd3ef4867767a82",
+      "bytes": 1043318,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "snow",
+      "path": "assets/topics/mammals/vocabulary/snow.png",
+      "category": "places",
+      "sha256": "2a4bb402d00d4628135c36f5ff0848ad2ab910f7774a635a688556fc37607334",
+      "bytes": 758170,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "sea-ice",
+      "path": "assets/topics/mammals/vocabulary/sea-ice.png",
+      "category": "places",
+      "sha256": "dbb114234f45a85af49e32443fe5e88f12d786577e69187b4791e3a3d37fd11d",
+      "bytes": 565372,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "seagrass",
+      "path": "assets/topics/mammals/vocabulary/seagrass.png",
+      "category": "places",
+      "sha256": "787f755788d46cb3b3fc5ad64c2ae7c6bb4a90664c098bd5fce69e4aa2bf886c",
+      "bytes": 972835,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "walk",
+      "path": "assets/topics/mammals/vocabulary/walk.png",
+      "category": "actions",
+      "sha256": "0021baa60fa3b72c8d2216db275ef3dc0372978b252b542b9367960c619e8fc4",
+      "bytes": 412705,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "run",
+      "path": "assets/topics/mammals/vocabulary/run.png",
+      "category": "actions",
+      "sha256": "818ae5057d79da624a58db61228b5ed27b81fe085c14f1ebaafeda5e8b3463d1",
+      "bytes": 445370,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "hop",
+      "path": "assets/topics/mammals/vocabulary/hop.png",
+      "category": "actions",
+      "sha256": "0203f8103915d14a2e4f56876707f4c08f1b40f0e57bfd0ce26a22532df8d833",
+      "bytes": 414409,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "jump",
+      "path": "assets/topics/mammals/vocabulary/jump.png",
+      "category": "actions",
+      "sha256": "049d5925e1094ecb51a9477d639211e25d9366e6607d16b11011b136a87878aa",
+      "bytes": 481963,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "climb",
+      "path": "assets/topics/mammals/vocabulary/climb.png",
+      "category": "actions",
+      "sha256": "b15d75a206ab066a91257bdf0227a6666bc3d3b9e5cbbf278ed77ae84236b70a",
+      "bytes": 1048054,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "swim",
+      "path": "assets/topics/mammals/vocabulary/swim.png",
+      "category": "actions",
+      "sha256": "063222e2dbc5752d2a608f2e052bccdd5827c6dadfde867589c91c5d2364d225",
+      "bytes": 735562,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "dive",
+      "path": "assets/topics/mammals/vocabulary/dive.png",
+      "category": "actions",
+      "sha256": "df969d44940a9e002dab1e52bff6a603ffaedadc217f51b0aece10150465d7f9",
+      "bytes": 804693,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "float",
+      "path": "assets/topics/mammals/vocabulary/float.png",
+      "category": "actions",
+      "sha256": "909c41c63f956f119b1bf2db3d9176666e40dff911fd0664d4865d3dff2c6632",
+      "bytes": 748913,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "fly",
+      "path": "assets/topics/mammals/vocabulary/fly.png",
+      "category": "actions",
+      "sha256": "8039588ae50072292712c6ac36553e8243eb12da0057c5e79643b0d5b6d89ed6",
+      "bytes": 490148,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "dig",
+      "path": "assets/topics/mammals/vocabulary/dig.png",
+      "category": "actions",
+      "sha256": "8b5fbbc9112bf1ceeacab1ac1cf0281a278111951add8fc154f67d630d8ed131",
+      "bytes": 928194,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "sniff",
+      "path": "assets/topics/mammals/vocabulary/sniff.png",
+      "category": "actions",
+      "sha256": "d394fad64209d305785849e1b528cca56ac874976fdc413a30a60ba26d3bb26f",
+      "bytes": 667472,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "chew",
+      "path": "assets/topics/mammals/vocabulary/chew.png",
+      "category": "actions",
+      "sha256": "21deb59ab92d0de544d35fb8a17c83c735dcb1c7be94de92fa4d0407afc12c19",
+      "bytes": 969598,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "drink",
+      "path": "assets/topics/mammals/vocabulary/drink.png",
+      "category": "actions",
+      "sha256": "0657d3e4504b52fbdb2541fde108e87451ebc9873d12e0eecda5840180d86b29",
+      "bytes": 817041,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "feed",
+      "path": "assets/topics/mammals/vocabulary/feed.png",
+      "category": "actions",
+      "sha256": "67413b8354b3aefcef873997de14a49b14c5264bcf2ba93ddaae5055a1c1d396",
+      "bytes": 764356,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "breathe",
+      "path": "assets/topics/mammals/vocabulary/breathe.png",
+      "category": "actions",
+      "sha256": "619b90be446dc556b052d2e68bcf128468565b02698b124404fc60f8ee93dbe0",
+      "bytes": 647043,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "sleep",
+      "path": "assets/topics/mammals/vocabulary/sleep.png",
+      "category": "actions",
+      "sha256": "ef02ebd7950ccec2126dcd3a606c1b32bdcb8c0ccf24a364ed024070ffb214df",
+      "bytes": 802024,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "stretch",
+      "path": "assets/topics/mammals/vocabulary/stretch.png",
+      "category": "actions",
+      "sha256": "08d55ec45a9868ee14f92bc7f1de649442f616d4b768daddd1c199e6ea456862",
+      "bytes": 641354,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "groom",
+      "path": "assets/topics/mammals/vocabulary/groom.png",
+      "category": "actions",
+      "sha256": "7085246657f71d8b905bf17a4a6712aaaa3e70504b3b466a9737ae6ad635132d",
+      "bytes": 773428,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "carry",
+      "path": "assets/topics/mammals/vocabulary/carry.png",
+      "category": "actions",
+      "sha256": "04a851476a563dd260c3d89dc105c7988ac9ca4b855d5e776b210d9a8cde89cc",
+      "bytes": 566022,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "hide",
+      "path": "assets/topics/mammals/vocabulary/hide.png",
+      "category": "actions",
+      "sha256": "2eb80586d696c08d96841dbb318c87b44581868b66b7f9f74007deee93f6c49c",
+      "bytes": 738660,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "kitten",
+      "path": "assets/topics/mammals/vocabulary/kitten.png",
+      "category": "young",
+      "sha256": "d23b2719f2d3a8a1d4056887527313dba15c860f420891469fb0552520d8a3d8",
+      "bytes": 674312,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "puppy",
+      "path": "assets/topics/mammals/vocabulary/puppy.png",
+      "category": "young",
+      "sha256": "27898b180316b728e723d97fa1aeaf4941daedb1c48df490fc7f8376e1eb1a5c",
+      "bytes": 687038,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "calf",
+      "path": "assets/topics/mammals/vocabulary/calf.png",
+      "category": "young",
+      "sha256": "867bae4ceb91d4fe7977ddcf54098fa08a787bde50bcf3f636f8b8535d02c1df",
+      "bytes": 759378,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "lamb",
+      "path": "assets/topics/mammals/vocabulary/lamb.png",
+      "category": "young",
+      "sha256": "a75f89aed2884c0ec84d91bccdfe2aa0381175971a5815fd0e762f9e47614c0a",
+      "bytes": 795403,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "kid",
+      "path": "assets/topics/mammals/vocabulary/kid.png",
+      "category": "young",
+      "sha256": "3061c9007ad9409d8133ffbc7cd150eeb261764c0466bffdf59ef6945928e32d",
+      "bytes": 722022,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "foal",
+      "path": "assets/topics/mammals/vocabulary/foal.png",
+      "category": "young",
+      "sha256": "85dbc52d9ed46ff6d2e840bd35f69116d625399edc0ecd29ce85249482744d0b",
+      "bytes": 623474,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "cub",
+      "path": "assets/topics/mammals/vocabulary/cub.png",
+      "category": "young",
+      "sha256": "d5e594daa3961c97355f67fd02fcefd43ce02142fbc5240eaf20fc661493de4e",
+      "bytes": 675206,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    },
+    {
+      "id": "joey",
+      "path": "assets/topics/mammals/vocabulary/joey.png",
+      "category": "young",
+      "sha256": "aa45f3b7d06103cca97430f2e6af20e10f01ea08790fadd8ae60685d426f2dc0",
+      "bytes": 511279,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "iccProfile": true
+    }
+  ]
+}
