@@ -157,3 +157,7 @@ img.spelling-clue{object-fit:contain;max-height:none}
 img.tile-art{max-height:calc(var(--art) * 1.3)}
 .wheel-marker{width:18%;height:18%}
 @media(max-width:700px){.category-card img.category-art{height:120px}.mode-card img.mode-art{height:120px}img.answer-art,.many-answers img.answer-art{height:120px}img.reading-art{height:240px}.spelling-layout{grid-template-columns:1fr}img.spelling-clue{height:220px}}
+
+.category-grid{display:flex;flex-wrap:wrap;justify-content:center;gap:12px}
+.category-grid>.category-card{flex:0 0 calc((100% - 24px)/3);min-width:0}
+@media(max-width:700px){.category-grid{gap:9px}.category-grid>.category-card{flex-basis:calc((100% - 9px)/2)}}
