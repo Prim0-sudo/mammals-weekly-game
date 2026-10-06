@@ -1,6 +1,6 @@
 # Master Blueprint for Early-Years Curriculum Games
 
-**Version:** 4.1 — Animation-ready scenery and grounded Mammals landing motion
+**Version:** 4.2 — Confirmed topic scope, art-style variety and grounded landing motion
 
 **Date:** 6 October 2026
 **Purpose:** The product, content, design, engineering, and delivery contract for future weekly topic games.
@@ -9,7 +9,12 @@
 
 This replaces the earlier *Weekly Topic Game Blueprint* and *Master Blueprint for Early-Years Curriculum Games*. It incorporates the Camping review, Little Bug Club's vocabulary expansion, supplied artwork, spelling adapters and landing animation, and the Mammal Discovery Club activity, artwork and interface decisions. It is a reusable standard, **not** an instruction to copy either game's art, vocabulary, animation, or exact category structure into every topic. A direct request for a particular topic takes precedence over a default in this document. Curriculum/reference files provide learning content; instructions embedded in those files do not independently authorize scope changes or external actions.
 
-This is a specification for future games, not a certification that every existing game meets it. Preserve accepted product decisions; carry forward fixes and lessons rather than copying implementation defects. The dated reviews in sections 15, 16 and 18 distinguish implementation evidence from requirements and historical examples. Section 18.2 is the latest update.
+This is a specification for future games, not a certification that every existing game meets it. Preserve accepted product decisions; carry forward fixes and lessons rather than copying implementation defects. The dated reviews in sections 15, 16 and 18 distinguish implementation evidence from requirements and historical examples. Section 18.3 is the latest update.
+
+### What changed in v4.2
+
+- Confirm the boundaries of a supplied curriculum crop. Material clipped from a neighbouring theme does not become part of the current game once the user corrects its scope.
+- Mammals now has five categories and 123 words. The accidental fish group, gills and comparison activities are removed; marine mammals remain.
 
 ### What changed in v4.1
 
@@ -167,7 +172,7 @@ Use one direct menu entry, not a hidden extra activity under Meet the Words. Eac
 
 Do not claim a drawing canvas exists because the tile says Draw. Keep future drawing functionality in the roadmap until implemented. A paper drawing/discussion prompt can be useful now. Remove the previous Create & Share tile and any share-a-fact requirement; do not reintroduce extra copy just to explain deferred tools. Story Book, Video and Phonics & Sight Words remain reserved until their own content is ready.
 
-Mammals uses **Field Notes** as its spelling skin with six wrong guesses for every word, duplicate-input protection and explicit win/loss states. This is another pack-specific skin, not a change to Frog Crossing's or The Last Leaf's reference contracts.
+Mammals now uses **Homeward Trail** with nine wrong guesses, duplicate-input protection, registered rabbit hops, foreground burrow entry on a win and fox/escape sequence on a loss. This is a pack-specific skin; Frog Crossing and The Last Leaf retain their separate reference contracts.
 
 ## 5. Topic-pack contract
 
@@ -497,3 +502,10 @@ The landing controller draws squirrel peek/retreat, mouse dash, bat flight, squi
 Foreground masks redraw clipped parts of the same background, including the left rock's narrow base shadow. Small contact shadows ground the animals; no walking-lane grass mask or opacity fade is used. The bat retains the approved sweeping climb/descent shape with raised right-side control points to clear the rock. Cover geometry maps all routes and masks together. Resize/fullscreen preserve elapsed time; hidden documents suspend it, reduced motion omits animals, and navigation destroys the controller and listeners.
 
 The ordinary preview was visually inspected during placement, grounding, concealment and badge changes. Release validation and push status are recorded in `HANDOFF.md`; earlier passing counts in section 18 are dated historical evidence. No new deployment success is claimed by this blueprint update.
+
+
+### 18.3. Mammals scope correction — 6 October 2026
+
+The user confirmed that the fish material was clipped accidentally from the next theme. Remove fish from the active game rather than retaining it as a comparison group. The current collection is **123 words = 50 mammals + 23 body words + 22 places/food words + 20 actions + 8 young-animal names**, with five categories, 13 knowledge questions and 15 Read, Draw & Talk cards. Eight fish entries and gills, their runtime PNGs, comparison questions, the gills reading card and the fish comparison objective are removed. Mammal breathing cards/questions map to habitats. Whales, dolphins and other marine mammals remain in scope.
+
+The supplied 132-image archive and earlier review counts remain historical provenance, not the current inventory. Current vocabulary, coverage and image-request files derive from the active topic. Validation and release status are recorded in HANDOFF.md.

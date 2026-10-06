@@ -1,5 +1,5 @@
 {
-  "status": "132 supplied vocabulary images installed and checksum-verified; twelve custom menu illustrations; rabbit club badge; flat woodland rock background; squirrel, mouse and bat landing animations; Detective test assets unchanged.",
+  "status": "123 supplied vocabulary images installed and checksum-verified; twelve custom menu illustrations; rabbit club badge; flat woodland rock background; squirrel, mouse and bat landing animations; Detective test assets unchanged.",
   "source": {
     "path": "docs/curriculum-outline.png",
     "sha256": "f85a6a5e92b6bf307852e3df054463e165d5bd66508219499f42682e2ecbe190",
@@ -911,150 +911,6 @@
       "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {
-      "id": "goldfish",
-      "name": "goldfish",
-      "category": "fish",
-      "path": "assets/topics/mammals/vocabulary/goldfish.png",
-      "alt": "A goldfish with gill covers and fins clearly visible.",
-      "brief": "A goldfish with gill covers and fins clearly visible.",
-      "status": "supplied",
-      "dimensions": [
-        1024,
-        1024
-      ],
-      "mode": "RGBA",
-      "format": "PNG, RGBA, sRGB",
-      "sha256": "b58692d49f9fa8b111dd3273cc202960249d138a4551235a85419fdfea2f4523",
-      "bytes": 678423,
-      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
-    },
-    {
-      "id": "salmon",
-      "name": "salmon",
-      "category": "fish",
-      "path": "assets/topics/mammals/vocabulary/salmon.png",
-      "alt": "A salmon side-on with fins and gill covers visible.",
-      "brief": "A salmon side-on with fins and gill covers visible.",
-      "status": "supplied",
-      "dimensions": [
-        1024,
-        1024
-      ],
-      "mode": "RGBA",
-      "format": "PNG, RGBA, sRGB",
-      "sha256": "46d183d5b811976db375e4910796b11b5d8b888faebb7c5f6dc36e9325ab54d5",
-      "bytes": 325958,
-      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
-    },
-    {
-      "id": "tuna",
-      "name": "tuna",
-      "category": "fish",
-      "path": "assets/topics/mammals/vocabulary/tuna.png",
-      "alt": "A tuna with a streamlined body and small finlets near its tail.",
-      "brief": "A tuna with a streamlined body and small finlets near its tail.",
-      "status": "supplied",
-      "dimensions": [
-        1024,
-        1024
-      ],
-      "mode": "RGBA",
-      "format": "PNG, RGBA, sRGB",
-      "sha256": "99693c882bc37850161f5839d655e65e9dec1ca1538725aa0e85af90ae2ab10e",
-      "bytes": 355326,
-      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
-    },
-    {
-      "id": "shark",
-      "name": "shark",
-      "category": "fish",
-      "path": "assets/topics/mammals/vocabulary/shark.png",
-      "alt": "A shark side-on with gill slits visible, no scary teeth close-up.",
-      "brief": "A shark side-on with gill slits visible, no scary teeth close-up.",
-      "status": "supplied",
-      "dimensions": [
-        1024,
-        1024
-      ],
-      "mode": "RGBA",
-      "format": "PNG, RGBA, sRGB",
-      "sha256": "c9b42d9cf1dfd275aeabe643b8faf930a07c717f9036c70620c5c19ba29e2aee",
-      "bytes": 283942,
-      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
-    },
-    {
-      "id": "ray",
-      "name": "ray",
-      "category": "fish",
-      "path": "assets/topics/mammals/vocabulary/ray.png",
-      "alt": "A ray seen from above, with an inset showing underside gill slits.",
-      "brief": "A ray seen from above, with an inset showing underside gill slits.",
-      "status": "supplied",
-      "dimensions": [
-        1024,
-        1024
-      ],
-      "mode": "RGBA",
-      "format": "PNG, RGBA, sRGB",
-      "sha256": "12e4134b3c11c6e7a50ae72dbcc66dc0e21bafeb19e146b5b4a992fcfe45c2fe",
-      "bytes": 650048,
-      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
-    },
-    {
-      "id": "seahorse",
-      "name": "seahorse",
-      "category": "fish",
-      "path": "assets/topics/mammals/vocabulary/seahorse.png",
-      "alt": "A seahorse gripping seagrass with its curled tail.",
-      "brief": "A seahorse gripping seagrass with its curled tail.",
-      "status": "supplied",
-      "dimensions": [
-        1024,
-        1024
-      ],
-      "mode": "RGBA",
-      "format": "PNG, RGBA, sRGB",
-      "sha256": "919c4d0eec3e987d59e6233cf8bc95ce00cb0e25dce96ccf4cb309b53d019857",
-      "bytes": 525282,
-      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
-    },
-    {
-      "id": "clownfish",
-      "name": "clownfish",
-      "category": "fish",
-      "path": "assets/topics/mammals/vocabulary/clownfish.png",
-      "alt": "An orange clownfish with white bands beside a sea anemone.",
-      "brief": "An orange clownfish with white bands beside a sea anemone.",
-      "status": "supplied",
-      "dimensions": [
-        1024,
-        1024
-      ],
-      "mode": "RGBA",
-      "format": "PNG, RGBA, sRGB",
-      "sha256": "a62342a2a4e2f7d626cff09bba59eb29901cd86f57f6d510ffbb49c70dfeb6c0",
-      "bytes": 781198,
-      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
-    },
-    {
-      "id": "eel",
-      "name": "eel",
-      "category": "fish",
-      "path": "assets/topics/mammals/vocabulary/eel.png",
-      "alt": "An eel showing a long body and small gill opening.",
-      "brief": "An eel showing a long body and small gill opening.",
-      "status": "supplied",
-      "dimensions": [
-        1024,
-        1024
-      ],
-      "mode": "RGBA",
-      "format": "PNG, RGBA, sRGB",
-      "sha256": "ea023eb6c2025b9dbbd3286bee2b7856addb61b01d2dda4209746f32a7fc10fa",
-      "bytes": 537010,
-      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
-    },
-    {
       "id": "fur",
       "name": "fur",
       "category": "bodies",
@@ -1466,24 +1322,6 @@
       "format": "PNG, RGBA, sRGB",
       "sha256": "727f42638ba3d45629cc879527e9ef195054f266ca7eec41211b3b6a40c1938b",
       "bytes": 408295,
-      "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
-    },
-    {
-      "id": "gills",
-      "name": "gills",
-      "category": "bodies",
-      "path": "assets/topics/mammals/vocabulary/gills.png",
-      "alt": "A fish diagram with gills highlighted under an open gill-cover inset.",
-      "brief": "A fish diagram with gills highlighted under an open gill-cover inset.",
-      "status": "supplied",
-      "dimensions": [
-        1024,
-        1024
-      ],
-      "mode": "RGBA",
-      "format": "PNG, RGBA, sRGB",
-      "sha256": "dd29f9a6bf4931e080c896d8fd600130dd9a6a5555f9374599e2a36f1d60d5e3",
-      "bytes": 702534,
       "provenance": "User-supplied Mammal_Discovery_Club_132_Game_Assets.zip; imported byte-for-byte, 5 October 2026"
     },
     {

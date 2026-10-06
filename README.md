@@ -1,6 +1,6 @@
 # Mammal Discovery Club
 
-**Status — 6 October 2026:** The current landing scene uses a rabbit intro/Home badge, a level woodland clearing with clean rocks, straight squirrel/mouse paths, a three-second mouse dash and raised bat flights. The hedgehog is inactive. Homeward Trail spelling and all 132 vocabulary images remain installed. See HANDOFF.md for current validation and release status; teacher review remains outstanding.
+**Status — 6 October 2026:** The current landing scene uses a rabbit intro/Home badge, a level woodland clearing with clean rocks, straight squirrel/mouse paths, a three-second mouse dash and raised bat flights. The hedgehog is inactive. Homeward Trail spelling and all 123 vocabulary images remain installed. See HANDOFF.md for current validation and release status; teacher review remains outstanding.
 
 Repository: https://github.com/Prim0-sudo/mammals-weekly-game
 
@@ -10,23 +10,22 @@ Start from this directory with `npm start`, then open [the local preview](http:/
 
 ## Collection
 
-132 distinct playable entries in one collection, with stable IDs and no year-group tiers:
+123 distinct playable entries in one collection, with stable IDs and no year-group tiers:
 
 | Group | Words |
 |---|---:|
 | Meet the Mammals | 50 |
-| Meet the Fish | 8 |
-| Bodies Up Close | 24 |
+| Bodies Up Close | 23 |
 | Places & Food | 22 |
 | What Animals Do | 20 |
 | Mothers & Young | 8 |
-| **Total** | **132** |
+| **Total** | **123** |
 
-Each entry includes a definition, sentence, useful intended alt text, reserved image path, provenance and review status. All are reachable through their category and All Words. The bank, runtime topic, counts, curriculum matrix and 132-entry image manifest reconcile. Category names do not add to the total. Knowledge has 16 questions with category paths and All 16 Questions; category question counts can overlap because one question may address several subjects.
+Each entry includes a definition, sentence, useful intended alt text, reserved image path, provenance and review status. All are reachable through their category and All Words. The bank, runtime topic, counts, curriculum matrix and 123-entry image manifest reconcile. Category names do not add to the total. Knowledge has 13 questions with category paths and All 13 Questions; category question counts can overlap because one question may address several subjects.
 
 ## Activities
 
-The nine active activity IDs are `learn`, `sort`, `detective`, `identify`, `knowledge`, `spelling`, `flip`, `wheel`, `create`. Detective now has a single-picture elephant demo: silhouette guessing, pixel and mosaic reveals with 30/45/60-second options (45 seconds by default), with 120 mosaic tiles. Start, pause, guess, reveal and Next controls work; hidden tabs pause the timer. Correct guesses award one star; manual and timed reveals do not. The seven other activities work with the available text content. Meet the Words includes vocabulary sentences. **Read, Draw & Talk** is a separate active menu tile with 16 illustrated sentence/discussion cards and the three supplied assessment phrases. Draw-the-caption prompts are included in these cards; drawing tools will be added later. Translation remains teacher-led because no target language was supplied.
+The nine active activity IDs are `learn`, `sort`, `detective`, `identify`, `knowledge`, `spelling`, `flip`, `wheel`, `create`. Detective now has a single-picture elephant demo: silhouette guessing, pixel and mosaic reveals with 30/45/60-second options (45 seconds by default), with 120 mosaic tiles. Start, pause, guess, reveal and Next controls work; hidden tabs pause the timer. Correct guesses award one star; manual and timed reveals do not. The seven other activities work with the available text content. Meet the Words includes vocabulary sentences. **Read, Draw & Talk** is a separate active menu tile with 15 illustrated sentence/discussion cards and the three supplied assessment phrases. Draw-the-caption prompts are included in these cards; drawing tools will be added later. Translation remains teacher-led because no target language was supplied.
 
 Sort It sorts field-guide word roles, not mutually exclusive land/water animal classes. Identification has three distinct choices and independent target/answer picture controls. Flip mismatches stay open until a different available tile is selected. Wheel holds its selected item before a silent text-only reveal and removes it on Next, in explicit batches of at most 12.
 
@@ -48,11 +47,11 @@ Story Book, Video, and Phonics & Sight Words are empty, disabled menu tiles. A t
 
 ## Artwork and review
 
-All **132 supplied vocabulary PNGs** are installed, unchanged from Mammal_Discovery_Club_132_Game_Assets.zip. Filenames, delivery checksums, 1024 × 1024 dimensions and RGBA transparency were verified. Six category cards reuse appropriate vocabulary pictures. Learning, sorting, identification, spelling, matching, wheel markers, reading cards and fully illustrated quiz-choice sets now use the supplied artwork. Detective keeps its original test scene and cutout. The active backdrop is the level woodland clearing with clean rock edges. Landing and Home use the rabbit badge; all twelve menu cards use custom illustrations. Flip includes pictures with word labels, and Wheel uses picture markers. Unused source art remains retained as provenance; active animation assets are listed in the asset manifest. See [master blueprint v4.1](docs/MASTER-BLUEPRINT.md), [landing terrain](docs/landing-terrain.md) and [generated landing art](docs/landing-generated-artwork.json).
+All **123 active supplied vocabulary PNGs** are installed, unchanged from Mammal_Discovery_Club_132_Game_Assets.zip. Filenames, delivery checksums, 1024 × 1024 dimensions and RGBA transparency were verified. Five category cards reuse appropriate vocabulary pictures. Learning, sorting, identification, spelling, matching, wheel markers, reading cards and fully illustrated quiz-choice sets now use the supplied artwork. Detective keeps its original test scene and cutout. The active backdrop is the level woodland clearing with clean rock edges. Landing and Home use the rabbit badge; all twelve menu cards use custom illustrations. Flip includes pictures with word labels, and Wheel uses picture markers. Unused source art remains retained as provenance; active animation assets are listed in the asset manifest. See [master blueprint v4.1](docs/MASTER-BLUEPRINT.md), [landing terrain](docs/landing-terrain.md) and [generated landing art](docs/landing-generated-artwork.json).
 
-The existing fish comparison category remains in this draft. Its scope was questioned by the user and needs a content decision before final curriculum approval.
+Fish content was removed at the user’s request on 6 October 2026; it belonged to the next theme. The active collection has five categories, 123 words, 13 questions and 15 reading cards. Marine mammals remain included.
 
-- [Current complete image request](docs/IMAGE-REQUEST.md): 132 word pictures plus 16 optional interface art slots and the installed background.
+- [Current complete image request](docs/IMAGE-REQUEST.md): 123 word pictures plus 16 optional interface art slots and the installed background.
 
 - [Vocabulary](docs/VOCABULARY.md), [content notes](docs/CONTENT.md), [objective mapping](docs/COVERAGE.md).
 - [Supplied artwork import record](docs/supplied-artwork.json), [delivery manifest](docs/supplied-artwork-manifest.json).

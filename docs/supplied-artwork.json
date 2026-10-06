@@ -2252,5 +2252,20 @@
       ],
       "iccProfile": true
     }
-  ]
+  ],
+  "excludedFromActiveTopic": {
+    "date": "2026-10-06",
+    "reason": "User confirmed neighbouring-theme material was included accidentally",
+    "ids": [
+      "goldfish",
+      "salmon",
+      "tuna",
+      "shark",
+      "ray",
+      "seahorse",
+      "clownfish",
+      "eel",
+      "gills"
+    ]
+  }
 }

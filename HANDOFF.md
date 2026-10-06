@@ -1,3 +1,14 @@
+# Current release — mammals-only topic, 6 October 2026
+
+The user confirmed that fish content was accidentally clipped from the next theme. The active game now contains 123 words in five categories (50/23/22/20/8), 13 knowledge questions and 15 Read, Draw & Talk cards. Eight fish species and gills, their nine runtime PNGs, three comparison questions, one reading card and the fish comparison objective were removed. Marine mammals remain. Every vocabulary activity uses the same reduced bank.
+
+Current manifests, coverage, vocabulary/image handoff, art brief, README and master blueprint v4.2 reflect this scope. Scripts derive active counts from the topic. Original archive names and earlier records remain historical provenance.
+
+Validation: 22/22 Node checks, 21/21 gameplay browser checks, content/checksum validation and build passed. The build contains 123 vocabulary PNGs, with the removed images absent. The normal preview shows the five current categories and All 123 words. Native devices and a new live deployment were not verified.
+
+Publication: committed and pushed to main at the user's request. The existing Cloudflare automatic build is triggered by the push; no separate manual deployment was performed.
+
+---
 # Current release — 6 October 2026
 
 This release updates the landing implementation and master blueprint v4.1. It supersedes the older landing descriptions below; those sections remain historical records.

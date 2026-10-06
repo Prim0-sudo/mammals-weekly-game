@@ -1,6 +1,6 @@
 # Complete vocabulary collection
 
-132 entries. No year-group assignments. All wording pending teacher review. Every entry is reachable in Meet the Words and All Words; all 132 supplied pictures are installed.
+123 entries. No year-group assignments. All wording pending teacher review. Every entry is reachable in Meet the Words and All Words; all 123 supplied pictures are installed.
 
 ## Meet the Mammals (50)
 
@@ -57,20 +57,7 @@
 | sea-otter | sea otter | A sea mammal with thick fur that can float on its back. | The sea otter floats on its back. | draft-extension |
 | polar-bear | polar bear | A bear with thick fur that hunts on Arctic sea ice. | The polar bear walks on sea ice. | draft-extension |
 
-## Meet the Fish (8)
-
-| ID | Word | Definition | Sentence | Origin |
-|---|---|---|---|---|
-| goldfish | goldfish | A small freshwater fish often kept in a tank or pond. | The goldfish swims in water. | draft-extension |
-| salmon | salmon | A fish; many kinds move between rivers and the sea. | The salmon swims up the river. | draft-extension |
-| tuna | tuna | A fast-swimming sea fish. | The tuna swims in the sea. | draft-extension |
-| shark | shark | A fish with a skeleton made of cartilage instead of hard bone. | The shark breathes through gills. | draft-extension |
-| ray | ray | A fish with a flat body and broad, wing-like fins. | The ray has a flat body. | draft-extension |
-| seahorse | seahorse | A small fish with an upright body and a curled tail. | The seahorse holds on with its tail. | draft-extension |
-| clownfish | clownfish | A small reef fish, often orange with white bands. | The clownfish swims by the reef. | draft-extension |
-| eel | eel | A fish with a long, narrow body. | The eel has a long body. | draft-extension |
-
-## Bodies Up Close (24)
+## Bodies Up Close (23)
 
 | ID | Word | Definition | Sentence | Origin |
 |---|---|---|---|---|
@@ -97,7 +84,6 @@
 | blowhole | blowhole | A breathing opening on top of a whale's or dolphin's head. | The dolphin breathes through its blowhole. | draft-extension |
 | lungs | lungs | Body organs that take oxygen from air. | Mammals breathe air into their lungs. | draft-extension |
 | backbone | backbone | The row of bones along the back that helps support the body. | The dog has a backbone. | source-concept |
-| gills | gills | Body parts fish use to take oxygen from water. | The fish uses its gills. | draft-extension |
 
 ## Places & Food (22)
 

@@ -1,6 +1,6 @@
 # Vocabulary image checklist
 
-All 132 supplied vocabulary images are installed. Exact filenames, delivery checksums, dimensions and transparency were checked; all images were reviewed on contact sheets. Delivery PNGs are preserved byte-for-byte. Import records and source checksums are in supplied-artwork.json and asset-manifest.json. Detective artwork is unchanged.
+All 123 supplied vocabulary images are installed. Exact filenames, delivery checksums, dimensions and transparency were checked; all images were reviewed on contact sheets. Delivery PNGs are preserved byte-for-byte. Import records and source checksums are in supplied-artwork.json and asset-manifest.json. Detective artwork is unchanged.
 
 | ID | Category | File | Required picture | Status |
 |---|---|---|---|---|
@@ -54,14 +54,6 @@ All 132 supplied vocabulary images are installed. Exact filenames, delivery chec
 | dugong | mammals | assets/topics/mammals/vocabulary/dugong.png | A dugong with downturned snout and forked, whale-like tail. | Supplied |
 | sea-otter | mammals | assets/topics/mammals/vocabulary/sea-otter.png | A sea otter floating on its back with forepaws visible. | Supplied |
 | polar-bear | mammals | assets/topics/mammals/vocabulary/polar-bear.png | A polar bear on sea ice, showing broad furry paws. | Supplied |
-| goldfish | fish | assets/topics/mammals/vocabulary/goldfish.png | A goldfish with gill covers and fins clearly visible. | Supplied |
-| salmon | fish | assets/topics/mammals/vocabulary/salmon.png | A salmon side-on with fins and gill covers visible. | Supplied |
-| tuna | fish | assets/topics/mammals/vocabulary/tuna.png | A tuna with a streamlined body and small finlets near its tail. | Supplied |
-| shark | fish | assets/topics/mammals/vocabulary/shark.png | A shark side-on with gill slits visible, no scary teeth close-up. | Supplied |
-| ray | fish | assets/topics/mammals/vocabulary/ray.png | A ray seen from above, with an inset showing underside gill slits. | Supplied |
-| seahorse | fish | assets/topics/mammals/vocabulary/seahorse.png | A seahorse gripping seagrass with its curled tail. | Supplied |
-| clownfish | fish | assets/topics/mammals/vocabulary/clownfish.png | An orange clownfish with white bands beside a sea anemone. | Supplied |
-| eel | fish | assets/topics/mammals/vocabulary/eel.png | An eel showing a long body and small gill opening. | Supplied |
 | fur | bodies | assets/topics/mammals/vocabulary/fur.png | A close view of rabbit fur, with the rabbit shown in a small context view. | Supplied |
 | whiskers | bodies | assets/topics/mammals/vocabulary/whiskers.png | A cat face close-up with whiskers clearly indicated. | Supplied |
 | skin | bodies | assets/topics/mammals/vocabulary/skin.png | A close view of elephant skin, with a small whole-elephant context. | Supplied |
@@ -85,7 +77,6 @@ All 132 supplied vocabulary images are installed. Exact filenames, delivery chec
 | blowhole | bodies | assets/topics/mammals/vocabulary/blowhole.png | A dolphin at the surface with its blowhole clearly indicated. | Supplied |
 | lungs | bodies | assets/topics/mammals/vocabulary/lungs.png | A simple child-friendly mammal body diagram highlighting paired lungs. | Supplied |
 | backbone | bodies | assets/topics/mammals/vocabulary/backbone.png | A simple non-graphic dog skeleton outline with backbone highlighted. | Supplied |
-| gills | bodies | assets/topics/mammals/vocabulary/gills.png | A fish diagram with gills highlighted under an open gill-cover inset. | Supplied |
 | land | places | assets/topics/mammals/vocabulary/land.png | A simple coastline with the solid land highlighted. | Supplied |
 | ocean | places | assets/topics/mammals/vocabulary/ocean.png | A wide ocean view with a whale far in the water for scale. | Supplied |
 | ocean-floor | places | assets/topics/mammals/vocabulary/ocean-floor.png | A cutaway sea view with the bottom clearly highlighted. | Supplied |

@@ -1,12 +1,12 @@
 # Image handoff — Mammal Discovery Club
 
-Current draft inventory, 4 October 2026. This lists the existing bank; it does not add vocabulary. The vocabulary is being developed separately and is still pending teacher review. Preserve the IDs when supplying or revising content.
+Current topic scope, 6 October 2026. Preserve stable IDs and review teaching suitability before replacing artwork.
 
-**132 vocabulary pictures across 6 categories.** All 132 supplied vocabulary pictures were installed on 5 October 2026; the table below remains the original picture brief. See supplied-artwork.json for checksums and file details. The existing animal-free background is already installed. Interface graphics currently work in CSS; the 16 interface slots below are available if custom artwork is wanted. They are not additional vocabulary entries.
+**123 supplied vocabulary pictures across 5 categories.** These active images are installed and checksum-verified. The original delivery archive is historical provenance; its complete contents do not determine game eligibility.
 
 ## Vocabulary pictures
 
-One 1024 × 1024 sRGB PNG per word, with consistent framing, generous margins and transparency where appropriate. Do not bake in labels. Use a recognisable, gentle style; show body parts and actions in useful animal context. Retain original canvas and bytes. The detailed picture brief is included below.
+Retain supplied originals byte-for-byte. Replacements need coherent style, clear anatomy, appropriate transparency, no baked-in learning labels and consistent visible scale. Dimensions and checksums are in supplied-artwork.json and asset-manifest.json.
 
 ### Meet the Mammals — 50
 
@@ -63,20 +63,7 @@ One 1024 × 1024 sRGB PNG per word, with consistent framing, generous margins an
 | sea otter | sea-otter.png | A sea otter floating on its back with forepaws visible. |
 | polar bear | polar-bear.png | A polar bear on sea ice, showing broad furry paws. |
 
-### Meet the Fish — 8
-
-| Word | Stable ID / filename | Picture brief |
-|---|---|---|
-| goldfish | goldfish.png | A goldfish with gill covers and fins clearly visible. |
-| salmon | salmon.png | A salmon side-on with fins and gill covers visible. |
-| tuna | tuna.png | A tuna with a streamlined body and small finlets near its tail. |
-| shark | shark.png | A shark side-on with gill slits visible, no scary teeth close-up. |
-| ray | ray.png | A ray seen from above, with an inset showing underside gill slits. |
-| seahorse | seahorse.png | A seahorse gripping seagrass with its curled tail. |
-| clownfish | clownfish.png | An orange clownfish with white bands beside a sea anemone. |
-| eel | eel.png | An eel showing a long body and small gill opening. |
-
-### Bodies Up Close — 24
+### Bodies Up Close — 23
 
 | Word | Stable ID / filename | Picture brief |
 |---|---|---|
@@ -103,7 +90,6 @@ One 1024 × 1024 sRGB PNG per word, with consistent framing, generous margins an
 | blowhole | blowhole.png | A dolphin at the surface with its blowhole clearly indicated. |
 | lungs | lungs.png | A simple child-friendly mammal body diagram highlighting paired lungs. |
 | backbone | backbone.png | A simple non-graphic dog skeleton outline with backbone highlighted. |
-| gills | gills.png | A fish diagram with gills highlighted under an open gill-cover inset. |
 
 ### Places & Food — 22
 
@@ -170,53 +156,16 @@ One 1024 × 1024 sRGB PNG per word, with consistent framing, generous margins an
 | cub | cub.png | A lion cub beside an adult lioness. |
 | joey | joey.png | A kangaroo joey peeking out from its mother's pouch. |
 
-Vocabulary destination: `assets/topics/mammals/vocabulary/<id>.png`.
+## Installed interface artwork
 
-## Landing page — 2 artwork slots
+- Category cards reuse explicitly mapped vocabulary pictures across 5 groups.
+- All 12 activity tiles use local custom illustrations.
+- Intro and Home share the rabbit badge at assets/topics/mammals/generated/club-badge-rabbit.png.
+- Background: assets/topics/mammals/generated/woodland-clearing-rocks.png (1672 × 940).
+- Squirrel, mouse and bat animation details and provenance: landing-terrain.md and landing-generated-artwork.json.
+- Spelling uses Homeward Trail. Detective retains its elephant demo artwork.
+- Story Book, Video and Phonics & Sight Words are locked; drawing tools are planned for later.
 
-| Asset | Reserved file | Brief |
-|---|---|---|
-| Title / logo artwork | `assets/topics/mammals/logo.png` | Optional animal-free decorative badge around the live title. Transparent PNG, suggested 1200 × 1200. Keep title as live text for scaling and accessibility. |
-| Front-page button | `assets/topics/mammals/start-button.png` | Optional button surface for “Come and explore”. No baked-in label; live text stays on top. Transparent PNG, suggested 1200 × 400, clear central label area. Hover, focus and pressed states can remain CSS. |
+## Current inventory
 
-The woodland/coast background is already present at `assets/topics/mammals/generated/woodland-coast-empty.png` (1672 × 941). No static animals belong on the landing page. The live interface currently draws both badge and button in CSS.
-
-## Category artwork — 6 slots
-
-Separate transparent 1024 × 1024 PNGs; no labels baked in. Category illustrations introduce groups and do not count as vocabulary.
-
-| Category | File | Suggested composition |
-|---|---|---|
-| Meet the Mammals | `assets/topics/mammals/categories/mammals.png` | A land mammal and a marine mammal together. |
-| Meet the Fish | `assets/topics/mammals/categories/fish.png` | Two clearly recognisable fish with fins. |
-| Bodies Up Close | `assets/topics/mammals/categories/bodies.png` | Small close-up study of fur, paw and whiskers. |
-| Places & Food | `assets/topics/mammals/categories/places.png` | A small landscape with meadow, trees and water. |
-| What Animals Do | `assets/topics/mammals/categories/actions.png` | An animal visibly moving; use a clear pose rather than motion blur. |
-| Mothers & Young | `assets/topics/mammals/categories/young.png` | A mother mammal with her young. |
-
-## Menu artwork — 8 slots
-
-Separate transparent 1024 × 1024 PNGs with matching scale and no embedded labels. The current CSS icons already fill these roles.
-
-| Card | Stable mode ID / file | Suggested picture |
-|---|---|---|
-| Meet the Words | `assets/topics/mammals/menu/learn.png` | Open picture book |
-| Sort It | `assets/topics/mammals/menu/sort.png` | Sorting basket |
-| Sound Detective | `assets/topics/mammals/menu/sound.png` | Ear / listening symbol; stays locked until approved audio and playback are available |
-| Which One Is It? | `assets/topics/mammals/menu/identify.png` | Magnifying glass |
-| Knowledge & Safety | `assets/topics/mammals/menu/knowledge.png` | Shield with a check mark |
-| Field Notes | `assets/topics/mammals/menu/spelling.png` | Field notebook and pencil |
-| Flip the Tiles | `assets/topics/mammals/menu/flip.png` | Two matching cards |
-| Spin the Wheel | `assets/topics/mammals/menu/wheel.png` | Colourful spinner wheel |
-
-## Other controls and future animation
-
-Home, Back, Next, replay, sound, fullscreen, score stars, progress, letter keys, Flip card backs, Wheel sectors/pointer and Field Notes mistake marks can stay in CSS. No separate raster files are needed for these controls.
-
-Future landing animals are separate animated assets, not static illustrations. Species and number are not selected yet, so no invented sprite count is included. Before creating them, agree the poses and routes: matching canvas dimensions, ground/contact anchors, side travel poses and front-facing turns, plus distinct idle/walk/swim frames where needed. Keep the title and controls clear. Supply effects and foreground elements on separate transparent layers. Do not flatten them into the background.
-
-## Reconciled totals
-
-132 pending vocabulary pictures + 6 category slots + 8 menu slots + 1 logo slot + 1 front-page button slot = **148 pending/reserved image slots**. Add the **1 installed background** for **149 mapped image slots**. Of the 148 pending/reserved slots, 16 are interface art currently covered by CSS/text. Future animation assets are separate and not yet counted.
-
-Preserve original files and SHA-256 checksums on import. Review artwork before setting its status to approved. The curriculum screenshot is reference material, not a playable image.
+123 vocabulary entries, 5 category cards, 12 menu tiles, 13 knowledge questions and 15 reading/discussion cards.

@@ -51,14 +51,6 @@ manatee|A large plant-eating mammal that lives in warm water.|A manatee with pad
 dugong|A sea mammal that eats seagrass and has a fluked tail.|A dugong with downturned snout and forked, whale-like tail.|The dugong eats seagrass.
 sea otter|A sea mammal with thick fur that can float on its back.|A sea otter floating on its back with forepaws visible.|The sea otter floats on its back.
 polar bear|A bear with thick fur that hunts on Arctic sea ice.|A polar bear on sea ice, showing broad furry paws.|The polar bear walks on sea ice.`,
- fish: `goldfish|A small freshwater fish often kept in a tank or pond.|A goldfish with gill covers and fins clearly visible.|The goldfish swims in water.
-salmon|A fish; many kinds move between rivers and the sea.|A salmon side-on with fins and gill covers visible.|The salmon swims up the river.
-tuna|A fast-swimming sea fish.|A tuna with a streamlined body and small finlets near its tail.|The tuna swims in the sea.
-shark|A fish with a skeleton made of cartilage instead of hard bone.|A shark side-on with gill slits visible, no scary teeth close-up.|The shark breathes through gills.
-ray|A fish with a flat body and broad, wing-like fins.|A ray seen from above, with an inset showing underside gill slits.|The ray has a flat body.
-seahorse|A small fish with an upright body and a curled tail.|A seahorse gripping seagrass with its curled tail.|The seahorse holds on with its tail.
-clownfish|A small reef fish, often orange with white bands.|An orange clownfish with white bands beside a sea anemone.|The clownfish swims by the reef.
-eel|A fish with a long, narrow body.|An eel showing a long body and small gill opening.|The eel has a long body.`,
  bodies: `fur|The thick coat of hair on many mammals.|A close view of rabbit fur, with the rabbit shown in a small context view.|The rabbit has soft fur.
 whiskers|Long stiff hairs near the face that help an animal sense nearby things.|A cat face close-up with whiskers clearly indicated.|The cat has long whiskers.
 skin|The outer covering of an animal's body.|A close view of elephant skin, with a small whole-elephant context.|The elephant has wrinkled skin.
@@ -81,8 +73,7 @@ pouch|A fold of skin in which some mammals carry their young.|A kangaroo mother 
 flipper|A broad, flat limb used for moving in water.|A seal with one front flipper clearly indicated.|The seal moves a flipper.
 blowhole|A breathing opening on top of a whale's or dolphin's head.|A dolphin at the surface with its blowhole clearly indicated.|The dolphin breathes through its blowhole.
 lungs|Body organs that take oxygen from air.|A simple child-friendly mammal body diagram highlighting paired lungs.|Mammals breathe air into their lungs.
-backbone|The row of bones along the back that helps support the body.|A simple non-graphic dog skeleton outline with backbone highlighted.|The dog has a backbone.
-gills|Body parts fish use to take oxygen from water.|A fish diagram with gills highlighted under an open gill-cover inset.|The fish uses its gills.`,
+backbone|The row of bones along the back that helps support the body.|A simple non-graphic dog skeleton outline with backbone highlighted.|The dog has a backbone.`,
  places: `land|The solid ground, rather than water.|A simple coastline with the solid land highlighted.|The lion walks on land.
 ocean|A very large area of salty water.|A wide ocean view with a whale far in the water for scale.|The whale lives in the ocean.
 ocean floor|The ground at the bottom of the ocean.|A cutaway sea view with the bottom clearly highlighted.|The walrus finds food on the ocean floor.
