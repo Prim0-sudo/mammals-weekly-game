@@ -1,0 +1,524 @@
+{
+  "frameSize": [
+    480,
+    480
+  ],
+  "sequences": {
+    "squirrel-idle": {
+      "frameCount": 12,
+      "durationMs": 120,
+      "frames": [
+        {
+          "file": "squirrel-idle/squirrel-idle-01.png",
+          "durationMs": 120,
+          "sourceBounds": [
+            44,
+            15,
+            347,
+            357
+          ]
+        },
+        {
+          "file": "squirrel-idle/squirrel-idle-02.png",
+          "durationMs": 120,
+          "sourceBounds": [
+            393,
+            15,
+            682,
+            358
+          ]
+        },
+        {
+          "file": "squirrel-idle/squirrel-idle-03.png",
+          "durationMs": 120,
+          "sourceBounds": [
+            747,
+            15,
+            1031,
+            358
+          ]
+        },
+        {
+          "file": "squirrel-idle/squirrel-idle-04.png",
+          "durationMs": 120,
+          "sourceBounds": [
+            1095,
+            15,
+            1375,
+            358
+          ]
+        },
+        {
+          "file": "squirrel-idle/squirrel-idle-05.png",
+          "durationMs": 120,
+          "sourceBounds": [
+            45,
+            364,
+            324,
+            709
+          ]
+        },
+        {
+          "file": "squirrel-idle/squirrel-idle-06.png",
+          "durationMs": 120,
+          "sourceBounds": [
+            393,
+            365,
+            673,
+            709
+          ]
+        },
+        {
+          "file": "squirrel-idle/squirrel-idle-07.png",
+          "durationMs": 120,
+          "sourceBounds": [
+            742,
+            366,
+            1025,
+            709
+          ]
+        },
+        {
+          "file": "squirrel-idle/squirrel-idle-08.png",
+          "durationMs": 120,
+          "sourceBounds": [
+            1095,
+            366,
+            1375,
+            709
+          ]
+        },
+        {
+          "file": "squirrel-idle/squirrel-idle-09.png",
+          "durationMs": 120,
+          "sourceBounds": [
+            44,
+            719,
+            324,
+            1069
+          ]
+        },
+        {
+          "file": "squirrel-idle/squirrel-idle-10.png",
+          "durationMs": 120,
+          "sourceBounds": [
+            394,
+            722,
+            686,
+            1070
+          ]
+        },
+        {
+          "file": "squirrel-idle/squirrel-idle-11.png",
+          "durationMs": 120,
+          "sourceBounds": [
+            744,
+            721,
+            1044,
+            1070
+          ]
+        },
+        {
+          "file": "squirrel-idle/squirrel-idle-12.png",
+          "durationMs": 120,
+          "sourceBounds": [
+            1097,
+            722,
+            1397,
+            1071
+          ]
+        }
+      ],
+      "atlas": "squirrel-idle-aligned-atlas.png",
+      "columns": 4,
+      "rows": 3
+    },
+    "squirrel-acorn-run": {
+      "frameCount": 12,
+      "durationMs": 65,
+      "frames": [
+        {
+          "file": "squirrel-acorn-run/squirrel-acorn-run-01.png",
+          "durationMs": 65,
+          "sourceBounds": [
+            15,
+            54,
+            354,
+            313
+          ]
+        },
+        {
+          "file": "squirrel-acorn-run/squirrel-acorn-run-02.png",
+          "durationMs": 65,
+          "sourceBounds": [
+            396,
+            56,
+            756,
+            315
+          ]
+        },
+        {
+          "file": "squirrel-acorn-run/squirrel-acorn-run-03.png",
+          "durationMs": 65,
+          "sourceBounds": [
+            782,
+            56,
+            1142,
+            314
+          ]
+        },
+        {
+          "file": "squirrel-acorn-run/squirrel-acorn-run-04.png",
+          "durationMs": 65,
+          "sourceBounds": [
+            1162,
+            60,
+            1521,
+            277
+          ]
+        },
+        {
+          "file": "squirrel-acorn-run/squirrel-acorn-run-05.png",
+          "durationMs": 65,
+          "sourceBounds": [
+            21,
+            384,
+            379,
+            651
+          ]
+        },
+        {
+          "file": "squirrel-acorn-run/squirrel-acorn-run-06.png",
+          "durationMs": 65,
+          "sourceBounds": [
+            400,
+            386,
+            759,
+            650
+          ]
+        },
+        {
+          "file": "squirrel-acorn-run/squirrel-acorn-run-07.png",
+          "durationMs": 65,
+          "sourceBounds": [
+            787,
+            386,
+            1133,
+            652
+          ]
+        },
+        {
+          "file": "squirrel-acorn-run/squirrel-acorn-run-08.png",
+          "durationMs": 65,
+          "sourceBounds": [
+            1169,
+            384,
+            1517,
+            653
+          ]
+        },
+        {
+          "file": "squirrel-acorn-run/squirrel-acorn-run-09.png",
+          "durationMs": 65,
+          "sourceBounds": [
+            18,
+            709,
+            377,
+            976
+          ]
+        },
+        {
+          "file": "squirrel-acorn-run/squirrel-acorn-run-10.png",
+          "durationMs": 65,
+          "sourceBounds": [
+            397,
+            721,
+            755,
+            946
+          ]
+        },
+        {
+          "file": "squirrel-acorn-run/squirrel-acorn-run-11.png",
+          "durationMs": 65,
+          "sourceBounds": [
+            790,
+            715,
+            1142,
+            981
+          ]
+        },
+        {
+          "file": "squirrel-acorn-run/squirrel-acorn-run-12.png",
+          "durationMs": 65,
+          "sourceBounds": [
+            1167,
+            719,
+            1505,
+            976
+          ]
+        }
+      ],
+      "atlas": "squirrel-acorn-run-aligned-atlas.png",
+      "columns": 4,
+      "rows": 3
+    },
+    "hedgehog-walk": {
+      "frameCount": 12,
+      "durationMs": 90,
+      "frames": [
+        {
+          "file": "hedgehog-walk/hedgehog-walk-01.png",
+          "durationMs": 90,
+          "sourceBounds": [
+            17,
+            125,
+            350,
+            353
+          ]
+        },
+        {
+          "file": "hedgehog-walk/hedgehog-walk-02.png",
+          "durationMs": 90,
+          "sourceBounds": [
+            386,
+            126,
+            714,
+            352
+          ]
+        },
+        {
+          "file": "hedgehog-walk/hedgehog-walk-03.png",
+          "durationMs": 90,
+          "sourceBounds": [
+            740,
+            126,
+            1079,
+            351
+          ]
+        },
+        {
+          "file": "hedgehog-walk/hedgehog-walk-04.png",
+          "durationMs": 90,
+          "sourceBounds": [
+            1113,
+            126,
+            1439,
+            353
+          ]
+        },
+        {
+          "file": "hedgehog-walk/hedgehog-walk-05.png",
+          "durationMs": 90,
+          "sourceBounds": [
+            16,
+            440,
+            353,
+            665
+          ]
+        },
+        {
+          "file": "hedgehog-walk/hedgehog-walk-06.png",
+          "durationMs": 90,
+          "sourceBounds": [
+            389,
+            444,
+            715,
+            665
+          ]
+        },
+        {
+          "file": "hedgehog-walk/hedgehog-walk-07.png",
+          "durationMs": 90,
+          "sourceBounds": [
+            748,
+            442,
+            1079,
+            662
+          ]
+        },
+        {
+          "file": "hedgehog-walk/hedgehog-walk-08.png",
+          "durationMs": 90,
+          "sourceBounds": [
+            1114,
+            443,
+            1440,
+            665
+          ]
+        },
+        {
+          "file": "hedgehog-walk/hedgehog-walk-09.png",
+          "durationMs": 90,
+          "sourceBounds": [
+            28,
+            758,
+            354,
+            976
+          ]
+        },
+        {
+          "file": "hedgehog-walk/hedgehog-walk-10.png",
+          "durationMs": 90,
+          "sourceBounds": [
+            389,
+            759,
+            715,
+            976
+          ]
+        },
+        {
+          "file": "hedgehog-walk/hedgehog-walk-11.png",
+          "durationMs": 90,
+          "sourceBounds": [
+            745,
+            758,
+            1079,
+            978
+          ]
+        },
+        {
+          "file": "hedgehog-walk/hedgehog-walk-12.png",
+          "durationMs": 90,
+          "sourceBounds": [
+            1105,
+            758,
+            1439,
+            984
+          ]
+        }
+      ],
+      "atlas": "hedgehog-walk-aligned-atlas.png",
+      "columns": 4,
+      "rows": 3
+    },
+    "bat-flight": {
+      "frameCount": 12,
+      "durationMs": 65,
+      "frames": [
+        {
+          "file": "bat-flight/bat-flight-01.png",
+          "durationMs": 65,
+          "sourceBounds": [
+            18,
+            65,
+            346,
+            324
+          ]
+        },
+        {
+          "file": "bat-flight/bat-flight-02.png",
+          "durationMs": 65,
+          "sourceBounds": [
+            359,
+            114,
+            721,
+            310
+          ]
+        },
+        {
+          "file": "bat-flight/bat-flight-03.png",
+          "durationMs": 65,
+          "sourceBounds": [
+            728,
+            159,
+            1083,
+            308
+          ]
+        },
+        {
+          "file": "bat-flight/bat-flight-04.png",
+          "durationMs": 65,
+          "sourceBounds": [
+            1086,
+            173,
+            1439,
+            312
+          ]
+        },
+        {
+          "file": "bat-flight/bat-flight-05.png",
+          "durationMs": 65,
+          "sourceBounds": [
+            34,
+            493,
+            344,
+            681
+          ]
+        },
+        {
+          "file": "bat-flight/bat-flight-06.png",
+          "durationMs": 65,
+          "sourceBounds": [
+            439,
+            483,
+            657,
+            694
+          ]
+        },
+        {
+          "file": "bat-flight/bat-flight-07.png",
+          "durationMs": 65,
+          "sourceBounds": [
+            757,
+            485,
+            1049,
+            653
+          ]
+        },
+        {
+          "file": "bat-flight/bat-flight-08.png",
+          "durationMs": 65,
+          "sourceBounds": [
+            1086,
+            487,
+            1437,
+            630
+          ]
+        },
+        {
+          "file": "bat-flight/bat-flight-09.png",
+          "durationMs": 65,
+          "sourceBounds": [
+            13,
+            818,
+            354,
+            985
+          ]
+        },
+        {
+          "file": "bat-flight/bat-flight-10.png",
+          "durationMs": 65,
+          "sourceBounds": [
+            368,
+            772,
+            707,
+            996
+          ]
+        },
+        {
+          "file": "bat-flight/bat-flight-11.png",
+          "durationMs": 65,
+          "sourceBounds": [
+            745,
+            764,
+            1073,
+            998
+          ]
+        },
+        {
+          "file": "bat-flight/bat-flight-12.png",
+          "durationMs": 65,
+          "sourceBounds": [
+            1104,
+            742,
+            1430,
+            995
+          ]
+        }
+      ],
+      "atlas": "bat-flight-aligned-atlas.png",
+      "columns": 4,
+      "rows": 3
+    }
+  }
+}

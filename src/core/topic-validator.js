@@ -105,7 +105,7 @@ export function validateTopic(t) {
     "Detective test artwork is incomplete",
   );
   check(
-    ["field-notes"].includes(t.modeSkins.spelling.id),
+    ["homeward-trail"].includes(t.modeSkins.spelling.id),
       "Unsupported spelling adapter",
     );
     if (t.modeSkins.spelling.attempts !== undefined)

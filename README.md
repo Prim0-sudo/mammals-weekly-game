@@ -1,6 +1,6 @@
 # Mammal Discovery Club
 
-**Status — 5 October 2026: local artwork update.** All 132 supplied vocabulary images are installed. Local changes have not yet been published; teacher review of drafted content remains outstanding.
+**Status — 6 October 2026: Homeward Trail and supplied landing animations ready for the requested GitHub push.** Spelling uses the rabbit/burrow/fox scene with nine chances. Landing uses a squirrel peek, hedgehog walk and bat flight; the squirrel run is inactive. All 132 vocabulary images remain installed; teacher review of drafted content remains outstanding. Latest tests: 19/19 Node checks and build pass. Cloudflare deployment of this update has not yet been verified.
 
 Repository: https://github.com/Prim0-sudo/mammals-weekly-game
 
@@ -32,11 +32,13 @@ Sort It sorts field-guide word roles, not mutually exclusive land/water animal c
 
 Short sort/identify/knowledge/spelling sessions reserve up to 12 entries from independent per-mode, per-category queues. Exit returns the current unanswered entry and all unplayed entries to the front without duplicates; completed entries stay completed. All Words does not reset those queues. Flip similarly restores unmatched words and completes its cycle before repeating; a final board may be smaller than the chosen size. Standard All Words boards are 10/20/30 words; eight-word categories offer eight. Learning and Wheel start a fresh selected-scope run on entry; no word is removed from an active Wheel run until Next. Everything resets on page reload.
 
-**Field Notes spelling:** six wrong guesses per word, including long words. Correct letters reveal all occurrences, spaces stay visible, duplicate guesses do nothing. Wrong input locks for 240 ms; win locks for 300 ms; reduced motion settles immediately. A win scores once and completes the note. A loss reveals the word with a distinct pause/read state and Next. There is one active adapter; no Frog or Last Leaf code/assets were copied.
+**Homeward Trail spelling:** nine new wrong guesses cause a loss. Each new correct letter reveals every occurrence and moves the rabbit one hop; hop distance uses the answer's distinct guessable letters. Spaces and punctuation stay visible; duplicate guesses do nothing. Each new wrong letter makes a smaller 350 ms hop, advancing 64 scene units up to the trail midpoint (x=800). Beyond that midpoint it hops in place. Correct hops divide the remaining distance by the remaining distinct letters, so the final letter always reaches home. Input stays visibly locked during hops. A win completes the final hop, then a 600 ms entry sequence conceals the rabbit behind the supplied burrow foreground before awarding one star. On loss, the fox enters from the right and the rabbit escapes fully left before the answer and Next appear. Reduced motion settles immediately; hidden documents pause animation time. Navigation cancels callbacks and scene listeners. All 13 scene assets decode before letter input is enabled. See [Homeward Trail implementation and verification](docs/HOMEWARD-TRAIL.md).
 
 Mouse, touch, Tab/Enter, Escape, and number keys for choices are supported. M toggles mute and F toggles fullscreen; both are letter guesses in spelling. Speech depends on an available local English system voice. The text content works without speech. Native fullscreen was exercised in the in-app browser; other browser/device support may vary.
 
 ## Interface
+
+Landing animations use supplied aligned frames: a brief squirrel peek from the left edge, a slow hedgehog walk along the lower edge and a bat crossing the upper background. The squirrel acorn run is retained as an unused asset after visual review; it is not scheduled. Only one animal appears at a time, with quiet gaps. Active atlases/background decode first, actual badge/toolbar bounds keep routes clear, hidden pages pause elapsed time, reduced motion omits ambient animals, and Explore/Home navigation destroys the previous scene owner. See [landing animation notes](docs/LANDING-ANIMATIONS.md). These changes remain local and unpublished.
 
 Navigation uses short labels without arrows. Menus show icons and titles; repeated instructions and decorative copy are removed. Vocabulary, reading passages, quiz questions and teaching feedback remain.
 

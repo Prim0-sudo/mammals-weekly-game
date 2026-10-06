@@ -150,7 +150,7 @@ export class GameEngine {
     const exploreArt = this.topic.launch.clubBadge ? '<span class="explore-badge" aria-hidden="true"><img class="explore-art" src="'+esc(this.topic.launch.clubBadge)+'" alt="" draggable="false"></span>' : '';
     const badgeLettering = '<svg class="club-lettering" viewBox="0 0 320 320" aria-hidden="true"><defs><path id="club-top-arc" d="M 30,160 A 130,130 0 0,1 290,160"/><path id="club-bottom-arc" d="M 22,160 A 138,138 0 0,0 298,160"/></defs><text class="club-top-text"><textPath href="#club-top-arc" startOffset="50%" text-anchor="middle">Mammal</textPath></text><text class="club-bottom-text"><textPath href="#club-bottom-arc" startOffset="50%" text-anchor="middle">Discovery Club</textPath></text></svg>';
     this.app.innerHTML = '<section class="welcome welcome-badge" aria-labelledby="welcome-title"><h1 id="welcome-title" class="sr-only">'+esc(this.topic.title)+'</h1>'+button(exploreArt+badgeLettering+'<span class="sr-only">Explore</span>','launch','button explore-button')+'</section>';
-    if(this.topic.launch.sceneLayout) this.landingScene=mountLandingScene(this.app,this.topic.launch.sceneLayout,[this.app.querySelector('.welcome'),document.querySelector('.topbar')]);
+    if(this.topic.launch.sceneLayout) this.landingScene=mountLandingScene(this.app,{...this.topic.launch.sceneLayout,backgroundImage:this.topic.launch.backgroundImage},[this.app.querySelector('.welcome'),document.querySelector('.topbar')]);
     this.bind('launch',()=>this.menu());
     this.focus('[data-action="launch"]');
   }
@@ -547,18 +547,20 @@ export class GameEngine {
     this.shell(
       skin.title,
       skin.instruction,
-      '<div class="spelling-layout">' +
-        this.img(item, "spelling-clue") +
+      '<div class="spelling-layout'+(skin.id==='homeward-trail'?' homeward-layout':'')+'">' +
+        (skin.id==='homeward-trail'?'':this.img(item, "spelling-clue")) +
         '<div class="spelling-play">' +
         getSkin(skin.id).render(skin, s.visualStage, esc, s.winExitDone, s.spellingStatus, s) +
         '<div class="spelling-attempts"><strong class="guess-count">' +
         Math.max(0, limit - s.misses) +
-        (limit - s.misses === 1 ? " try left" : " tries left") +
-        '</strong></div></div></div><div class="spelling-word" aria-label="' +
+        (limit - s.misses === 1 ? " chance left" : " chances left") +
+        '</strong></div></div></div>' +
+        (skin.id==='homeward-trail'?'<div class="homeward-answer">'+this.img(item,"spelling-clue"):'') +
+        '<div class="spelling-word" aria-label="' +
         (s.spellingStatus ? esc(item.name) : "Hidden word") +
         '">' +
         word +
-        '</div><div class="keyboard" aria-label="Letter keyboard">' +
+        '</div>' + (skin.id==='homeward-trail'?'</div>':'') + '<div class="keyboard" aria-label="Letter keyboard">' +
         keyboard +
         "</div>",
       s.index + 1,
@@ -567,6 +569,7 @@ export class GameEngine {
     this.app
       .querySelectorAll("[data-letter]")
       .forEach((el) => (el.onclick = () => this.guess(el.dataset.letter)));
+    getSkin(skin.id).mount?.(this,skin,item);
     if (s.spellingStatus && !s.animating)
       this.feedback(
         s.spellingStatus === "won"
@@ -614,10 +617,17 @@ export class GameEngine {
         });
       } else {
         this.audio.tone();
+        const adapter=getSkin(skin.id);
+        s.animating=!!adapter.correct;
         this.spelling(item);
-        getSkin(skin.id).correct?.(this);
         this.announce("Letter found!");
-        this.focus(".letter-key:not(:disabled)");
+        if(adapter.correct)adapter.correct(this,()=>{
+          if(!valid())return;
+          s.animating=false;
+          this.spelling(item);
+          this.focus(".letter-key:not(:disabled)");
+        });
+        else this.focus(".letter-key:not(:disabled)");
       }
       return;
     }

@@ -1,0 +1,158 @@
+{
+  "rabbit-sit-right": {
+    "file": "rabbit-sit-right.png",
+    "width": 1312,
+    "height": 1199,
+    "alphaBounds": [
+      0,
+      20,
+      1288,
+      1183
+    ],
+    "sha256": "5650dedb8c086a3a9875f1f7dd5370bfe2f7bba0ebcca3b3089eab2dc8a1ed06"
+  },
+  "rabbit-hop-01-takeoff": {
+    "file": "rabbit-hop-01-takeoff.png",
+    "width": 1312,
+    "height": 1199,
+    "alphaBounds": [
+      33,
+      35,
+      1301,
+      1199
+    ],
+    "sha256": "98b8310075bd8f1983a0de6891b2c4883eaf68f9b1a85508667694de39780a46"
+  },
+  "rabbit-hop-02-airborne": {
+    "file": "rabbit-hop-02-airborne.png",
+    "width": 1550,
+    "height": 1015,
+    "alphaBounds": [
+      0,
+      31,
+      1536,
+      1015
+    ],
+    "sha256": "134a7f2214cf288319f346177ef43c8b0a583e69cb52e511dde81c2a89d7b996"
+  },
+  "rabbit-hop-03-landing": {
+    "file": "rabbit-hop-03-landing.png",
+    "width": 1312,
+    "height": 1199,
+    "alphaBounds": [
+      73,
+      51,
+      1298,
+      1199
+    ],
+    "sha256": "91f00b51eb5ae58637710c278815ed7048134f6eeea1afed4385aa49b5af236f"
+  },
+  "rabbit-entry-01-crouch": {
+    "file": "rabbit-entry-01-crouch.png",
+    "width": 1312,
+    "height": 1199,
+    "alphaBounds": [
+      0,
+      17,
+      1296,
+      1199
+    ],
+    "sha256": "3ebd7502d23c525a60271f3832197c707fbaf31678836bb3f69aa3f7b8cdd3a1"
+  },
+  "rabbit-entry-02-rear-quarter": {
+    "file": "rabbit-entry-02-rear-quarter.png",
+    "width": 1312,
+    "height": 1199,
+    "alphaBounds": [
+      0,
+      19,
+      1276,
+      1199
+    ],
+    "sha256": "c04170f8d8f1952942bcff5e822dedc8a3651b23035c337e7ff07458f6d208de"
+  },
+  "rabbit-entry-03-tail": {
+    "file": "rabbit-entry-03-tail.png",
+    "width": 1312,
+    "height": 1199,
+    "alphaBounds": [
+      89,
+      21,
+      1250,
+      1126
+    ],
+    "sha256": "82cb53e97d0ed26388c2c94895877230ddbab043f5a5d13463f92bcbcf3d9fad"
+  },
+  "rabbit-escape-01-push-off": {
+    "file": "rabbit-escape-01-push-off.png",
+    "width": 1536,
+    "height": 1024,
+    "alphaBounds": [
+      0,
+      77,
+      1503,
+      990
+    ],
+    "sha256": "1a7d7decb62b0ccdde88982422ec1321dcf2589c0da403691bfdc6a88204f0c3"
+  },
+  "rabbit-escape-02-flight": {
+    "file": "rabbit-escape-02-flight.png",
+    "width": 1536,
+    "height": 1024,
+    "alphaBounds": [
+      43,
+      135,
+      1520,
+      944
+    ],
+    "sha256": "a4d594f48f85ada572464b8e175621de072300f940e721dd162649d9c0209f01"
+  },
+  "rabbit-escape-03-landing": {
+    "file": "rabbit-escape-03-landing.png",
+    "width": 1312,
+    "height": 1199,
+    "alphaBounds": [
+      0,
+      19,
+      1294,
+      1199
+    ],
+    "sha256": "c8e5a26527e48008af46f082974ee7678c0c08048752616310450d0103ec1b7b"
+  },
+  "fox-appear-left": {
+    "file": "fox-appear-left.png",
+    "width": 1536,
+    "height": 1024,
+    "alphaBounds": [
+      60,
+      21,
+      1520,
+      990
+    ],
+    "sha256": "510c7ad44145faff77154971a594533c8c53bafc69ce76eefae0e3f85e3350bc"
+  },
+  "woodland-background": {
+    "file": "woodland-background.png",
+    "width": 1672,
+    "height": 941,
+    "alphaBounds": [
+      0,
+      0,
+      1672,
+      941
+    ],
+    "sha256": "5e1dd4b53fe0d3768f812a83b01952050b944557eebacf708e677e26baa0d041"
+  },
+  "chance-token": {
+    "file": "chance-token.png",
+    "width": 1295,
+    "height": 1214,
+    "alphaBounds": [
+      0,
+      19,
+      1273,
+      1188
+    ],
+    "sha256": "ca18c1f6b0653c1e05074e7606ff727b50d4158500d7622b60465dd5d74bcdb3"
+  }
+}

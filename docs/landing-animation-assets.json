@@ -1,0 +1,635 @@
+{
+  "sourceZip": "Mammals_Club_Landing_Animations_48_Frames.zip",
+  "originals": {
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight-aligned-atlas.png": "fffc4e82ab3fcdca2e4d99424a835c28c0b64ea39a2d2306e341685d39fd6555",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight-original-atlas.png": "3be73945f5ea0225145c1a36a3a9b3d174498516a0fd92e2047a4e87275bdd6c",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight-preview.gif": "6831f503349d3b8bf22c36c75795df7612fdbc85663f49042299994e6ec91f72",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight-preview.webp": "7bf5ac7de0c734d6a817f8d8520ad7fd0f1ba1a1d7426063067886a2c0d36a33",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk-aligned-atlas.png": "653cd14b7202293280818da9883ee2c13b23010af75c9e21978bb845f3482696",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk-original-atlas.png": "c965aba2e90c2f425f06bdd465b41b37dc7e1f78c52b37564bde824fb21ec1fe",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk-preview.gif": "ec1ceb287690ea76ff4d4219dbe329d5f91ea7561c37c8be0ee20f4230727abe",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk-preview.webp": "221ea5a2d40a83564d3a4806702500fa32bb7cd0b66560fb2827f6a050d5d1e1",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/manifest.json": "52b68a73013cd18e5d2428e1f2e3523646d914b457e8ae54f940455dbc67463a",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/preview.html": "7ea9036170c78f4a00422aa3c38bdf0c918e3e9a4801f3dce4ab67cd5c19deb7",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/README.md": "5f1475f193f81b3dbda6cfa363d2606680003a43d1a5a53662dde2e1b7ba8218",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run-aligned-atlas.png": "926fcabedcda9b897c315b726449ce493bdea788d3955fa39b8fe8441b06d4d0",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run-original-atlas.png": "0a32e28a4cb1f23f0eab87e656aeec63b44b5cf3a267a920d227fd00971a8d97",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run-preview.gif": "24b1f5a875d94f8e2e02a3a2ec2333ea4049aa2af7dad052a50e76e6e8e10676",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run-preview.webp": "6e767764ee3885e3d484906164e7623d6b355f06cd2248d319f3ace5d567bfcd",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle-aligned-atlas.png": "a6bf3b63939cf5cd27148defc094294dee3cc0d3c9da6b9f3055de24dbaa2882",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle-original-atlas.png": "6c62aafd78b7d5e60ec596117bcefebce094efbc3fa3f919bc005f5b07e3c3bf",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle-preview.gif": "63c65c0c43f2b268db4ee368dc272e48b74f30dd9348a73364565cea5cbff20b",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle-preview.webp": "de9adb24b52759b88baced8b933803fc20ea669bc857264776576768eafa33c7",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/woodland-preview-background.png": "5e1dd4b53fe0d3768f812a83b01952050b944557eebacf708e677e26baa0d041",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight/bat-flight-01.png": "16c3d5651780bebfc78dd1b43eb85982e1620c4202202810f48758b7941dcfd1",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight/bat-flight-02.png": "308759b7d744cbe4437fc62244d62c31e691c3078032851d775f035a6969150b",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight/bat-flight-03.png": "8c9c9feafc622c6171c3f11b7ac415e9a5b86f360d153087086c2fd54985dbcd",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight/bat-flight-04.png": "4391ccf08f8f689d2e6c91681bfc61a0bef63d337c3c1221a5cb9eedf41987a6",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight/bat-flight-05.png": "f9830b12219ab4edf96cf724a1b1941e13f11636e248906e5d75cd5e531fbabf",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight/bat-flight-06.png": "56945a5efc44a91167c71bbef30f0c95e0ae7b3f703276153f3c2f1e61c7b11d",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight/bat-flight-07.png": "aff5f7e327da07bc7f9a0fb62aedc4b5fc33c0cc5686735d1f02048840a04f12",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight/bat-flight-08.png": "b5f5b378d75ef216f9442bd8c8351a3b3c95048167dd4acdea7b2a2ad0f1141b",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight/bat-flight-09.png": "83d06b330c2eb895018d48ea86742cc3f8778be7f45b20c270ccfa1a42d55847",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight/bat-flight-10.png": "ed6d7d8ec5f808df41a0b790df76fe0f076e2072b1a84026fde705ac1a43d8e4",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight/bat-flight-11.png": "5159683dd0e084a7c1164d4c89108c010c3f93436875cfe2b6218af36147c601",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight/bat-flight-12.png": "67364c1c968a2babf9cd37e3fb6e8455b2989bdf984c55e9f2b6458047a68943",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk/hedgehog-walk-01.png": "ace4d665203a162d420fb434d98d402a181e51f584e85d1315e549c9bdf64e1a",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk/hedgehog-walk-02.png": "03bb12d841ca6da1921144e2332ddcc63ad1392986ece34619a4aa9d7c9ac8be",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk/hedgehog-walk-03.png": "42ca9613fb4e97c952d4273e80bbcc4fbc9a62bee17c9008b98fa895ab861c3f",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk/hedgehog-walk-04.png": "afeab453a51da28d9e35cc777d30ffdda9516fe9ab109992d2919b75d487acc4",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk/hedgehog-walk-05.png": "774c3c77b57a6ba7cfdac52ba18121943d9735d8cdf01777b75408a7b1fa6a1c",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk/hedgehog-walk-06.png": "a5e51f7da1c725900ad61e616f37d94569d60e7eb167998f017b5808deb24005",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk/hedgehog-walk-07.png": "8a9929696f5d165aaf09b6bc925b061907098573c56d7832c9068e3d77c846b6",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk/hedgehog-walk-08.png": "573a857adf0a53270a781742857954bf56b0d3a8c93ec6f53d053e90c878b936",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk/hedgehog-walk-09.png": "a6b2b93db062f759225574f3ea3109abea9602159d3dd0137fd667b126a47401",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk/hedgehog-walk-10.png": "d9567cea7cabb93ca2e9a3b511d0514d111eceecc65b32bc7b4f1828680fca73",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk/hedgehog-walk-11.png": "abb61d348b0398dbf7612a63f05a02108ac563fb1f21b35f65b6625f43e7d574",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk/hedgehog-walk-12.png": "f011e6b600ec382101333a67acfcceb068b84bb3482a3a2ccc4bed1a24b961cf",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run/squirrel-acorn-run-01.png": "84d35f10c0a63283fc720bddc92dbb7e1e910098e972b6a8ca6feb884d24df26",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run/squirrel-acorn-run-02.png": "6a902e11961fdeb892f9c6a56664f6771c6d6bb2b11b4a33ce9e82b66f6a9f61",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run/squirrel-acorn-run-03.png": "9e9af58e674ecdea6c0479f7411a45855c0fc0a9bc041dc8fa1417cd9e2e5d80",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run/squirrel-acorn-run-04.png": "3afd27fd8571a2f63208ee6be4d45dca73704f93968b40cf3620ec8ea3dfbddb",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run/squirrel-acorn-run-05.png": "4da149d06c0fb4e04db11b0dc9042132720d339818b6ac3d198fd431cd65dcd5",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run/squirrel-acorn-run-06.png": "077a635e4a79740edb22e6ad6491e2df599c45c6ca3fa4aa1f69c9bdd0e5f741",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run/squirrel-acorn-run-07.png": "cc4e6e3d03185d3c872e060b75002a7ba068c5bbb104a2c8bff70fdf88026daf",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run/squirrel-acorn-run-08.png": "635dfde67b649f4e3c142d827feb1b892c2ab23890b319c9a0cdd28c2fa372c1",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run/squirrel-acorn-run-09.png": "69674ae5b1f2fe6044aa378a4f79ed6fbac00b880dd0fd06b99fffe4254a9451",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run/squirrel-acorn-run-10.png": "efac4452b702a281af385bb52c491beb321c3dca76d7daf38b0d36e520b5f671",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run/squirrel-acorn-run-11.png": "58cc7574a0353aef9b5cbcc5599228066d9e3820a94e6efcc71dfe57b1e2f71b",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run/squirrel-acorn-run-12.png": "7e7ed029e04034b0c3a1eca420b96c378bf7ba4094f87a3a134fa290a1bb518c",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle/squirrel-idle-01.png": "c0387fed0efdddaec830e46ad39d50b08f38b6b96b73ae804da9bbdb9db3baa8",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle/squirrel-idle-02.png": "ec3fcc52ebe0f4c8ddc2d18dd3fb136eec599eabaa0cf6c3b1d04a3b8c95ec8e",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle/squirrel-idle-03.png": "1e9aa5468badfc626371c4c655ce35855110d513e0f9d37f7276450ab15171ca",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle/squirrel-idle-04.png": "6916962a03100bb9bfdeba86b384e3ee8f60a2006ab15fbcbc998d74ced1a19e",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle/squirrel-idle-05.png": "b7b1e2cf93f224bb20395ff1e0f9f4f9b9b9d54baef39b44367a34cba038f7f0",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle/squirrel-idle-06.png": "8809fd0010c4495996a2f23b3fb6538cfbf7320f8d446f1fa0807a46a674b9c8",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle/squirrel-idle-07.png": "6bb1ab8d11f445e1baabecc7f24f3d05c75e358b1e874bb80364b6b519e9c0fd",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle/squirrel-idle-08.png": "ef5318d82c6dd177bab6e24a0a45662e1ffed3b75d121149d692957a5d4044c7",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle/squirrel-idle-09.png": "e40635c7b090fbe995d30b5ce9ca067fd5e2ea07be1e19759187e42a8d570186",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle/squirrel-idle-10.png": "8d8110a8edd7ddba835fd96cd2f2c955c3a9331c9ff049ffec9c25b76d4d98b3",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle/squirrel-idle-11.png": "2c1894a3bd3f165b21d0713de5698b425f0240514ecf35f1163f53b920849a8a",
+    "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle/squirrel-idle-12.png": "93501983629b31894385466f5399b3e350405d563639bc5406a1663d9bf48a7b"
+  },
+  "sequences": {
+    "squirrel-idle": {
+      "file": "assets/topics/mammals/landing-animations/squirrel-idle.webp",
+      "sha256": "40c6500125aa7011dd8f5c345027340242ea3cb273d0b88bf774ce592bcd5ea0",
+      "cell": 160,
+      "columns": 4,
+      "frames": [
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle/squirrel-idle-01.png",
+          "sha256": "c0387fed0efdddaec830e46ad39d50b08f38b6b96b73ae804da9bbdb9db3baa8",
+          "alphaBounds": [
+            70,
+            78,
+            383,
+            430
+          ],
+          "durationMs": 120
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle/squirrel-idle-02.png",
+          "sha256": "ec3fcc52ebe0f4c8ddc2d18dd3fb136eec599eabaa0cf6c3b1d04a3b8c95ec8e",
+          "alphaBounds": [
+            70,
+            77,
+            369,
+            429
+          ],
+          "durationMs": 120
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle/squirrel-idle-03.png",
+          "sha256": "1e9aa5468badfc626371c4c655ce35855110d513e0f9d37f7276450ab15171ca",
+          "alphaBounds": [
+            70,
+            77,
+            364,
+            430
+          ],
+          "durationMs": 120
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle/squirrel-idle-04.png",
+          "sha256": "6916962a03100bb9bfdeba86b384e3ee8f60a2006ab15fbcbc998d74ced1a19e",
+          "alphaBounds": [
+            70,
+            77,
+            360,
+            429
+          ],
+          "durationMs": 120
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle/squirrel-idle-05.png",
+          "sha256": "b7b1e2cf93f224bb20395ff1e0f9f4f9b9b9d54baef39b44367a34cba038f7f0",
+          "alphaBounds": [
+            70,
+            75,
+            359,
+            430
+          ],
+          "durationMs": 120
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle/squirrel-idle-06.png",
+          "sha256": "8809fd0010c4495996a2f23b3fb6538cfbf7320f8d446f1fa0807a46a674b9c8",
+          "alphaBounds": [
+            70,
+            76,
+            359,
+            430
+          ],
+          "durationMs": 120
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle/squirrel-idle-07.png",
+          "sha256": "6bb1ab8d11f445e1baabecc7f24f3d05c75e358b1e874bb80364b6b519e9c0fd",
+          "alphaBounds": [
+            70,
+            77,
+            363,
+            430
+          ],
+          "durationMs": 120
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle/squirrel-idle-08.png",
+          "sha256": "ef5318d82c6dd177bab6e24a0a45662e1ffed3b75d121149d692957a5d4044c7",
+          "alphaBounds": [
+            70,
+            77,
+            360,
+            430
+          ],
+          "durationMs": 120
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle/squirrel-idle-09.png",
+          "sha256": "e40635c7b090fbe995d30b5ce9ca067fd5e2ea07be1e19759187e42a8d570186",
+          "alphaBounds": [
+            70,
+            70,
+            359,
+            428
+          ],
+          "durationMs": 120
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle/squirrel-idle-10.png",
+          "sha256": "8d8110a8edd7ddba835fd96cd2f2c955c3a9331c9ff049ffec9c25b76d4d98b3",
+          "alphaBounds": [
+            70,
+            72,
+            372,
+            428
+          ],
+          "durationMs": 120
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle/squirrel-idle-11.png",
+          "sha256": "2c1894a3bd3f165b21d0713de5698b425f0240514ecf35f1163f53b920849a8a",
+          "alphaBounds": [
+            70,
+            71,
+            380,
+            428
+          ],
+          "durationMs": 120
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-idle/squirrel-idle-12.png",
+          "sha256": "93501983629b31894385466f5399b3e350405d563639bc5406a1663d9bf48a7b",
+          "alphaBounds": [
+            70,
+            71,
+            380,
+            428
+          ],
+          "durationMs": 120
+        }
+      ]
+    },
+    "squirrel-acorn-run": {
+      "file": "assets/topics/mammals/landing-animations/squirrel-acorn-run.webp",
+      "sha256": "fd6e3f1d07ca8fc082cc0fe500c1c81482f378fdac740777a051630ec882737d",
+      "cell": 160,
+      "columns": 4,
+      "frames": [
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run/squirrel-acorn-run-01.png",
+          "sha256": "84d35f10c0a63283fc720bddc92dbb7e1e910098e972b6a8ca6feb884d24df26",
+          "alphaBounds": [
+            60,
+            141,
+            409,
+            410
+          ],
+          "durationMs": 65
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run/squirrel-acorn-run-02.png",
+          "sha256": "6a902e11961fdeb892f9c6a56664f6771c6d6bb2b11b4a33ce9e82b66f6a9f61",
+          "alphaBounds": [
+            60,
+            141,
+            430,
+            410
+          ],
+          "durationMs": 65
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run/squirrel-acorn-run-03.png",
+          "sha256": "9e9af58e674ecdea6c0479f7411a45855c0fc0a9bc041dc8fa1417cd9e2e5d80",
+          "alphaBounds": [
+            60,
+            142,
+            430,
+            410
+          ],
+          "durationMs": 65
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run/squirrel-acorn-run-04.png",
+          "sha256": "3afd27fd8571a2f63208ee6be4d45dca73704f93968b40cf3620ec8ea3dfbddb",
+          "alphaBounds": [
+            60,
+            183,
+            429,
+            410
+          ],
+          "durationMs": 65
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run/squirrel-acorn-run-05.png",
+          "sha256": "4da149d06c0fb4e04db11b0dc9042132720d339818b6ac3d198fd431cd65dcd5",
+          "alphaBounds": [
+            60,
+            133,
+            428,
+            410
+          ],
+          "durationMs": 65
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run/squirrel-acorn-run-06.png",
+          "sha256": "077a635e4a79740edb22e6ad6491e2df599c45c6ca3fa4aa1f69c9bdd0e5f741",
+          "alphaBounds": [
+            60,
+            136,
+            429,
+            410
+          ],
+          "durationMs": 65
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run/squirrel-acorn-run-07.png",
+          "sha256": "cc4e6e3d03185d3c872e060b75002a7ba068c5bbb104a2c8bff70fdf88026daf",
+          "alphaBounds": [
+            60,
+            134,
+            416,
+            410
+          ],
+          "durationMs": 65
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run/squirrel-acorn-run-08.png",
+          "sha256": "635dfde67b649f4e3c142d827feb1b892c2ab23890b319c9a0cdd28c2fa372c1",
+          "alphaBounds": [
+            60,
+            131,
+            418,
+            410
+          ],
+          "durationMs": 65
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run/squirrel-acorn-run-09.png",
+          "sha256": "69674ae5b1f2fe6044aa378a4f79ed6fbac00b880dd0fd06b99fffe4254a9451",
+          "alphaBounds": [
+            60,
+            133,
+            429,
+            410
+          ],
+          "durationMs": 65
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run/squirrel-acorn-run-10.png",
+          "sha256": "efac4452b702a281af385bb52c491beb321c3dca76d7daf38b0d36e520b5f671",
+          "alphaBounds": [
+            60,
+            175,
+            428,
+            410
+          ],
+          "durationMs": 65
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run/squirrel-acorn-run-11.png",
+          "sha256": "58cc7574a0353aef9b5cbcc5599228066d9e3820a94e6efcc71dfe57b1e2f71b",
+          "alphaBounds": [
+            60,
+            134,
+            422,
+            410
+          ],
+          "durationMs": 65
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/squirrel-acorn-run/squirrel-acorn-run-12.png",
+          "sha256": "7e7ed029e04034b0c3a1eca420b96c378bf7ba4094f87a3a134fa290a1bb518c",
+          "alphaBounds": [
+            60,
+            143,
+            408,
+            408
+          ],
+          "durationMs": 65
+        }
+      ]
+    },
+    "hedgehog-walk": {
+      "file": "assets/topics/mammals/landing-animations/hedgehog-walk.webp",
+      "sha256": "91fef1d3050584bb5b7cdbe2cc77110e6a159098fa2a1de1ad093b9be8305465",
+      "cell": 160,
+      "columns": 4,
+      "frames": [
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk/hedgehog-walk-01.png",
+          "sha256": "ace4d665203a162d420fb434d98d402a181e51f584e85d1315e549c9bdf64e1a",
+          "alphaBounds": [
+            69,
+            135,
+            410,
+            372
+          ],
+          "durationMs": 90
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk/hedgehog-walk-02.png",
+          "sha256": "03bb12d841ca6da1921144e2332ddcc63ad1392986ece34619a4aa9d7c9ac8be",
+          "alphaBounds": [
+            72,
+            135,
+            410,
+            371
+          ],
+          "durationMs": 90
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk/hedgehog-walk-03.png",
+          "sha256": "42ca9613fb4e97c952d4273e80bbcc4fbc9a62bee17c9008b98fa895ab861c3f",
+          "alphaBounds": [
+            62,
+            135,
+            408,
+            370
+          ],
+          "durationMs": 90
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk/hedgehog-walk-04.png",
+          "sha256": "afeab453a51da28d9e35cc777d30ffdda9516fe9ab109992d2919b75d487acc4",
+          "alphaBounds": [
+            74,
+            135,
+            410,
+            371
+          ],
+          "durationMs": 90
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk/hedgehog-walk-05.png",
+          "sha256": "774c3c77b57a6ba7cfdac52ba18121943d9735d8cdf01777b75408a7b1fa6a1c",
+          "alphaBounds": [
+            64,
+            136,
+            409,
+            370
+          ],
+          "durationMs": 90
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk/hedgehog-walk-06.png",
+          "sha256": "a5e51f7da1c725900ad61e616f37d94569d60e7eb167998f017b5808deb24005",
+          "alphaBounds": [
+            76,
+            135,
+            410,
+            366
+          ],
+          "durationMs": 90
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk/hedgehog-walk-07.png",
+          "sha256": "8a9929696f5d165aaf09b6bc925b061907098573c56d7832c9068e3d77c846b6",
+          "alphaBounds": [
+            69,
+            136,
+            409,
+            365
+          ],
+          "durationMs": 90
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk/hedgehog-walk-08.png",
+          "sha256": "573a857adf0a53270a781742857954bf56b0d3a8c93ec6f53d053e90c878b936",
+          "alphaBounds": [
+            75,
+            136,
+            410,
+            365
+          ],
+          "durationMs": 90
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk/hedgehog-walk-09.png",
+          "sha256": "a6b2b93db062f759225574f3ea3109abea9602159d3dd0137fd667b126a47401",
+          "alphaBounds": [
+            74,
+            135,
+            408,
+            363
+          ],
+          "durationMs": 90
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk/hedgehog-walk-10.png",
+          "sha256": "d9567cea7cabb93ca2e9a3b511d0514d111eceecc65b32bc7b4f1828680fca73",
+          "alphaBounds": [
+            74,
+            135,
+            410,
+            362
+          ],
+          "durationMs": 90
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk/hedgehog-walk-11.png",
+          "sha256": "abb61d348b0398dbf7612a63f05a02108ac563fb1f21b35f65b6625f43e7d574",
+          "alphaBounds": [
+            68,
+            135,
+            408,
+            365
+          ],
+          "durationMs": 90
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/hedgehog-walk/hedgehog-walk-12.png",
+          "sha256": "f011e6b600ec382101333a67acfcceb068b84bb3482a3a2ccc4bed1a24b961cf",
+          "alphaBounds": [
+            66,
+            135,
+            410,
+            371
+          ],
+          "durationMs": 90
+        }
+      ]
+    },
+    "bat-flight": {
+      "file": "assets/topics/mammals/landing-animations/bat-flight.webp",
+      "sha256": "4973d406e17e704c394eb5fecaa082e177d1755244c3b577d4769aea31aa6080",
+      "cell": 160,
+      "columns": 4,
+      "frames": [
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight/bat-flight-01.png",
+          "sha256": "16c3d5651780bebfc78dd1b43eb85982e1620c4202202810f48758b7941dcfd1",
+          "alphaBounds": [
+            59,
+            51,
+            393,
+            317
+          ],
+          "durationMs": 65
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight/bat-flight-02.png",
+          "sha256": "308759b7d744cbe4437fc62244d62c31e691c3078032851d775f035a6969150b",
+          "alphaBounds": [
+            42,
+            106,
+            410,
+            310
+          ],
+          "durationMs": 65
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight/bat-flight-03.png",
+          "sha256": "8c9c9feafc622c6171c3f11b7ac415e9a5b86f360d153087086c2fd54985dbcd",
+          "alphaBounds": [
+            45,
+            155,
+            410,
+            312
+          ],
+          "durationMs": 65
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight/bat-flight-04.png",
+          "sha256": "4391ccf08f8f689d2e6c91681bfc61a0bef63d337c3c1221a5cb9eedf41987a6",
+          "alphaBounds": [
+            54,
+            156,
+            417,
+            305
+          ],
+          "durationMs": 65
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight/bat-flight-05.png",
+          "sha256": "f9830b12219ab4edf96cf724a1b1941e13f11636e248906e5d75cd5e531fbabf",
+          "alphaBounds": [
+            83,
+            169,
+            403,
+            364
+          ],
+          "durationMs": 65
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight/bat-flight-06.png",
+          "sha256": "56945a5efc44a91167c71bbef30f0c95e0ae7b3f703276153f3c2f1e61c7b11d",
+          "alphaBounds": [
+            148,
+            169,
+            373,
+            387
+          ],
+          "durationMs": 65
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight/bat-flight-07.png",
+          "sha256": "aff5f7e327da07bc7f9a0fb62aedc4b5fc33c0cc5686735d1f02048840a04f12",
+          "alphaBounds": [
+            93,
+            166,
+            394,
+            342
+          ],
+          "durationMs": 65
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight/bat-flight-08.png",
+          "sha256": "b5f5b378d75ef216f9442bd8c8351a3b3c95048167dd4acdea7b2a2ad0f1141b",
+          "alphaBounds": [
+            71,
+            169,
+            432,
+            318
+          ],
+          "durationMs": 65
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight/bat-flight-09.png",
+          "sha256": "83d06b330c2eb895018d48ea86742cc3f8778be7f45b20c270ccfa1a42d55847",
+          "alphaBounds": [
+            50,
+            133,
+            396,
+            309
+          ],
+          "durationMs": 65
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight/bat-flight-10.png",
+          "sha256": "ed6d7d8ec5f808df41a0b790df76fe0f076e2072b1a84026fde705ac1a43d8e4",
+          "alphaBounds": [
+            44,
+            79,
+            390,
+            309
+          ],
+          "durationMs": 65
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight/bat-flight-11.png",
+          "sha256": "5159683dd0e084a7c1164d4c89108c010c3f93436875cfe2b6218af36147c601",
+          "alphaBounds": [
+            52,
+            60,
+            387,
+            303
+          ],
+          "durationMs": 65
+        },
+        {
+          "original": "docs/landing-animation-originals/Mammals_Club_Landing_Animations/bat-flight/bat-flight-12.png",
+          "sha256": "67364c1c968a2babf9cd37e3fb6e8455b2989bdf984c55e9f2b6458047a68943",
+          "alphaBounds": [
+            61,
+            37,
+            393,
+            299
+          ],
+          "durationMs": 65
+        }
+      ]
+    }
+  }
+}

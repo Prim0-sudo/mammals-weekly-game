@@ -4,6 +4,30 @@ All 132 vocabulary PNGs from Mammal_Discovery_Club_132_Game_Assets.zip are insta
 
 # Mammal Discovery Club handoff
 
+## Publication request — 6 October 2026
+
+User requested committing and pushing the current implementation for later refinement. Final Node checks: 19/19; content/build and whitespace checks passed. Remote main was fetched before committing. The push triggers the existing Cloudflare Pages workflow; a verified push does not certify deployment success. Earlier local-only statements below record the status before this request. Landing animation art remains open to later visual refinement; the squirrel cross-screen run is inactive.
+
+## Latest local update — supplied landing animations, 5 October 2026
+
+Integrated the supplied 48-frame pack. Active cycles are squirrel peek/retreat, hedgehog walk and bat flight; the squirrel cross-screen acorn run was removed after the user's visual review. The pack's original files and checksums are preserved. Four lossless delivery atlases total 658,354 bytes; three are active. Routes protect actual badge and toolbar rectangles, with smaller animals on short screens. One RAF owner separates continuous travel from pose timing, preloads active assets, suspends hidden-tab work, omits animals under reduced motion and cancels RAF/ResizeObserver/media/visibility handlers on exit.
+
+Checks: 19/19 Node tests, 21/21 regression browser checks and 5/5 landing fixture checks. Landing fixture repeated at 1280×720, 1024×600, 768×1024 and 360×800; all pass. Cycle progression, reduced motion and hidden-document signals in this fixture are simulated. Normal live movement was also visually inspected. No physical-device or OS-motion preference test. Existing launch page may scroll slightly vertically; decorations add no document flow. Source/delivery details and visual limitations: [LANDING-ANIMATIONS.md](docs/LANDING-ANIMATIONS.md). No commit, push or deployment. Preview remains http://127.0.0.1:4186/.
+
+## Current local update — Homeward Trail, 5 October 2026
+
+Latest interface refinement: doubled the clue picture to 128 px (96 px on phones), moved nine chance tokens to the right of the centered scene, and removed the idle instruction and visible numerical counter. Remaining chances retain a screen-reader-only count; animation lock/outcome status remains available. Short screens show tokens as a compact 3×3 group. Rechecked 1280×720, 1024×600, 768×1024 and 360×800 with Hippopotamus; no horizontal/vertical overflow after projector spacing adjustment. Build passed. Evidence: `test-results/homeward-large-picture-*.png`.
+
+Layout refinement: word picture now sits beside the answer boxes below the scene. Scene, answer row and keyboard share the page center line. Production-style fixture checks at 1280×720, 1024×600, 768×1024 and 360×800 with Hippopotamus showed no horizontal or vertical overflow. Build passed; preview refreshed. Evidence: `test-results/homeward-centered-*.png`. This refinement changes layout only.
+
+Homeward Trail replaces the active spelling presentation using all 13 supplied scene assets. Nine unique misses cause loss; distinct correct letters cause one registered hop each. Wrong letters also make small hops, advancing up to the midpoint and hopping in place thereafter. Final win enters behind a foreground burrow mask before scoring; loss brings the fox from the right and sends the rabbit fully left before revealing the answer. Preload, visible input locks, reduced-motion settling, hidden-document pausing and cancellation on restart/next/exit are implemented. Existing 132-word collection, six category totals (50/8/24/22/20/8), other activities and navigation are preserved. Curriculum review remains outstanding.
+
+**Local only: not committed, pushed or deployed.** Preview remains running at http://127.0.0.1:4186/. Existing production deployment is separate and predates this change. All original PNG bytes are retained and checked; lossless WebP delivery is about 4.7 MB.
+
+Checks: 16/16 Node tests, 21/21 existing browser fixture checks and 8/8 dedicated scene fixture checks pass; content/asset check and build pass. Normal RAF hops, three entry poses, masked disappearance and fox/escape were visually inspected. Production-style layouts checked at 1280×720, 1024×600, 768×1024 and 360×800, including long/multi-word labels. No horizontal overflow; phone scrolls vertically. Browser keyboard H revealed both Hedgehog H letters with one hop. Inspected preview had no console warnings/errors or broken images. Reduced motion and document visibility were simulated in fixtures; no actual OS motion preference or physical device was tested.
+
+See [HOMEWARD-TRAIL.md](docs/HOMEWARD-TRAIL.md) for changed files, timing/coordinates, precise checks and visual limitations; [asset audit](docs/homeward-trail-assets.json) for checksum and registration details. Evidence is in ignored `test-results/homeward-*` files. Earlier sections below are historical and do not describe the current spelling skin or supplied-art status.
+
 ## Latest visual update — 4 October 2026
 
 ### Publication verified — 4 October 2026, Asia/Bangkok

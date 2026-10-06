@@ -2493,6 +2493,84 @@
       "status": "installed-draft",
       "sha256": "75b799df821d45ddeab0214733e6e2e287786e442111403fcaaa24311dfa5584",
       "bytes": 2195217
+    },
+    {
+      "path": "assets/topics/mammals/homeward-trail/rabbit-sit-right.webp",
+      "status": "installed-draft",
+      "sha256": "791b7446d306af4a1c1fbabe6e61118c86a46e5e208445d5919c72587145bcf9",
+      "bytes": 221272
+    },
+    {
+      "path": "assets/topics/mammals/homeward-trail/rabbit-hop-01-takeoff.webp",
+      "status": "installed-draft",
+      "sha256": "c3e0b92415c020cd63129233507cefd600bd36516c61edb07fbfae11dc1ce38d",
+      "bytes": 249248
+    },
+    {
+      "path": "assets/topics/mammals/homeward-trail/rabbit-hop-02-airborne.webp",
+      "status": "installed-draft",
+      "sha256": "fd4e59fddb87ddfba5aec47d125781a2e4cf80fe21613f8e4d69386edf79b385",
+      "bytes": 174112
+    },
+    {
+      "path": "assets/topics/mammals/homeward-trail/rabbit-hop-03-landing.webp",
+      "status": "installed-draft",
+      "sha256": "d42b2f930c743574d67444c7f82bab94c35ed90193d9db23f4d2991fcdfb58a1",
+      "bytes": 303712
+    },
+    {
+      "path": "assets/topics/mammals/homeward-trail/rabbit-entry-01-crouch.webp",
+      "status": "installed-draft",
+      "sha256": "711117034b99188ce9e5253026cdc5eebc9d199a88ae0ff70e400e3cfc920e79",
+      "bytes": 230866
+    },
+    {
+      "path": "assets/topics/mammals/homeward-trail/rabbit-entry-02-rear-quarter.webp",
+      "status": "installed-draft",
+      "sha256": "bd1b64cb162d63e027216bbcce79f159611a4ccf00a70312fd8a66efb91fa4a9",
+      "bytes": 209836
+    },
+    {
+      "path": "assets/topics/mammals/homeward-trail/rabbit-entry-03-tail.webp",
+      "status": "installed-draft",
+      "sha256": "5a45e4a340b8ee1e0248d60aefa406a865bbc5cf4aa90505a53d54e525ab4485",
+      "bytes": 222438
+    },
+    {
+      "path": "assets/topics/mammals/homeward-trail/rabbit-escape-01-push-off.webp",
+      "status": "installed-draft",
+      "sha256": "9364edb961ae8d02ca647a28f8762d0ec71076f2fc76e2672aaa294294054574",
+      "bytes": 236584
+    },
+    {
+      "path": "assets/topics/mammals/homeward-trail/rabbit-escape-02-flight.webp",
+      "status": "installed-draft",
+      "sha256": "edf59d5535ed25c4c98bb091b3333d181604f24679d5431c3b6723c399025fdf",
+      "bytes": 179598
+    },
+    {
+      "path": "assets/topics/mammals/homeward-trail/rabbit-escape-03-landing.webp",
+      "status": "installed-draft",
+      "sha256": "6ddd55162e8449e8cdd36d93908b32da12e87898456654b7ca18cb0f92ac9518",
+      "bytes": 248242
+    },
+    {
+      "path": "assets/topics/mammals/homeward-trail/fox-appear-left.webp",
+      "status": "installed-draft",
+      "sha256": "784891e0d4dbf8da950913baeb16ab26dd95eb334096ea4e4f3d2b554b9d2a43",
+      "bytes": 201484
+    },
+    {
+      "path": "assets/topics/mammals/homeward-trail/woodland-background.webp",
+      "status": "installed-draft",
+      "sha256": "9778909902c2bd6148c1d5bf46a5ff095f4316d46eed6f2ea4a8bbc6aff3b25c",
+      "bytes": 2188554
+    },
+    {
+      "path": "assets/topics/mammals/homeward-trail/chance-token.webp",
+      "status": "installed-draft",
+      "sha256": "71541d53b78f674d1beee921bf147f41d34636ecf21e3b84aad8b2f7c6f315c4",
+      "bytes": 8428
     }
   ]
 }
