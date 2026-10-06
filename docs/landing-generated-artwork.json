@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-06",
+  "assets": [
+    {
+      "path": "assets/topics/mammals/generated/woodland-clearing-flat.png",
+      "status": "retained intermediate",
+      "mode": "built-in image generation",
+      "promptRecord": "docs/woodland-clearing-artwork.md",
+      "dimensions": [
+        1672,
+        940
+      ],
+      "imageMode": "RGB",
+      "sha256": "3d82ac63ce94c87b119fe2061d4c51709ef9d4c659c34446f39cd777d8649981",
+      "bytes": 3097919
+    },
+    {
+      "path": "assets/topics/mammals/generated/woodland-clearing-rocks.png",
+      "status": "active background",
+      "mode": "built-in image generation",
+      "promptRecord": "docs/clean-rocks-artwork.md",
+      "dimensions": [
+        1672,
+        940
+      ],
+      "imageMode": "RGB",
+      "sha256": "a3cc0e9a21bb15cfd01cd60972585cbe22f7fa4f89d1e2d2fc619d6065cb6f81",
+      "bytes": 2852936
+    },
+    {
+      "path": "assets/topics/mammals/generated/club-badge-rabbit.png",
+      "status": "active intro/Home badge",
+      "mode": "built-in image generation",
+      "promptRecord": "docs/rabbit-badge-artwork.md",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "imageMode": "RGBA",
+      "sha256": "58387316eae9727657f056beab7706ae6c39505f0918f1cd988613450009edde",
+      "bytes": 2826827
+    },
+    {
+      "path": "assets/topics/mammals/landing-animations/mouse-run.png",
+      "status": "active animation",
+      "mode": "built-in image generation",
+      "promptRecord": "docs/mouse-artwork.md",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "imageMode": "RGBA",
+      "sha256": "9498cf596d2261cfa87144326f8908ed694cc49e3e164880deb264610ca30f9b",
+      "bytes": 1059182
+    }
+  ]
+}

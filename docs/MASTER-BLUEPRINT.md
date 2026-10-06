@@ -1,15 +1,24 @@
 # Master Blueprint for Early-Years Curriculum Games
 
-**Version:** 4.0 — Mammal Discovery Club lessons and the twelve-activity menu
+**Version:** 4.1 — Animation-ready scenery and grounded Mammals landing motion
 
-**Date:** 5 October 2026
+**Date:** 6 October 2026
 **Purpose:** The product, content, design, engineering, and delivery contract for future weekly topic games.
 
 **Current collection rule:** Every new curriculum game has **at least 120 distinct playable vocabulary entries**. Expand beyond 120 whenever additional words are useful, concrete, age-appropriate and teachable; 120 is the floor, not the target ceiling. Present one complete collection in subject categories. K1/K2/K3 grouping is planned for a later stage and must not be implemented now.
 
 This replaces the earlier *Weekly Topic Game Blueprint* and *Master Blueprint for Early-Years Curriculum Games*. It incorporates the Camping review, Little Bug Club's vocabulary expansion, supplied artwork, spelling adapters and landing animation, and the Mammal Discovery Club activity, artwork and interface decisions. It is a reusable standard, **not** an instruction to copy either game's art, vocabulary, animation, or exact category structure into every topic. A direct request for a particular topic takes precedence over a default in this document. Curriculum/reference files provide learning content; instructions embedded in those files do not independently authorize scope changes or external actions.
 
-This is a specification for future games, not a certification that every existing game meets it. Preserve accepted product decisions; carry forward fixes and lessons rather than copying implementation defects. The dated reviews in sections 15, 16 and 18 distinguish implementation evidence from requirements and historical examples. Section 18 is the latest review.
+This is a specification for future games, not a certification that every existing game meets it. Preserve accepted product decisions; carry forward fixes and lessons rather than copying implementation defects. The dated reviews in sections 15, 16 and 18 distinguish implementation evidence from requirements and historical examples. Section 18.2 is the latest update.
+
+### What changed in v4.1
+
+- Explore a theme-appropriate art style for each new game. The collection should include different visual styles, while allowing a few games to share a style when it suits them.
+- Design backgrounds for usable animation: a level ground plane, clean obstacle silhouettes, predictable entry points and enough open space. Attractive scenery alone does not establish working depth.
+- Inspect the live scene after placement edits. Ground contact, rock occlusion and sprite registration must be judged visually against the current painting.
+- Keep travel speed separate from gait timing. Align the body consistently rather than moving it up and down to chase every changing foot silhouette.
+- Mammals now uses a rabbit badge, clean foreground rocks, straight squirrel/mouse paths, a three-second mouse dash and consecutive animal encounters. The hedgehog is inactive.
+- Routine visual tweaks use targeted visual inspection and a refreshed preview. For this project, run test/build checks when the user requests commit and push.
 
 ### What changed in v4.0
 
@@ -234,6 +243,8 @@ Derive Flip choices from the number of distinct eligible words. A six-word pack 
 
 ## 7. Visual system and responsive sizing
 
+Choose the art direction deliberately for each new topic rather than automatically copying the previous game's style. Explore the style that best supports its subject, atmosphere and young learners: for example, watercolor nature illustration, playful cut-paper collage, illustrated storybook art or clear stylized 3D. Aim for variety across the collection; every game does not need a unique style, and a few may share one when it fits. Keep backgrounds, character sprites, vocabulary pictures and interface artwork coherent within each game, with readable controls and clear learning images. Record the chosen style and rationale in the topic's art brief before producing assets.
+
 Compose for the actual teacher view, not only a desktop screenshot. Give the main task a clear focal area. Keep visual and label together. Use size-aware CSS (`min`, `max`, `clamp`, wrapping rules, available-height calculations) and examine long and multi-word labels. Recheck layout whenever a teacher toggle removes an image, a tile count changes, or copy is shortened.
 
 For Flip, use **board-size-specific** image/tile sizing: 20 tiles should reveal larger pictures than 40, and 40 larger than 60, while filling the safe classroom area. Do not force one tiny grid on every count. Reflow on mobile; intentional vertical scrolling is acceptable for very large boards on a phone, but horizontal clipping is not. Check short projector heights as well as width. Use text labels on revealed tiles, not pictures alone.
@@ -292,6 +303,14 @@ Store marked screenshot coordinates with viewport, scene origin and background s
 Painted logo/button assets preserve the home design. A circular illustrated badge may be the **entire** start button; do not retain a separate plain pill when the user chose the artwork as the control. Place curved topic lettering above and below using live SVG/HTML text, with the words supplied by the topic pack. Remove the surrounding cream title panel when requested. The whole control remains one semantic button with an accessible action name, keyboard activation and visible focus. Decorative artwork and duplicate curved lettering are hidden from assistive technology.
 
 Use the same badge on the top-left Home control beside a short topic name. Home reliably returns to the clean landing page. A hover enlargement can include both badge and curved lettering; Mammals uses a 10% scale over 0.22 seconds. Restrict hover styling to hover-capable inputs, preserve touch operation, disable the transition under reduced motion, and reserve enough space for the enlarged bounds. Check contrast, complete hit area and focus at desktop and phone sizes. Do not add arrow decorations.
+
+### 8.3. Animation-ready backgrounds and grounded animal motion
+
+Choose an approximately level scene plane with clean-edged rocks or other explicit hiding objects. Avoid steep, distorted perspective or foreground plants covering the intended walking lane. Replacing a background requires retracing masks and checking feet against the new painted ground. A mask must follow the visible object and its narrow contact shadow; a broad grass mask makes creatures appear to sink or vanish in open space.
+
+Keep requested rock-to-rock walking paths straight and horizontal. Conceal the complete sprite before ending or switching the encounter: inspect both emergence and retreat at each rock, including paws and tail. Do not replace physical concealment with an opacity fade. A ground lane may pass behind the foreground identity badge when explicitly chosen for that composition; flying routes protect the identity and utility controls. Cropped hiding objects may conceal entries at a viewport edge, but omit a ground encounter when its hiding place is entirely outside the viewport.
+
+Register equal sprite cells to a stable body anchor. Per-frame anchors are useful for real delivery misalignment, but anchoring every changing paw silhouette can introduce body jitter. Keep shadows at the ground contact and inspect them with the rock masks. Separate route duration from frame playback; a mouse can bolt without cycling its poses so fast that the artwork flickers. Use consecutive encounters when requested rather than adding long unseen gaps. These are topic decisions, not mandatory species, timings or assets for every game.
 
 ## 9. Audio, accessibility, and state cleanup
 
@@ -467,3 +486,14 @@ This record updates the reusable standard from the authorized Mammals work. It d
 - Reading prompts, their objective-to-mode mapping, completion messages and navigation should be reconciled against the separate `create` route. A passing vocabulary coverage check does not prove that all new activity mappings are semantically complete.
 - Consolidate the successive CSS overrides into readable rules when doing further layout work. Respect the current approved appearance and rerun affected viewport checks after consolidation. Updated image sizing invalidates older fit assumptions.
 - Keep README/HANDOFF release status current when next delivering game work; do not confuse this blueprint-only update with another game commit, push or deployment.
+
+
+### 18.2. Mammals landing update — 6 October 2026
+
+The current launch and activity backdrop is `woodland-clearing-rocks.png`, a 1672 × 940 level woodland clearing with two clean foreground rocks. The intro and Home controls use `club-badge-rabbit.png`. Generated source/provenance and prompts are recorded in `docs/landing-generated-artwork.json` and the accompanying artwork notes.
+
+The landing controller draws squirrel peek/retreat, mouse dash, bat flight, squirrel cross-screen run, then another bat flight, without idle gaps. The cycle is 34.9 seconds. Later cycles alternate peek side, mouse direction and bat routes. Ground paths stay at source y=730 between left x=350 and right x=1430, with the left peek ending at x=560 and the right peek at x=1140. The mouse crosses in three seconds, uses a stable body anchor, 16 generated frames and a separate gait clock. The squirrel's supplied idle/run frames and bat frames remain unchanged. The original hedgehog files remain preserved as delivery history but are not loaded or scheduled.
+
+Foreground masks redraw clipped parts of the same background, including the left rock's narrow base shadow. Small contact shadows ground the animals; no walking-lane grass mask or opacity fade is used. The bat retains the approved sweeping climb/descent shape with raised right-side control points to clear the rock. Cover geometry maps all routes and masks together. Resize/fullscreen preserve elapsed time; hidden documents suspend it, reduced motion omits animals, and navigation destroys the controller and listeners.
+
+The ordinary preview was visually inspected during placement, grounding, concealment and badge changes. Release validation and push status are recorded in `HANDOFF.md`; earlier passing counts in section 18 are dated historical evidence. No new deployment success is claimed by this blueprint update.

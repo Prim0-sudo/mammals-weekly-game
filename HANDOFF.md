@@ -1,3 +1,19 @@
+# Current release — 6 October 2026
+
+This release updates the landing implementation and master blueprint v4.1. It supersedes the older landing descriptions below; those sections remain historical records.
+
+- Rabbit intro/Home badge and a 1672 × 940 flat woodland clearing with clean rocks.
+- Consecutive squirrel peek, three-second mouse dash, bat flight, squirrel run and second bat flight; no hedgehog or idle gaps.
+- Straight ground lane, grounded foot registration/contact shadows, corrected left-rock base mask and raised right-side bat descent. Mouse body registration and gait timing are separate from its fast travel.
+- Blueprint guidance now explores the art style best suited to each new theme, aims for variety across the collection and allows some games to share a style.
+- New image prompts and checksums: docs/landing-generated-artwork.json and linked artwork notes. Active landing assets are included in content validation and the asset manifest.
+
+Validation: 21/21 Node unit checks, content/checksum validation, build and Git whitespace check passed. The landing browser fixture passed 6/6 at 1280 × 800, covering a full encounter cycle, masked endpoints, cover mapping, simulated visibility/reduced-motion changes and twelve navigation returns. Ordinary preview placement and grounding were visually inspected during development. No new physical-device, native OS-motion or live-deployment certification is claimed.
+
+Publication: this release is committed and pushed to main at the user's request. Cloudflare's existing automatic build is triggered by the push; its completion has not been verified. No separate manual deployment was requested or performed.
+
+---
+
 ## Local artwork integration — 5 October 2026
 
 All 132 vocabulary PNGs from Mammal_Discovery_Club_132_Game_Assets.zip are installed byte-for-byte with verified delivery checksums, 1024 × 1024 RGBA canvases and transparency. Category cards reuse suitable pictures, reading cards include illustrations, and quiz sets use pictures only when all three choices have matching artwork. Existing learning, sorting, identification, spelling, Flip and Wheel markers consume the same vocabulary assets. Detective code and artwork were not changed for this import. Source records: docs/supplied-artwork.json and docs/supplied-artwork-manifest.json. The larger Complete_132 archive in Downloads was not readable as a complete ZIP; the game-assets archive contains the full 132-picture delivery. Local verification: 11 Node tests, 20 browser tests, checksum/content checks and build passed. This update has not been published.

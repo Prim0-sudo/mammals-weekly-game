@@ -1,6 +1,6 @@
 # Mammal Discovery Club
 
-**Status — 6 October 2026: Homeward Trail and supplied landing animations ready for the requested GitHub push.** Spelling uses the rabbit/burrow/fox scene with nine chances. Landing uses a squirrel peek, hedgehog walk and bat flight; the squirrel run is inactive. All 132 vocabulary images remain installed; teacher review of drafted content remains outstanding. Latest tests: 19/19 Node checks and build pass. Cloudflare deployment of this update has not yet been verified.
+**Status — 6 October 2026:** The current landing scene uses a rabbit intro/Home badge, a level woodland clearing with clean rocks, straight squirrel/mouse paths, a three-second mouse dash and raised bat flights. The hedgehog is inactive. Homeward Trail spelling and all 132 vocabulary images remain installed. See HANDOFF.md for current validation and release status; teacher review remains outstanding.
 
 Repository: https://github.com/Prim0-sudo/mammals-weekly-game
 
@@ -38,7 +38,7 @@ Mouse, touch, Tab/Enter, Escape, and number keys for choices are supported. M to
 
 ## Interface
 
-Landing animations use supplied aligned frames: a brief squirrel peek from the left edge, a slow hedgehog walk along the lower edge and a bat crossing the upper background. The squirrel acorn run is retained as an unused asset after visual review; it is not scheduled. Only one animal appears at a time, with quiet gaps. Active atlases/background decode first, actual badge/toolbar bounds keep routes clear, hidden pages pause elapsed time, reduced motion omits ambient animals, and Explore/Home navigation destroys the previous scene owner. See [landing animation notes](docs/LANDING-ANIMATIONS.md). These changes remain local and unpublished.
+Landing uses one consecutive encounter owner with a squirrel peek/retreat, generated mouse dash, bat flight, squirrel cross-screen run and another bat flight. Ground animals travel on a straight lane and hide behind exact-background rock masks; the mouse uses steady registration and separate gait timing. The circular intro/Home badge now shows a rabbit. See [terrain implementation](docs/landing-terrain.md).
 
 Navigation uses short labels without arrows. Menus show icons and titles; repeated instructions and decorative copy are removed. Vocabulary, reading passages, quiz questions and teaching feedback remain.
 
@@ -48,7 +48,7 @@ Story Book, Video, and Phonics & Sight Words are empty, disabled menu tiles. A t
 
 ## Artwork and review
 
-All **132 supplied vocabulary PNGs** are installed, unchanged from Mammal_Discovery_Club_132_Game_Assets.zip. Filenames, delivery checksums, 1024 × 1024 dimensions and RGBA transparency were verified. Six category cards reuse appropriate vocabulary pictures. Learning, sorting, identification, spelling, matching, wheel markers, reading cards and fully illustrated quiz-choice sets now use the supplied artwork. Detective keeps its original test scene and cutout. The animal-free generated woodland/coast background is installed and its original checksum is recorded in the asset manifest. The centred landing and menu contain CSS controls and icons. Flip includes pictures with word labels, and Wheel uses picture markers. Optional interface artwork retains its CSS fallback. No static animals appear on the landing page; unused generated animal drafts are archived locally outside the published assets.
+All **132 supplied vocabulary PNGs** are installed, unchanged from Mammal_Discovery_Club_132_Game_Assets.zip. Filenames, delivery checksums, 1024 × 1024 dimensions and RGBA transparency were verified. Six category cards reuse appropriate vocabulary pictures. Learning, sorting, identification, spelling, matching, wheel markers, reading cards and fully illustrated quiz-choice sets now use the supplied artwork. Detective keeps its original test scene and cutout. The active backdrop is the level woodland clearing with clean rock edges. Landing and Home use the rabbit badge; all twelve menu cards use custom illustrations. Flip includes pictures with word labels, and Wheel uses picture markers. Unused source art remains retained as provenance; active animation assets are listed in the asset manifest. See [master blueprint v4.1](docs/MASTER-BLUEPRINT.md), [landing terrain](docs/landing-terrain.md) and [generated landing art](docs/landing-generated-artwork.json).
 
 The existing fish comparison category remains in this draft. Its scope was questioned by the user and needs a content decision before final curriculum approval.
 

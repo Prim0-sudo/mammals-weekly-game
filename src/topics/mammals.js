@@ -1,3 +1,4 @@
+import {mammalTerrain} from './mammals-landing.js';
 import {bank} from './bank.js';
 import {trailAssets} from '../core/skins/homeward-assets.js';
 const categoryPictures={mammals:'lion',fish:'goldfish',bodies:'paw',places:'forest',actions:'run',young:'puppy'};
@@ -50,7 +51,7 @@ const readingPractice=readingRows.map(([itemId,text,note,objectiveId],i)=>({id:'
 const objectiveForCategory={mammals:'traits',fish:'compare',bodies:'traits',places:'homes',actions:'sentences',young:'young'};
 export const topic={
  id:'mammals',locale:'en-GB',title:'Mammal Discovery Club',subject:'OUR LIVING WORLD',subtitle:'From tiny paws to ocean giants. Let’s meet the mammals.',itemNoun:'word',description:'A local, teacher-led mammal field guide with eight learning activities.',
- launch:{clubBadge:'assets/topics/mammals/generated/club-badge.png',logoImage:'assets/topics/mammals/logo.png',logoAlt:'Mammal Discovery Club',backgroundImage:'assets/topics/mammals/generated/woodland-coast-empty.png',buttonImage:'assets/topics/mammals/start-button.png',assetStatus:'partial',sceneLayout:{width:1672,height:941,actors:['squirrel-idle','hedgehog-walk','bat-flight'],coordinateSpace:'source-image',landmarks:{leftMeadow:[280,675],rightMeadow:[1380,650],coast:[1440,355],foreground:[835,800]},protectedPadding:24}},
+ launch:{clubBadge:'assets/topics/mammals/generated/club-badge-rabbit.png',logoImage:'assets/topics/mammals/logo.png',logoAlt:'Mammal Discovery Club',backgroundImage:'assets/topics/mammals/generated/woodland-clearing-rocks.png',buttonImage:'assets/topics/mammals/start-button.png',assetStatus:'partial',sceneLayout:{width:1672,height:940,terrain:mammalTerrain,actors:['squirrel-idle','squirrel-acorn-run','mouse-run','bat-flight'],coordinateSpace:'source-image',landmarks:{leftRock:[325,735],rightRock:[1430,715],sky:[835,220],ground:[835,825]},protectedPadding:24}},
  theme:{primary:'#295e55',accent:'#cf9449',ink:'#263e39',cardColors:['#f3d7a4','#d4e2bd','#dce4e5','#edd2c2','#d7d2e6','#e4dfa8','#e9cdd6','#c4dfe0']},
  text:{alphabet:'abcdefghijklmnopqrstuvwxyz',normalisation:'NFC',spellingCase:'lower',ignoreCharacters:' -',learnPrompt:'Look, name and describe',correctItem:'You found it!',menuEyebrow:'OUR MAMMAL FIELD GUIDE',menuFootnote:'One collection. Choose a little adventure.',launchPrompt:'Let’s explore'},
  categories,categoryIntroductions:{countAsWords:false,includeInModes:[]},items:bank,knowledgeQuestions:questions,

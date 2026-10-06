@@ -1,4 +1,5 @@
 import { letters } from "./logic.js";
+import { landingAssets } from "./landing-assets.js";
 export const modeOrder = [
   "learn",
   "sort",
@@ -20,6 +21,7 @@ export function assetPaths(t) {
       t.launch.backgroundImage,
       t.launch.buttonImage,
       ...(t.launch.clubBadge ? [t.launch.clubBadge] : []),
+      ...(t.launch.sceneLayout?.actors || []).map(name=>landingAssets[name].file),
       ...(t.launch.flyingBugs || []).flatMap(bug => [bug.sheet, bug.turnImage].filter(Boolean)),
       ...(t.launch.emblem
         ? [t.launch.emblem.baseImage, ...t.launch.emblem.wings.map((x) => x.image)]

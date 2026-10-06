@@ -1,3 +1,5 @@
+> Historical supplied-pack integration record. The active scene was revised on 6 October 2026: rabbit badge, straight squirrel/mouse paths and consecutive encounters; the hedgehog is inactive. See [current terrain](landing-terrain.md) and [release notes](../HANDOFF.md).
+
 # Supplied landing animation integration
 
 Local, 5 October 2026. Original `Mammals_Club_Landing_Animations_48_Frames.zip` supplies four twelve-frame cycles. All originals, manifest, atlases and previews are retained in `docs/landing-animation-originals/Mammals_Club_Landing_Animations/`. `docs/landing-animation-assets.json` records their SHA-256 hashes, frame alpha bounds, timing and derivative hashes. No artwork generation was used for this integration.

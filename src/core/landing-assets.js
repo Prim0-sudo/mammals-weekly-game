@@ -38,24 +38,11 @@ export const landingAssets = {
       65
     ]
   },
-  "hedgehog-walk": {
-    "file": "assets/topics/mammals/landing-animations/hedgehog-walk.webp",
-    "cell": 160,
+  "mouse-run": {
+    "file": "assets/topics/mammals/landing-animations/mouse-run.png",
+    "cell": 313.5,
     "columns": 4,
-    "durations": [
-      90,
-      90,
-      90,
-      90,
-      90,
-      90,
-      90,
-      90,
-      90,
-      90,
-      90,
-      90
-    ]
+    "durations": Array(16).fill(70)
   },
   "bat-flight": {
     "file": "assets/topics/mammals/landing-animations/bat-flight.webp",
